@@ -115,6 +115,13 @@ h1 { font-size: 2.2rem; font-weight: 700; letter-spacing: -1px; margin-bottom: 8
 h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom: 20px; }
 .subtitle { color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 32px; }
 
+.about-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.about-header h1 { margin-bottom: 0; }
+.avatar {
+  width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+  border: 2px solid var(--border);
+}
+
 /* Cards */
 .card {
   background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border);
@@ -267,4 +274,5 @@ footer { padding: 24px 0; text-align: center; color: var(--text-tertiary); font-
   .projects-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   h1 { font-size: 1.7rem; }
+  .avatar { width: 80px; height: 80px; }
 }
