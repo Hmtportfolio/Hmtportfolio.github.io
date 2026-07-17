@@ -153,7 +153,6 @@ const DATA = {
       items: [
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Phone", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
-        { icon: "🌐", label: "Portfolio", value: "drive.google.com/project", href: "https://drive.google.com" },
         { icon: "📍", label: "Location", value: "Ho Chi Minh City, Vietnam", href: null }
       ]
     },
@@ -305,7 +304,6 @@ const DATA = {
       items: [
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Điện thoại", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
-        { icon: "🌐", label: "Portfolio", value: "drive.google.com/project", href: "https://drive.google.com" },
         { icon: "📍", label: "Địa điểm", value: "TP. Hồ Chí Minh, Việt Nam", href: null }
       ]
     },
