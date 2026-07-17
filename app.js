@@ -1,9 +1,10 @@
 /* ================================================================
    PORTFOLIO DATA
    Edit this object to update your content, add new projects, etc.
-   Each project takes an "images" array, an optional "video" URL,
-   and a "pdfs" array of { label, url } — leave any of them empty
-   if not applicable.
+   Each project takes an "images" array, an optional "video" (a URL
+   string, or an array of URL strings for multiple videos), and a
+   "pdfs" array of { label, url } — leave any of them empty if not
+   applicable.
    ================================================================ */
 const DATA = {
   en: {
@@ -51,8 +52,16 @@ const DATA = {
         {
           id: "p2", name: "Mana the Cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Nov 2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
-          images: [],
-          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Spin.mp4",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — idle pose" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — angry pose" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png", alt: "Mana the Cute Battle Maid — minion pose" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — chill pose" }
+          ],
+          video: [
+            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/final.mp4",
+            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Spin.mp4"
+          ],
           pdfs: [
             { label: "Process (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Process.pdf" }
           ],
@@ -224,8 +233,16 @@ const DATA = {
         {
           id: "p2", name: "Mana the cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Tháng 11/2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
-          images: [],
-          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Spin.mp4",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — dáng đứng yên" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — dáng giận dữ" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png", alt: "Mana the Cute Battle Maid — dáng lính lâu la" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — dáng thư giãn" }
+          ],
+          video: [
+            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/final.mp4",
+            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Spin.mp4"
+          ],
           pdfs: [
             { label: "Quy trình thực hiện (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Process.pdf" }
           ],
@@ -456,10 +473,11 @@ function renderProjects() {
   const d = DATA[currentLang];
   document.getElementById('projects-grid').innerHTML = d.projects.items.map(p => {
     let thumb;
+    const thumbVideo = Array.isArray(p.video) ? p.video[0] : p.video;
     if (p.images && p.images.length) {
       thumb = `<img src="${p.images[0].src}" alt="${p.images[0].alt}" loading="lazy" decoding="async">`;
-    } else if (p.video) {
-      thumb = `<video data-src="${p.video}" class="thumb-video" muted loop playsinline preload="none"></video>`;
+    } else if (thumbVideo) {
+      thumb = `<video data-src="${thumbVideo}" class="thumb-video" muted loop playsinline preload="none"></video>`;
     } else {
       thumb = `<div class="placeholder">${p.name[0]}</div>`;
     }
@@ -512,9 +530,8 @@ function openModal(projectId) {
   } else if (images.length > 1) {
     mediaHtml += `<div class="modal-gallery">${images.map(img => `<img src="${img.src}" alt="${img.alt}" loading="lazy" decoding="async">`).join('')}</div>`;
   }
-  if (p.video) {
-    mediaHtml += `<video class="modal-video" src="${p.video}" controls preload="metadata"></video>`;
-  }
+  const videos = Array.isArray(p.video) ? p.video : (p.video ? [p.video] : []);
+  mediaHtml += videos.map(src => `<video class="modal-video" src="${src}" controls preload="metadata"></video>`).join('');
   document.getElementById('modal-media').innerHTML = mediaHtml;
 
   const pdfHtml = (p.pdfs && p.pdfs.length)
