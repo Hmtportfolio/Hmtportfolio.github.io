@@ -51,7 +51,9 @@ const DATA = {
         {
           id: "p1", name: "Definitely Not Gonna Late!", type: "2d", typeLabel: "2D",
           date: "Jan 2025", tools: "Clip Studio Paint, Word, Canva, Excel",
-          images: ["https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png"],
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" }
+          ],
           video: "",
           pdfs: [
             { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
@@ -84,8 +86,8 @@ const DATA = {
           id: "p3", name: "Reimagine Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
           date: "Oct 2024", tools: "Clip Studio Paint",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots illustrated in multiple action poses and expressions" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" }
           ],
           video: "",
           pdfs: [
@@ -101,8 +103,8 @@ const DATA = {
           id: "p4", name: "Regretful Colors (Sắc Màu Hối Hận)", type: "2d", typeLabel: "2D / Animation",
           date: "July 2025 – Sep 2025", tools: "Clip Studio Paint, After Effects",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png", alt: "Regretful Colors film poster, version 1 — environmental awareness theme" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Regretful Colors film poster, version 2 — environmental awareness theme" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Short%20film%20S%E1%BA%AFc%20m%C3%A0u%20h%E1%BB%91i%20h%E1%BA%ADn.mp4",
           pdfs: [],
@@ -118,11 +120,11 @@ const DATA = {
           id: "p5", name: "Green Summer 2025 — Wall Design", type: "2d", typeLabel: "2D / Mural",
           date: "Aug 2025 – Sep 2025", tools: "Photoshop, Illustrator, On-site mural painting",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Finished Green Summer 2025 mural on-site, wide view" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Finished Green Summer 2025 mural, close-up detail" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Green Summer 2025 mural painting in progress on-site" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Wall dimension and layout design for the Linh Son wall mural" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Three-panel wall mural design mockup" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
           pdfs: [],
@@ -203,7 +205,9 @@ const DATA = {
         {
           id: "p1", name: "Chắc Chắn Không Trễ!", type: "2d", typeLabel: "2D",
           date: "Tháng 1/2025", tools: "Clip Studio Paint, Word, Canva, Excel",
-          images: ["https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png"],
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" }
+          ],
           video: "",
           pdfs: [
             { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
@@ -235,8 +239,8 @@ const DATA = {
           id: "p3", name: "Tái thiết kế Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
           date: "Tháng 10/2024", tools: "Clip Studio Paint",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots với nhiều tư thế hành động và biểu cảm" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" }
           ],
           video: "",
           pdfs: [
@@ -252,8 +256,8 @@ const DATA = {
           id: "p4", name: "Sắc Màu Hối Hận (Regretful Colors)", type: "2d", typeLabel: "2D / Hoạt hình",
           date: "Tháng 7/2025 – Tháng 9/2025", tools: "Clip Studio Paint, After Effects",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png", alt: "Áp phích phim Sắc Màu Hối Hận, phiên bản 1 — chủ đề bảo vệ môi trường" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Áp phích phim Sắc Màu Hối Hận, phiên bản 2 — chủ đề bảo vệ môi trường" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Short%20film%20S%E1%BA%AFc%20m%C3%A0u%20h%E1%BB%91i%20h%E1%BA%ADn.mp4",
           pdfs: [],
@@ -269,11 +273,11 @@ const DATA = {
           id: "p5", name: "Mùa Hè Xanh 2025 — Thiết kế Tranh tường", type: "2d", typeLabel: "2D / Tranh tường",
           date: "Tháng 8/2025 – Tháng 9/2025", tools: "Photoshop, Illustrator, Vẽ tranh tường hiện trường",
           images: [
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png",
-            "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png"
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Tranh tường Mùa Hè Xanh 2025 đã hoàn thành, góc rộng" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Tranh tường Mùa Hè Xanh 2025, chi tiết cận cảnh" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Quá trình thi công tranh tường Mùa Hè Xanh 2025 tại hiện trường" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Bố cục và kích thước thiết kế tường Linh Sơn" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Bản phác thảo thiết kế tường 3 bức" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
           pdfs: [],
@@ -405,7 +409,7 @@ function renderProjects() {
   document.getElementById('projects-grid').innerHTML = items.map(p => {
     let thumb;
     if (p.images && p.images.length) {
-      thumb = `<img src="${p.images[0]}" alt="${p.name}" loading="lazy" decoding="async">`;
+      thumb = `<img src="${p.images[0].src}" alt="${p.images[0].alt}" loading="lazy" decoding="async">`;
     } else if (p.video) {
       thumb = `<video data-src="${p.video}" class="thumb-video" muted loop playsinline preload="none"></video>`;
     } else {
@@ -455,9 +459,9 @@ function openModal(projectId) {
   let mediaHtml = '';
   const images = p.images || [];
   if (images.length === 1) {
-    mediaHtml += `<img class="modal-img" src="${images[0]}" alt="${p.name}" decoding="async">`;
+    mediaHtml += `<img class="modal-img" src="${images[0].src}" alt="${images[0].alt}" decoding="async">`;
   } else if (images.length > 1) {
-    mediaHtml += `<div class="modal-gallery">${images.map(src => `<img src="${src}" alt="${p.name}" loading="lazy" decoding="async">`).join('')}</div>`;
+    mediaHtml += `<div class="modal-gallery">${images.map(img => `<img src="${img.src}" alt="${img.alt}" loading="lazy" decoding="async">`).join('')}</div>`;
   }
   if (p.video) {
     mediaHtml += `<video class="modal-video" src="${p.video}" controls preload="metadata"></video>`;
