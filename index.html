@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoang Minh Thien — Portfolio</title>
+  <meta name="description" content="Hoang Minh Thien — Artist &amp; Illustrator portfolio, 2D &amp; 3D character design, storyboard, and mural work." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231a1a1a'/%3E%3Ccircle cx='50' cy='27' r='9' fill='%23d97706'/%3E%3Ctext x='50' y='76' font-family='Arial, sans-serif' font-size='44' font-weight='700' fill='white' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" /></noscript>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo"><span class="logo-dot"></span><span id="logo-text">HMT</span></div>
+          <nav class="nav-tabs">
+            <button class="nav-btn active" data-tab="about" data-key="nav_about"></button>
+            <button class="nav-btn" data-tab="projects" data-key="nav_projects"></button>
+            <button class="nav-btn" data-tab="services" data-key="nav_services"></button>
+            <button class="nav-btn" data-tab="contact" data-key="nav_contact"></button>
+          </nav>
+          <div class="lang-switch">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="vn">VN</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- ABOUT -->
+        <section class="tab-panel active" id="tab-about">
+          <h1 id="about-name"></h1>
+          <p class="subtitle" id="about-role"></p>
+
+          <div class="card">
+            <div class="card-title" id="about-edu-title"></div>
+            <div class="card-meta" id="about-edu-meta"></div>
+            <div class="card-text" id="about-edu-body"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-title" id="about-exp-title"></div>
+            <div class="card-text" id="about-exp-body"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-title" id="about-skills-title"></div>
+            <div class="tags" id="about-skills-body"></div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="tab-panel" id="tab-projects">
+          <h2 id="projects-title"></h2>
+          <div class="filter-bar">
+            <button class="chip active" data-filter="all" id="filter-all"></button>
+            <button class="chip" data-filter="2d" id="filter-2d"></button>
+            <button class="chip" data-filter="3d" id="filter-3d"></button>
+          </div>
+          <div class="projects-grid" id="projects-grid"></div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="tab-panel" id="tab-services">
+          <h2 id="services-title"></h2>
+          <div class="services-grid" id="services-grid"></div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="tab-panel" id="tab-contact">
+          <h2 id="contact-title"></h2>
+          <p class="subtitle" id="contact-subtitle"></p>
+          <div class="contact-links" id="contact-body"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container" id="footer-text"></div>
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="modal-title"></h3>
+        <button class="modal-close" id="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-media"></div>
+        <div class="modal-desc" id="modal-desc"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
