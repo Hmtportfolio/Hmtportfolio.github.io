@@ -144,7 +144,6 @@ const DATA = {
         { icon: "🎨", title: "Concept Art & Design", desc: "Visual development, world-building, and character design for games and animation." },
         { icon: "🎬", title: "Storyboard & Animation", desc: "Shot lists, storyboards, and short animation production." },
         { icon: "🖼️", title: "Graphic Design", desc: "Logos, presentation slides, print designs, and merchandise." },
-        { icon: "🖌️", title: "Mural & Wall Painting", desc: "On-site large-scale painting and visual coordination for public spaces." },
         { icon: "🧊", title: "3D Modeling & Sculpting", desc: "Character sculpting, retopology, texturing, rigging, and rendering." }
       ]
     },
@@ -297,7 +296,6 @@ const DATA = {
         { icon: "🎨", title: "Concept Art & Thiết kế", desc: "Phát triển hình ảnh, xây dựng thế giới và thiết kế nhân vật cho game và hoạt hình." },
         { icon: "🎬", title: "Storyboard & Hoạt hình", desc: "Danh sách phân cảnh, storyboard và sản xuất phim hoạt hình ngắn." },
         { icon: "🖼️", title: "Thiết kế Đồ họa", desc: "Logo, slide thuyết trình, thiết kế in ấn và hàng hóa." },
-        { icon: "🖌️", title: "Tranh tường & Tranh công cộng", desc: "Vẽ tranh quy mô lớn tại hiện trường và điều phối hình ảnh cho không gian công cộng." },
         { icon: "🧊", title: "Mô hình 3D & Điêu khắc", desc: "Điêu khắc nhân vật, tối ưu lưới, vẽ kết cấu, gắn xương và render." }
       ]
     },
