@@ -495,6 +495,11 @@ function openModal(projectId) {
   `;
   document.getElementById('modal-overlay').classList.add('active');
   document.body.style.overflow = 'hidden';
+  // The overlay's backdrop-filter blur has to composite the whole page behind it —
+  // much pricier while a thumbnail video is actively decoding/playing underneath,
+  // which is what made opening/closing feel laggy. Nothing back there is visible
+  // while the modal is up anyway, so pause it for the duration.
+  document.querySelectorAll('#projects-grid video.thumb-video').forEach(v => v.pause());
 }
 
 function closeModal() {
@@ -502,6 +507,7 @@ function closeModal() {
   document.body.style.overflow = '';
   const modalVideo = document.querySelector('#modal-media video');
   if (modalVideo) modalVideo.pause();
+  document.querySelectorAll('#projects-grid video.thumb-video').forEach(v => { if (v.src) v.play().catch(() => {}); });
 }
 
 // Theme is resolved once (stored choice, else OS preference) by the inline

@@ -192,11 +192,11 @@ h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom:
 /* Media (gallery / video / pdf links) */
 .modal-gallery { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; }
 .modal-gallery img {
-  width: 100%; max-height: 400px; height: auto; object-fit: contain; border-radius: var(--radius-sm); display: block;
+  width: 100%; max-height: 400px; min-height: 160px; height: auto; object-fit: contain; border-radius: var(--radius-sm); display: block;
   background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
 }
 .modal-video {
-  width: 100%; max-height: 400px; border-radius: var(--radius-sm); margin-bottom: 16px; display: block; background: #000;
+  width: 100%; max-height: 400px; min-height: 160px; border-radius: var(--radius-sm); margin-bottom: 16px; display: block; background: #000;
 }
 .pdf-links { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
 .pdf-link {
