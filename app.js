@@ -134,6 +134,27 @@ const DATA = {
             "Produced design mockups and wall measurement layouts for execution",
             "Coordinated on-site painting for quality control and construction"
           ]
+        },
+        {
+          id: "p6", name: "Illustration Works", type: "2d", typeLabel: "2D / Illustration",
+          date: "2024 – 2025", tools: "Clip Studio Paint",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png", alt: "Group illustration of three characters in a playful pose, pastel color palette" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png", alt: "Demon-eared character design in a suit, with rough sketch studies of expressions and poses" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png", alt: "Girl reaching skyward through clouds with a small bird companion, dynamic pose" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png", alt: "Frieren fan art — elf mage floating over a field of blue flowers, staff in hand" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png", alt: "Isometric illustration of a cozy bedroom with a desk setup, bed, bookshelf, and TV" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/padorupado-.png", alt: "Chibi character in a Santa Claus outfit holding a small white creature plush" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png", alt: "Semi-realistic portrait painting study of a man in a red suit and tie" }
+          ],
+          video: "",
+          pdfs: [],
+          desc: "A collection of personal illustration works exploring different styles, characters, and themes.",
+          bullets: [
+            "Personal character illustrations and fan art across a range of styles",
+            "Chibi, portrait study, and isometric environment pieces",
+            "Independent practice work exploring color, lighting, and composition"
+          ]
         }
       ]
     },
@@ -284,6 +305,27 @@ const DATA = {
             "Thiết kế ý tưởng hình ảnh cho các bức tranh tường quy mô lớn tại khu dân cư Phổ Quang và ký túc xá Đại học Văn Lang",
             "Thực hiện bản thiết kế và bố cục kích thước tường để thi công",
             "Trực tiếp điều phối tại hiện trường để quản lý chất lượng và thi công tranh vẽ"
+          ]
+        },
+        {
+          id: "p6", name: "Illustration Works", type: "2d", typeLabel: "2D / Minh họa",
+          date: "2024 – 2025", tools: "Clip Studio Paint",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png", alt: "Minh họa nhóm ba nhân vật trong tư thế vui tươi, tông màu pastel" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png", alt: "Thiết kế nhân vật tai quỷ trong trang phục vest, kèm phác thảo biểu cảm và tư thế" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png", alt: "Cô gái vươn tay lên bầu trời giữa mây cùng một chú chim nhỏ, tư thế động" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png", alt: "Fan art Frieren — pháp sư elf bay lượn trên cánh đồng hoa xanh, tay cầm gậy phép" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png", alt: "Minh họa isometric phòng ngủ ấm cúng với bàn làm việc, giường, kệ sách và TV" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/padorupado-.png", alt: "Nhân vật chibi trong trang phục Ông già Noel ôm một sinh vật trắng nhỏ" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png", alt: "Tranh chân dung bán tả một người đàn ông mặc vest đỏ và thắt cà vạt" }
+          ],
+          video: "",
+          pdfs: [],
+          desc: "Bộ sưu tập các tác phẩm minh họa cá nhân khám phá nhiều phong cách, nhân vật và chủ đề khác nhau.",
+          bullets: [
+            "Minh họa nhân vật cá nhân và fan art đa dạng phong cách",
+            "Các tác phẩm chibi, chân dung bán tả và bối cảnh isometric",
+            "Bài tập sáng tác cá nhân khám phá màu sắc, ánh sáng và bố cục"
           ]
         }
       ]
