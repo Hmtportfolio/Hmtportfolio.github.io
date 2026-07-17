@@ -510,6 +510,18 @@ function closeModal() {
   document.querySelectorAll('#projects-grid video.thumb-video').forEach(v => { if (v.src) v.play().catch(() => {}); });
 }
 
+// Full-size zoom for a clicked modal image, opened on top of the project modal.
+function openLightbox(src, alt) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox-img').alt = alt;
+  document.getElementById('lightbox-overlay').classList.add('active');
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox-overlay').classList.remove('active');
+  document.getElementById('lightbox-img').src = '';
+}
+
 // Theme is resolved once (stored choice, else OS preference) by the inline
 // script in <head> before this file even loads — this just reflects that
 // state in the toggle button and lets clicks flip it.
@@ -534,7 +546,14 @@ document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click', 
 document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => setFilter(c.dataset.filter)));
 document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === document.getElementById('modal-overlay')) closeModal(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+document.getElementById('modal-media').addEventListener('click', e => { if (e.target.tagName === 'IMG') openLightbox(e.target.src, e.target.alt); });
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+document.getElementById('lightbox-overlay').addEventListener('click', e => { if (e.target === document.getElementById('lightbox-overlay')) closeLightbox(); });
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (document.getElementById('lightbox-overlay').classList.contains('active')) closeLightbox();
+  else closeModal();
+});
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 
 // Init
