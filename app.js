@@ -336,7 +336,18 @@ function setTab(tab) {
 function setFilter(filter) {
   currentFilter = filter;
   document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.filter === filter));
-  renderProjects();
+  applyFilter();
+}
+
+// Show/hide existing cards rather than rebuilding the grid — rebuilding on every
+// filter click destroyed and recreated each thumbnail <img>/<video>, which made
+// the newly-inserted video rely on IntersectionObserver firing its first callback
+// in the same tick it was created, an unreliable pattern that sometimes left the
+// thumbnail stuck blank/paused until something else forced another render.
+function applyFilter() {
+  document.querySelectorAll('#projects-grid .project-card').forEach(card => {
+    card.style.display = (currentFilter === 'all' || card.dataset.type === currentFilter) ? '' : 'none';
+  });
 }
 
 function render() {
@@ -405,8 +416,7 @@ function render() {
 
 function renderProjects() {
   const d = DATA[currentLang];
-  const items = d.projects.items.filter(p => currentFilter === 'all' || p.type === currentFilter);
-  document.getElementById('projects-grid').innerHTML = items.map(p => {
+  document.getElementById('projects-grid').innerHTML = d.projects.items.map(p => {
     let thumb;
     if (p.images && p.images.length) {
       thumb = `<img src="${p.images[0].src}" alt="${p.images[0].alt}" loading="lazy" decoding="async">`;
@@ -416,7 +426,7 @@ function renderProjects() {
       thumb = `<div class="placeholder">${p.name[0]}</div>`;
     }
     return `
-    <div class="project-card" onclick="openModal('${p.id}')">
+    <div class="project-card" data-type="${p.type}" onclick="openModal('${p.id}')">
       <div class="project-thumb">${thumb}</div>
       <div class="project-info">
         <div class="project-name">${p.name}</div>
@@ -426,6 +436,7 @@ function renderProjects() {
   `;
   }).join('');
   initLazyThumbVideos();
+  applyFilter();
 }
 
 // Only fetch/play thumbnail preview videos once their card actually scrolls into view.
