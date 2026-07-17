@@ -402,7 +402,7 @@ function render() {
   document.getElementById('about-edu-title').textContent = d.about.education.title;
   document.getElementById('about-edu-body').innerHTML = d.about.education.items.map(it => `
     <div style="margin-bottom:14px">
-      <div style="font-weight:600;font-size:0.98rem">${it.name}</div>
+      <div style="font-weight:600;font-size:1.08rem">${it.name}</div>
       <div class="card-meta">${it.meta}</div>
       <div class="card-text">${it.desc}</div>
     </div>
@@ -410,7 +410,7 @@ function render() {
   document.getElementById('about-exp-title').textContent = d.about.experience.title;
   document.getElementById('about-exp-body').innerHTML = d.about.experience.items.map(it => `
     <div style="margin-bottom:18px">
-      <div style="font-weight:600;font-size:0.98rem">${it.title}</div>
+      <div style="font-weight:600;font-size:1.08rem">${it.title}</div>
       <div class="card-meta">${it.meta}</div>
       <ul class="card-list">${it.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
     </div>

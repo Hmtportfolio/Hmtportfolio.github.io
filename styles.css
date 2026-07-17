@@ -128,10 +128,10 @@ h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom:
   padding: 28px; margin-bottom: 20px; transition: box-shadow 0.2s;
 }
 .card:hover { box-shadow: var(--shadow); }
-.card-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
-.card-meta { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 10px; }
-.card-text { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.65; }
-.card-list { margin-top: 10px; padding-left: 18px; color: var(--text-secondary); font-size: 0.95rem; }
+.card-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 4px; }
+.card-meta { font-size: 0.92rem; color: var(--text-tertiary); margin-bottom: 10px; }
+.card-text { color: var(--text-secondary); font-size: 1.02rem; line-height: 1.7; }
+.card-list { margin-top: 10px; padding-left: 18px; color: var(--text-secondary); font-size: 1.02rem; }
 .card-list li { margin-bottom: 6px; }
 
 /* Tags */
@@ -140,6 +140,8 @@ h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom:
   font-size: 0.72rem; font-weight: 600; padding: 4px 10px; border-radius: 6px;
   background: var(--accent-light); color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px;
 }
+#tab-about .subtitle { font-size: 1.15rem; }
+#tab-about .tag { font-size: 0.8rem; padding: 5px 12px; }
 .tag.secondary { background: #f3f4f6; color: #6b7280; }
 .tag.type-2d { background: #dbeafe; color: #1e40af; }
 .tag.type-3d { background: #fce7f3; color: #9d174d; }
