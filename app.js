@@ -493,6 +493,24 @@ function closeModal() {
   if (modalVideo) modalVideo.pause();
 }
 
+// Theme is resolved once (stored choice, else OS preference) by the inline
+// script in <head> before this file even loads — this just reflects that
+// state in the toggle button and lets clicks flip it.
+function updateThemeToggleUi() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const btn = document.getElementById('theme-toggle');
+  btn.textContent = isDark ? '☀️' : '🌙';
+  btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+}
+
+function toggleTheme() {
+  const root = document.documentElement;
+  const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  root.setAttribute('data-theme', next);
+  try { localStorage.setItem('theme', next); } catch (e) {}
+  updateThemeToggleUi();
+}
+
 // Event listeners
 document.querySelectorAll('.nav-btn').forEach(b => b.addEventListener('click', () => setTab(b.dataset.tab)));
 document.querySelectorAll('.lang-btn').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
@@ -500,6 +518,8 @@ document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () =
 document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === document.getElementById('modal-overlay')) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 
 // Init
+updateThemeToggleUi();
 render();

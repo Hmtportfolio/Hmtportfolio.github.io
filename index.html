@@ -14,6 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" /></noscript>
   <link href="styles.css" rel="stylesheet" />
+  <script>
+    (function () {
+      var stored = null;
+      try { stored = localStorage.getItem('theme'); } catch (e) {}
+      var theme = stored === 'dark' || stored === 'light'
+        ? stored
+        : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
   <div class="app">
@@ -27,9 +37,12 @@
             <button class="nav-btn" data-tab="services" data-key="nav_services"></button>
             <button class="nav-btn" data-tab="contact" data-key="nav_contact"></button>
           </nav>
-          <div class="lang-switch">
-            <button class="lang-btn active" data-lang="en">EN</button>
-            <button class="lang-btn" data-lang="vn">VN</button>
+          <div class="header-actions">
+            <div class="lang-switch">
+              <button class="lang-btn active" data-lang="en">EN</button>
+              <button class="lang-btn" data-lang="vn">VN</button>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
           </div>
         </div>
       </div>

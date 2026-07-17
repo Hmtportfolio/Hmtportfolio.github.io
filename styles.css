@@ -12,6 +12,33 @@
   --radius-sm: 10px;
 }
 
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --surface: #1e1e1e;
+  --text: #f2f2f2;
+  --text-secondary: #b3b3b3;
+  --text-tertiary: #8a8a8a;
+  --accent: #f59e0b;
+  --accent-light: #3a2c12;
+  --border: #333333;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Dark mode: overrides for rules that don't use CSS vars, or that
+   would otherwise lose contrast once --text/--bg invert (active
+   pills render dark text as white-on-white without these). */
+:root[data-theme="dark"] header { background: rgba(18,18,18,0.85); }
+:root[data-theme="dark"] .nav-btn.active,
+:root[data-theme="dark"] .chip.active { color: #121212; }
+:root[data-theme="dark"] .project-thumb,
+:root[data-theme="dark"] .modal-gallery img,
+:root[data-theme="dark"] .modal-img {
+  background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+}
+:root[data-theme="dark"] .tag.secondary { background: #374151; color: #d1d5db; }
+:root[data-theme="dark"] .tag.type-2d { background: #1e3a5f; color: #93c5fd; }
+:root[data-theme="dark"] .tag.type-3d { background: #4a1942; color: #f9a8d4; }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
@@ -61,6 +88,15 @@ header {
   font-family: inherit; transition: all 0.2s;
 }
 .lang-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+.header-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.theme-toggle {
+  width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text-secondary); font-size: 1rem;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s; font-family: inherit; flex-shrink: 0;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
 
 /* Main content */
 main { flex: 1; padding: 40px 0 60px; }
