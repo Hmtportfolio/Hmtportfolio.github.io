@@ -49,24 +49,6 @@ const DATA = {
       filters: { all: "All Works", f2d: "2D Works", f3d: "3D Works" },
       items: [
         {
-          id: "p1", name: "Definitely Not Gonna Late!", type: "2d", typeLabel: "2D",
-          date: "Jan 2025", tools: "Clip Studio Paint, Word, Canva, Excel",
-          images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" }
-          ],
-          video: "",
-          pdfs: [
-            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-            { label: "Full Script (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
-          ],
-          desc: "Short animation film project.",
-          bullets: [
-            "Created the script and shot list for the short animation film",
-            "Designed characters in Clip Studio Paint",
-            "Drew storyboard for the script in Clip Studio Paint and Canva"
-          ]
-        },
-        {
           id: "p2", name: "Mana the Cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Nov 2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
           images: [],
@@ -83,20 +65,22 @@ const DATA = {
           ]
         },
         {
-          id: "p3", name: "Reimagine Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
-          date: "Oct 2024", tools: "Clip Studio Paint",
+          id: "p5", name: "Green Summer 2025 — Wall Design", type: "2d", typeLabel: "2D / Mural",
+          date: "Aug 2025 – Sep 2025", tools: "Photoshop, Illustrator, On-site mural painting",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots illustrated in multiple action poses and expressions" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Finished Green Summer 2025 mural on-site, wide view" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Finished Green Summer 2025 mural, close-up detail" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Green Summer 2025 mural painting in progress on-site" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Wall dimension and layout design for the Linh Son wall mural" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Three-panel wall mural design mockup" }
           ],
-          video: "",
-          pdfs: [
-            { label: "Full PDF", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20Puss%20in%20boots%20the%20last%20wish.pdf" }
-          ],
-          desc: "Personal reinterpretation of the classic characters.",
+          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
+          pdfs: [],
+          desc: "Mural design and public wall painting project for the Green Summer 2025 volunteer campaign.",
           bullets: [
-            "Redesigned the protagonist and 2 antagonists with personal style",
-            "Illustrated the protagonist in multiple action poses and emotions"
+            "Designed visual concepts for large-scale public wall paintings in Phổ Quang neighborhood and Van Lang University dorm",
+            "Produced design mockups and wall measurement layouts for execution",
+            "Coordinated on-site painting for quality control and construction"
           ]
         },
         {
@@ -117,22 +101,38 @@ const DATA = {
           ]
         },
         {
-          id: "p5", name: "Green Summer 2025 — Wall Design", type: "2d", typeLabel: "2D / Mural",
-          date: "Aug 2025 – Sep 2025", tools: "Photoshop, Illustrator, On-site mural painting",
+          id: "p1", name: "Definitely Not Gonna Late!", type: "2d", typeLabel: "2D",
+          date: "Jan 2025", tools: "Clip Studio Paint, Word, Canva, Excel",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Finished Green Summer 2025 mural on-site, wide view" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Finished Green Summer 2025 mural, close-up detail" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Green Summer 2025 mural painting in progress on-site" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Wall dimension and layout design for the Linh Son wall mural" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Three-panel wall mural design mockup" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" }
           ],
-          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
-          pdfs: [],
-          desc: "Mural design and public wall painting project for the Green Summer 2025 volunteer campaign.",
+          video: "",
+          pdfs: [
+            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
+            { label: "Full Script (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+          ],
+          desc: "Short animation film project.",
           bullets: [
-            "Designed visual concepts for large-scale public wall paintings in Phổ Quang neighborhood and Van Lang University dorm",
-            "Produced design mockups and wall measurement layouts for execution",
-            "Coordinated on-site painting for quality control and construction"
+            "Created the script and shot list for the short animation film",
+            "Designed characters in Clip Studio Paint",
+            "Drew storyboard for the script in Clip Studio Paint and Canva"
+          ]
+        },
+        {
+          id: "p3", name: "Reimagine Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
+          date: "Oct 2024", tools: "Clip Studio Paint",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots illustrated in multiple action poses and expressions" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" }
+          ],
+          video: "",
+          pdfs: [
+            { label: "Full PDF", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20Puss%20in%20boots%20the%20last%20wish.pdf" }
+          ],
+          desc: "Personal reinterpretation of the classic characters.",
+          bullets: [
+            "Redesigned the protagonist and 2 antagonists with personal style",
+            "Illustrated the protagonist in multiple action poses and emotions"
           ]
         },
         {
@@ -222,24 +222,6 @@ const DATA = {
       filters: { all: "Tất cả", f2d: "2D", f3d: "3D" },
       items: [
         {
-          id: "p1", name: "Chắc Chắn Không Trễ!", type: "2d", typeLabel: "2D",
-          date: "Tháng 1/2025", tools: "Clip Studio Paint, Word, Canva, Excel",
-          images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" }
-          ],
-          video: "",
-          pdfs: [
-            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-            { label: "Kịch bản đầy đủ (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
-          ],
-          desc: "Dự án phim hoạt hình ngắn.",
-          bullets: [
-            "Sáng tác kịch bản và danh sách phân cảnh cho phim hoạt hình ngắn",
-            "Thiết kế tạo hình nhân vật bằng Clip Studio Paint",
-            "Vẽ storyboard cho kịch bản trên Clip Studio Paint và Canva"
-          ]
-        },
-        {
           id: "p2", name: "Mana the cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Tháng 11/2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
           images: [],
@@ -255,20 +237,22 @@ const DATA = {
           ]
         },
         {
-          id: "p3", name: "Tái thiết kế Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
-          date: "Tháng 10/2024", tools: "Clip Studio Paint",
+          id: "p5", name: "Mùa Hè Xanh 2025 — Thiết kế Tranh tường", type: "2d", typeLabel: "2D / Tranh tường",
+          date: "Tháng 8/2025 – Tháng 9/2025", tools: "Photoshop, Illustrator, Vẽ tranh tường hiện trường",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots với nhiều tư thế hành động và biểu cảm" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Tranh tường Mùa Hè Xanh 2025 đã hoàn thành, góc rộng" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Tranh tường Mùa Hè Xanh 2025, chi tiết cận cảnh" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Quá trình thi công tranh tường Mùa Hè Xanh 2025 tại hiện trường" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Bố cục và kích thước thiết kế tường Linh Sơn" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Bản phác thảo thiết kế tường 3 bức" }
           ],
-          video: "",
-          pdfs: [
-            { label: "PDF đầy đủ", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20Puss%20in%20boots%20the%20last%20wish.pdf" }
-          ],
-          desc: "Phiên bản cá nhân hóa các nhân vật kinh điển.",
+          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
+          pdfs: [],
+          desc: "Dự án thiết kế và thi công tranh tường công cộng cho chiến dịch tình nguyện Mùa hè xanh 2025.",
           bullets: [
-            "Thiết kế lại nhân vật chính và 2 nhân vật phản diện theo phong cách cá nhân",
-            "Vẽ minh họa nhân vật chính với nhiều tư thế hành động và biểu cảm"
+            "Thiết kế ý tưởng hình ảnh cho các bức tranh tường quy mô lớn tại khu dân cư Phổ Quang và ký túc xá Đại học Văn Lang",
+            "Thực hiện bản thiết kế và bố cục kích thước tường để thi công",
+            "Trực tiếp điều phối tại hiện trường để quản lý chất lượng và thi công tranh vẽ"
           ]
         },
         {
@@ -289,22 +273,38 @@ const DATA = {
           ]
         },
         {
-          id: "p5", name: "Mùa Hè Xanh 2025 — Thiết kế Tranh tường", type: "2d", typeLabel: "2D / Tranh tường",
-          date: "Tháng 8/2025 – Tháng 9/2025", tools: "Photoshop, Illustrator, Vẽ tranh tường hiện trường",
+          id: "p1", name: "Chắc Chắn Không Trễ!", type: "2d", typeLabel: "2D",
+          date: "Tháng 1/2025", tools: "Clip Studio Paint, Word, Canva, Excel",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Tranh tường Mùa Hè Xanh 2025 đã hoàn thành, góc rộng" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Tranh tường Mùa Hè Xanh 2025, chi tiết cận cảnh" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg", alt: "Quá trình thi công tranh tường Mùa Hè Xanh 2025 tại hiện trường" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png", alt: "Bố cục và kích thước thiết kế tường Linh Sơn" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png", alt: "Bản phác thảo thiết kế tường 3 bức" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" }
           ],
-          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/6879675435854.mp4",
-          pdfs: [],
-          desc: "Dự án thiết kế và thi công tranh tường công cộng cho chiến dịch tình nguyện Mùa hè xanh 2025.",
+          video: "",
+          pdfs: [
+            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
+            { label: "Kịch bản đầy đủ (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+          ],
+          desc: "Dự án phim hoạt hình ngắn.",
           bullets: [
-            "Thiết kế ý tưởng hình ảnh cho các bức tranh tường quy mô lớn tại khu dân cư Phổ Quang và ký túc xá Đại học Văn Lang",
-            "Thực hiện bản thiết kế và bố cục kích thước tường để thi công",
-            "Trực tiếp điều phối tại hiện trường để quản lý chất lượng và thi công tranh vẽ"
+            "Sáng tác kịch bản và danh sách phân cảnh cho phim hoạt hình ngắn",
+            "Thiết kế tạo hình nhân vật bằng Clip Studio Paint",
+            "Vẽ storyboard cho kịch bản trên Clip Studio Paint và Canva"
+          ]
+        },
+        {
+          id: "p3", name: "Tái thiết kế Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
+          date: "Tháng 10/2024", tools: "Clip Studio Paint",
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots với nhiều tư thế hành động và biểu cảm" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" }
+          ],
+          video: "",
+          pdfs: [
+            { label: "PDF đầy đủ", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20Puss%20in%20boots%20the%20last%20wish.pdf" }
+          ],
+          desc: "Phiên bản cá nhân hóa các nhân vật kinh điển.",
+          bullets: [
+            "Thiết kế lại nhân vật chính và 2 nhân vật phản diện theo phong cách cá nhân",
+            "Vẽ minh họa nhân vật chính với nhiều tư thế hành động và biểu cảm"
           ]
         },
         {
