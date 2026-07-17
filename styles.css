@@ -205,7 +205,8 @@ h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom:
   font-weight: 500; transition: all 0.2s;
 }
 .pdf-link:hover { border-color: var(--accent); background: var(--accent-light); color: var(--accent); }
-.project-thumb video { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Own compositor layer so scroll/paint work elsewhere on the page doesn't compete with video decode. */
+.project-thumb video { width: 100%; height: 100%; object-fit: cover; display: block; transform: translateZ(0); will-change: transform; }
 
 /* Services */
 .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }

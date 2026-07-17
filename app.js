@@ -523,3 +523,11 @@ document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 // Init
 updateThemeToggleUi();
 render();
+
+// Cache-first service worker: images/video from the R2 bucket only get
+// downloaded once, then served from cache on every later view.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
