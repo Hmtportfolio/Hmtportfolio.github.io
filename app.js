@@ -50,6 +50,25 @@ const DATA = {
       filters: { all: "All Works", f2d: "2D Works", f3d: "3D Works" },
       items: [
         {
+          id: "p7", name: "Chroma", type: "3d", typeLabel: "3D / Game Trailer",
+          date: "2026", tools: "Blender, Rigify, Technical Art, Animation",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
+          images: [], videoFirst: true,
+          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Trailer%20CHROMA_nh%C3%B3m%202.mp4",
+          pdfs: [
+            { label: "Game Design Document (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Game%20design%20document_CHROMA.pdf" }
+          ],
+          desc: "Chroma is a collaborative game demo trailer created by a team of five.",
+          contributionsLabel: "My Contributions:",
+          bullets: [
+            "World Building & Design: Authored the game's lore and designed the visual look of the main city environment.",
+            "Character Art: Modeled and rigged all characters (including our rat protagonist and snake antagonist) using Rigify.",
+            "Technical Art: Developed a custom, stylized shader inspired by Guilty Gear to give the project its high-energy, illustrative look.",
+            "Animation & Cinematics: Storyboarded and animated key sequences, including the main antagonist's reveal. I handled the full setup for these scenes, including lighting, camera work, and VFX.",
+            "Supervision: Acted as the lead animation supervisor, providing feedback and ensuring a consistent style across the team's work."
+          ]
+        },
+        {
           id: "p2", name: "Mana the Cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Nov 2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
           images: [
@@ -230,6 +249,25 @@ const DATA = {
       title: "Dự án tiêu biểu",
       filters: { all: "Tất cả", f2d: "2D", f3d: "3D" },
       items: [
+        {
+          id: "p7", name: "Chroma", type: "3d", typeLabel: "3D / Game Trailer",
+          date: "2026", tools: "Blender, Rigify, Technical Art, Animation",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
+          images: [], videoFirst: true,
+          video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Trailer%20CHROMA_nh%C3%B3m%202.mp4",
+          pdfs: [
+            { label: "Game Design Document (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Game%20design%20document_CHROMA.pdf" }
+          ],
+          desc: "Chroma is a collaborative game demo trailer created by a team of five.",
+          contributionsLabel: "My Contributions:",
+          bullets: [
+            "World Building & Design: Authored the game's lore and designed the visual look of the main city environment.",
+            "Character Art: Modeled and rigged all characters (including our rat protagonist and snake antagonist) using Rigify.",
+            "Technical Art: Developed a custom, stylized shader inspired by Guilty Gear to give the project its high-energy, illustrative look.",
+            "Animation & Cinematics: Storyboarded and animated key sequences, including the main antagonist's reveal. I handled the full setup for these scenes, including lighting, camera work, and VFX.",
+            "Supervision: Acted as the lead animation supervisor, providing feedback and ensuring a consistent style across the team's work."
+          ]
+        },
         {
           id: "p2", name: "Mana the cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Tháng 11/2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
@@ -474,7 +512,9 @@ function renderProjects() {
   document.getElementById('projects-grid').innerHTML = d.projects.items.map(p => {
     let thumb;
     const thumbVideo = Array.isArray(p.video) ? p.video[0] : p.video;
-    if (p.images && p.images.length) {
+    if (p.thumbnail) {
+      thumb = `<img src="${p.thumbnail}" alt="${p.name} — project poster" loading="lazy" decoding="async">`;
+    } else if (p.images && p.images.length) {
       thumb = `<img src="${p.images[0].src}" alt="${p.images[0].alt}" loading="lazy" decoding="async">`;
     } else if (thumbVideo) {
       thumb = `<video data-src="${thumbVideo}" class="thumb-video" muted loop playsinline preload="none"></video>`;
@@ -525,13 +565,14 @@ function openModal(projectId) {
 
   let mediaHtml = '';
   const images = p.images || [];
-  if (images.length === 1) {
-    mediaHtml += `<img class="modal-img" src="${images[0].src}" alt="${images[0].alt}" decoding="async">`;
-  } else if (images.length > 1) {
-    mediaHtml += `<div class="modal-gallery">${images.map(img => `<img src="${img.src}" alt="${img.alt}" loading="lazy" decoding="async">`).join('')}</div>`;
-  }
   const videos = Array.isArray(p.video) ? p.video : (p.video ? [p.video] : []);
-  mediaHtml += videos.map(src => `<video class="modal-video" src="${src}" controls preload="metadata"></video>`).join('');
+  const imageHtml = images.length === 1
+    ? `<img class="modal-img" src="${images[0].src}" alt="${images[0].alt}" decoding="async">`
+    : images.length > 1
+      ? `<div class="modal-gallery">${images.map(img => `<img src="${img.src}" alt="${img.alt}" loading="lazy" decoding="async">`).join('')}</div>`
+      : '';
+  const videoHtml = videos.map(src => `<video class="modal-video" src="${src}" controls preload="metadata"></video>`).join('');
+  mediaHtml += p.videoFirst ? videoHtml + imageHtml : imageHtml + videoHtml;
   document.getElementById('modal-media').innerHTML = mediaHtml;
 
   const pdfHtml = (p.pdfs && p.pdfs.length)
@@ -545,6 +586,7 @@ function openModal(projectId) {
       <span class="tag secondary">${p.tools}</span>
     </div>
     <p>${p.desc}</p>
+    ${p.contributionsLabel ? `<p class="modal-contributions-title">${p.contributionsLabel}</p>` : ''}
     <ul>${p.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
     ${pdfHtml}
   `;

@@ -203,6 +203,7 @@ h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.5px; margin-bottom:
 }
 .modal-desc { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
 .modal-desc ul { padding-left: 20px; margin-top: 8px; }
+.modal-contributions-title { margin-top: 12px; font-weight: 600; color: var(--text); }
 .modal-desc li { margin-bottom: 6px; }
 
 /* Lightbox: full-size zoom for a modal image, centered over everything else. */
