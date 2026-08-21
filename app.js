@@ -258,14 +258,14 @@ const DATA = {
           pdfs: [
             { label: "Game Design Document (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Game%20design%20document_CHROMA.pdf" }
           ],
-          desc: "Chroma is a collaborative game demo trailer created by a team of five.",
-          contributionsLabel: "My Contributions:",
+          desc: "Chroma là một đoạn trailer demo cho dự án game do mình và nhóm bạn (5 người) cùng thực hiện.",
+          contributionsLabel: "Các vai trò chính của mình:",
           bullets: [
-            "World Building & Design: Authored the game's lore and designed the visual look of the main city environment.",
-            "Character Art: Modeled and rigged all characters (including our rat protagonist and snake antagonist) using Rigify.",
-            "Technical Art: Developed a custom, stylized shader inspired by Guilty Gear to give the project its high-energy, illustrative look.",
-            "Animation & Cinematics: Storyboarded and animated key sequences, including the main antagonist's reveal. I handled the full setup for these scenes, including lighting, camera work, and VFX.",
-            "Supervision: Acted as the lead animation supervisor, providing feedback and ensuring a consistent style across the team's work."
+            "Xây dựng Thế giới & Thiết kế: Chịu trách nhiệm viết cốt truyện (lore) và phát triển phong cách hình ảnh cho môi trường chính (Thành phố lớn).",
+            "Tạo hình Nhân vật: Thực hiện modeling và rigging cho toàn bộ nhân vật (bao gồm chú chuột chính diện và rắn tím phản diện) bằng công cụ Rigify.",
+            "Kỹ thuật Shader: Nghiên cứu và phát triển shader theo phong cách stylized (lấy cảm hứng từ game Guilty Gear) để tạo nên diện mạo đồ họa độc đáo cho dự án.",
+            "Diễn họa & Hình ảnh (Cinematics): Hỗ trợ xây dựng storyboard và trực tiếp diễn họa các phân cảnh quan trọng, tiêu biểu là cảnh xuất hiện của trùm cuối. Mình cũng đảm nhận toàn bộ việc đặt góc máy, ánh sáng và làm hiệu ứng (VFX).",
+            "Giám sát Diễn họa: Giữ vai trò trưởng nhóm diễn họa, hỗ trợ kỹ thuật và phản hồi chuyên môn để đảm bảo chất lượng chuyển động đồng nhất cho toàn bộ trailer."
           ]
         },
         {
