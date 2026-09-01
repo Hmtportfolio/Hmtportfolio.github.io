@@ -203,7 +203,7 @@ const DATA = {
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Phone", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
         { icon: "📍", label: "Location", value: "Ho Chi Minh City, Vietnam", href: null },
-        { icon: "📁", label: "Portfolio Files", value: "View additional work", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
+        { iconImage: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Google_Drive_icon_(2020).svg.webp", label: "Portfolio Files", value: "View full portfolio", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
       ]
     },
     footer: "© 2026 Hoang Minh Thien. All rights reserved."
@@ -403,7 +403,7 @@ const DATA = {
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Điện thoại", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
         { icon: "📍", label: "Địa điểm", value: "TP. Hồ Chí Minh, Việt Nam", href: null },
-        { icon: "📁", label: "Tệp Portfolio", value: "Xem thêm sản phẩm", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
+        { iconImage: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Google_Drive_icon_(2020).svg.webp", label: "Tệp Portfolio", value: "Xem toàn bộ portfolio", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
       ]
     },
     footer: "© 2026 Hoàng Minh Thiện. Bảo lưu mọi quyền."
@@ -497,7 +497,7 @@ function render() {
   document.getElementById('contact-subtitle').textContent = d.contact.subtitle;
   document.getElementById('contact-body').innerHTML = d.contact.items.map(c => `
     <div class="contact-row">
-      <div class="contact-icon">${c.icon}</div>
+      <div class="contact-icon">${c.iconImage ? `<img class="contact-icon-image" src="${c.iconImage}" alt="" loading="lazy" decoding="async">` : c.icon}</div>
       <div>
         <div class="contact-label">${c.label}</div>
         ${c.href ? `<a class="contact-value" href="${c.href}" target="${c.href.startsWith('http')?'_blank':'_self'}" rel="noopener">${c.value}</a>` : `<div class="contact-value">${c.value}</div>`}
