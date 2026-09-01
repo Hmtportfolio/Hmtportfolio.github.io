@@ -62,10 +62,10 @@ const DATA = {
           contributionsLabel: "My Contributions:",
           bullets: [
             "World Building & Design: Authored the game's lore and designed the visual look of the main city environment.",
-            "Character Art: Modeled and rigged all characters (including our rat protagonist and snake antagonist) using Rigify.",
+            "Character Art: Modeled (our rat protagonist and snake antagonist) and rigged all characters using Rigify.",
             "Technical Art: Developed a custom, stylized shader inspired by Guilty Gear to give the project its high-energy, illustrative look.",
             "Animation & Cinematics: Storyboarded and animated key sequences, including the main antagonist's reveal. I handled the full setup for these scenes, including lighting, camera work, and VFX.",
-            "Supervision: Acted as the lead animation supervisor, providing feedback and ensuring a consistent style across the team's work."
+            "Supervision: Acted as the animation supervisor, providing feedback and ensuring a consistent style across the team's work."
           ]
         },
         {
@@ -202,7 +202,8 @@ const DATA = {
       items: [
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Phone", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
-        { icon: "📍", label: "Location", value: "Ho Chi Minh City, Vietnam", href: null }
+        { icon: "📍", label: "Location", value: "Ho Chi Minh City, Vietnam", href: null },
+        { icon: "📁", label: "Portfolio Files", value: "View additional work", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
       ]
     },
     footer: "© 2026 Hoang Minh Thien. All rights reserved."
@@ -262,10 +263,10 @@ const DATA = {
           contributionsLabel: "Các vai trò chính của mình:",
           bullets: [
             "Xây dựng Thế giới & Thiết kế: Chịu trách nhiệm viết cốt truyện (lore) và phát triển phong cách hình ảnh cho môi trường chính (Thành phố lớn).",
-            "Tạo hình Nhân vật: Thực hiện modeling và rigging cho toàn bộ nhân vật (bao gồm chú chuột chính diện và rắn tím phản diện) bằng công cụ Rigify.",
+            "Tạo hình Nhân vật: Thực hiện modeling (cho chú chuột chính diện và rắn tím phản diện) và rigging cho toàn bộ nhân vật bằng công cụ Rigify.",
             "Kỹ thuật Shader: Nghiên cứu và phát triển shader theo phong cách stylized (lấy cảm hứng từ game Guilty Gear) để tạo nên diện mạo đồ họa độc đáo cho dự án.",
-            "Diễn họa & Hình ảnh (Cinematics): Hỗ trợ xây dựng storyboard và trực tiếp diễn họa các phân cảnh quan trọng, tiêu biểu là cảnh xuất hiện của trùm cuối. Mình cũng đảm nhận toàn bộ việc đặt góc máy, ánh sáng và làm hiệu ứng (VFX).",
-            "Giám sát Diễn họa: Giữ vai trò trưởng nhóm diễn họa, hỗ trợ kỹ thuật và phản hồi chuyên môn để đảm bảo chất lượng chuyển động đồng nhất cho toàn bộ trailer."
+            "Diễn họa & Hình ảnh (Cinematics): Hỗ trợ xây dựng storyboard và trực tiếp diễn họa các phân cảnh quan trọng, tiêu biểu là cảnh xuất hiện của trùm cuối. Mình cũng đảm nhận toàn bộ việc đặt góc máy, ánh sáng và làm hiệu ứng trong các shot này (VFX).",
+            "Giám sát Diễn họa: Giữ vai trò giám sát diễn họa, hỗ trợ kỹ thuật và phản hồi chuyên môn để đảm bảo chất lượng chuyển động đồng nhất cho toàn bộ trailer."
           ]
         },
         {
@@ -401,7 +402,8 @@ const DATA = {
       items: [
         { icon: "📧", label: "Email", value: "minhthienhoang200105@gmail.com", href: "mailto:minhthienhoang200105@gmail.com" },
         { icon: "📱", label: "Điện thoại", value: "(+84) 097 449 1598", href: "tel:+84974491598" },
-        { icon: "📍", label: "Địa điểm", value: "TP. Hồ Chí Minh, Việt Nam", href: null }
+        { icon: "📍", label: "Địa điểm", value: "TP. Hồ Chí Minh, Việt Nam", href: null },
+        { icon: "📁", label: "Tệp Portfolio", value: "Xem thêm sản phẩm", href: "https://drive.google.com/drive/folders/1bnK9ktQCQus31J89DU4QwwlBZ0woXQ7k?usp=sharing" }
       ]
     },
     footer: "© 2026 Hoàng Minh Thiện. Bảo lưu mọi quyền."
