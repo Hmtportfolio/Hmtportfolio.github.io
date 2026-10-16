@@ -62,32 +62,59 @@
             <span class="step-num">1</span>
             <h2>Specify Destination Folder</h2>
           </div>
-          <span class="helper-text">Where in the bucket will your images be stored?</span>
+          <span class="helper-text">Select a folder from the bucket tree below, or type a custom path</span>
         </div>
         <div class="card-body">
-          <div class="folder-input-wrapper">
-            <div class="folder-prefix-icon">📁</div>
-            <input 
-              type="text" 
-              id="folder-input" 
-              class="folder-input" 
-              placeholder="e.g. Chroma, Illustration works, 2026/Wall Design (leave empty for root /)"
-              autocomplete="off"
-            />
-            <button id="btn-clear-folder" class="btn btn-icon btn-sm" title="Clear folder">✕</button>
+          <!-- Active Target Path & Input -->
+          <div class="destination-input-group">
+            <div class="destination-meta-row">
+              <span class="destination-field-label">Target Folder Path:</span>
+              <span id="selected-folder-badge" class="selected-folder-badge">📁 / (Bucket Root)</span>
+            </div>
+            <div class="folder-input-wrapper">
+              <div class="folder-prefix-icon">📁</div>
+              <input 
+                type="text" 
+                id="folder-input" 
+                class="folder-input" 
+                placeholder="Click a folder from the tree below, or enter a custom path (leave empty for root /)"
+                autocomplete="off"
+              />
+              <button id="btn-clear-folder" class="btn btn-icon btn-sm" title="Reset to Root (/)">✕</button>
+            </div>
           </div>
 
-          <!-- Suggested Chips -->
-          <div class="folder-chips-container">
-            <span class="chips-label">Quick select:</span>
-            <div id="folder-chips" class="folder-chips">
-              <button class="chip" data-folder="">/ (Root)</button>
-              <button class="chip" data-folder="Chroma">Chroma</button>
-              <button class="chip" data-folder="Illustration works">Illustration works</button>
-              <button class="chip" data-folder="Regretful Colors">Regretful Colors</button>
-              <button class="chip" data-folder="Mana the cute Battle Maid">Mana the cute Battle Maid</button>
-              <button class="chip" data-folder="Reimagine Puss in Boots The Last Wish">Reimagine Puss in Boots</button>
-              <button class="chip" data-folder="Green Summer 2025 - Wall Design">Green Summer 2025</button>
+          <!-- Bucket Folder Structure Explorer -->
+          <div class="bucket-tree-panel">
+            <div class="bucket-tree-header">
+              <div class="tree-title-group">
+                <span class="tree-title-icon">🗂️</span>
+                <span class="tree-title-text">Bucket Folder Structure</span>
+                <span id="tree-summary-badge" class="tree-badge">Loading...</span>
+              </div>
+              <div class="tree-actions-group">
+                <div class="tree-search-wrapper">
+                  <span class="tree-search-icon">🔍</span>
+                  <input 
+                    type="text" 
+                    id="folder-tree-search" 
+                    placeholder="Search folders..." 
+                    autocomplete="off"
+                  />
+                  <button id="btn-clear-tree-search" class="btn-clear-search" title="Clear search" style="display: none;">✕</button>
+                </div>
+                <button id="btn-refresh-tree" class="btn btn-secondary btn-sm" title="Refresh folder tree from Cloudflare R2">
+                  <span class="btn-refresh-icon">🔄</span> Refresh
+                </button>
+              </div>
+            </div>
+
+            <!-- Scrollable Interactive Folder Tree -->
+            <div id="folder-tree-container" class="folder-tree-container" role="tree" aria-label="Cloudflare R2 Bucket Folders">
+              <div class="tree-loading-state">
+                <div class="spinner-sm"></div>
+                <span>Scanning Cloudflare R2 bucket folders...</span>
+              </div>
             </div>
           </div>
 
@@ -202,69 +229,52 @@
 
     </main>
 
-    <!-- SETTINGS MODAL -->
+    <!-- SETTINGS MODAL (READ-ONLY STATUS) -->
     <div id="modal-settings" class="modal-overlay" style="display: none;">
       <div class="modal-container">
         <div class="modal-header">
-          <h3>Cloudflare R2 Configuration</h3>
+          <h3>Cloudflare R2 Configuration Status</h3>
           <button id="btn-close-settings" class="btn btn-icon">✕</button>
         </div>
-        <form id="settings-form" class="modal-body">
-          <p class="settings-intro">
-            Connect to your Cloudflare R2 bucket. Your credentials are saved securely in your local <code>.env</code> file.
-          </p>
-
-          <div class="form-group">
-            <label for="cfg-account-id">Cloudflare Account ID <span class="required">*</span></label>
-            <input type="text" id="cfg-account-id" required placeholder="e.g. 58ba3247d6ee441b9218b20100871e4c" />
-            <small>Found in Cloudflare Dashboard URL or under R2 overview page</small>
+        <div class="modal-body">
+          <div class="status-banner" style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9rem;">
+            🔒 <strong>Environment-Driven Configuration</strong><br>
+            <span style="color: var(--text-muted); font-size: 0.85rem;">Credentials are loaded strictly from your local <code>uploader/.env</code> file. Browser-based edits are disabled for security.</span>
           </div>
 
           <div class="form-group">
-            <label for="cfg-bucket-name">Bucket Name <span class="required">*</span></label>
-            <input type="text" id="cfg-bucket-name" required placeholder="e.g. portfolio-assets or your bucket name" />
+            <label>Bucket Name</label>
+            <div id="cfg-display-bucket" style="padding: 10px 14px; background: var(--bg-input); border: 1px solid var(--border); border-radius: 6px; font-family: monospace; font-weight: 600;">(checking...)</div>
           </div>
 
           <div class="form-group">
-            <label for="cfg-access-key">Access Key ID <span class="required">*</span></label>
-            <input type="text" id="cfg-access-key" required placeholder="e.g. a7f68... or 32-character key" />
+            <label>Public Domain / CDN URL</label>
+            <div id="cfg-display-domain" style="padding: 10px 14px; background: var(--bg-input); border: 1px solid var(--border); border-radius: 6px; font-family: monospace; font-size: 0.88rem; word-break: break-all;">(checking...)</div>
           </div>
 
           <div class="form-group">
-            <label for="cfg-secret-key">Secret Access Key <span class="required">*</span></label>
-            <input type="password" id="cfg-secret-key" required placeholder="e.g. 64-character secret key" />
-            <small id="secret-notice" style="display:none; color: var(--text-muted);">Existing secret is saved. Leave blank or unchanged to keep it.</small>
-          </div>
-
-          <div class="form-group">
-            <label for="cfg-public-domain">Public Domain / r2.dev URL <span class="required">*</span></label>
-            <input type="text" id="cfg-public-domain" required placeholder="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev" />
-            <small>The public R2 URL or custom domain used to view files</small>
+            <label>Configuration Source</label>
+            <div style="padding: 10px 14px; background: var(--bg-input); border: 1px solid var(--border); border-radius: 6px; font-family: monospace; color: var(--accent);">uploader/.env</div>
           </div>
 
           <div id="test-connection-result" class="test-result" style="display: none;"></div>
 
-          <div class="modal-footer">
-            <button type="button" id="btn-test-connection" class="btn btn-secondary">
-              ⚡ Test Connection
+          <div class="modal-footer" style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+            <button type="button" id="btn-test-connection" class="btn btn-primary">
+              ⚡ Test R2 Connection
             </button>
-            <button type="submit" id="btn-save-settings" class="btn btn-primary">
-              💾 Save Settings
+            <button type="button" id="btn-close-settings-footer" class="btn btn-secondary">
+              Close
             </button>
           </div>
 
-          <details class="r2-help-box">
-            <summary>Where do I find these credentials in Cloudflare?</summary>
-            <ol>
-              <li>Go to <a href="https://dash.cloudflare.com/" target="_blank" rel="noreferrer">Cloudflare Dashboard</a> &rarr; <strong>R2</strong>.</li>
-              <li>Your <strong>Account ID</strong> is displayed on the right sidebar of the R2 overview.</li>
-              <li>Click <strong>Manage R2 API Tokens</strong> on the right sidebar &rarr; <strong>Create API token</strong>.</li>
-              <li>Select <strong>Object Read & Write</strong> permissions, choose your bucket, and click <strong>Create API Token</strong>.</li>
-              <li>Copy the <strong>Access Key ID</strong> and <strong>Secret Access Key</strong> into this form!</li>
-              <li>In your bucket settings, ensure <strong>R2.dev subdomain</strong> or Custom Domain is enabled to get public links.</li>
-            </ol>
+          <details class="r2-help-box" style="margin-top: 16px;">
+            <summary>How to change credentials or bucket?</summary>
+            <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+              To change your Cloudflare R2 credentials, open <code>uploader/.env</code> in your code editor and update <code>CF_ACCOUNT_ID</code>, <code>CF_ACCESS_KEY_ID</code>, <code>CF_SECRET_ACCESS_KEY</code>, or <code>CF_BUCKET_NAME</code>, then restart the uploader.
+            </p>
           </details>
-        </form>
+        </div>
       </div>
     </div>
 

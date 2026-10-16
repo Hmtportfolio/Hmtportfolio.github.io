@@ -4,10 +4,19 @@ let fileQueue = [];
 let uploadedHistory = [];
 let nextFileId = 1;
 
+// Bucket folder data state
+let bucketFolderData = { configured: false, rootFileCount: 0, folders: [] };
+let treeFilterQuery = '';
+
 // DOM Elements
 const folderInput = document.getElementById('folder-input');
 const btnClearFolder = document.getElementById('btn-clear-folder');
-const folderChips = document.getElementById('folder-chips');
+const selectedFolderBadge = document.getElementById('selected-folder-badge');
+const folderTreeContainer = document.getElementById('folder-tree-container');
+const folderTreeSearch = document.getElementById('folder-tree-search');
+const btnClearTreeSearch = document.getElementById('btn-clear-tree-search');
+const btnRefreshTree = document.getElementById('btn-refresh-tree');
+const treeSummaryBadge = document.getElementById('tree-summary-badge');
 const destPreview = document.getElementById('destination-path-preview');
 const dropzone = document.getElementById('dropzone');
 const fileInput = document.getElementById('file-input');
@@ -30,7 +39,6 @@ const btnCopyAllPaths = document.getElementById('btn-copy-all-paths');
 const btnCopyJson = document.getElementById('btn-copy-json');
 const btnCopyMarkdown = document.getElementById('btn-copy-markdown');
 const btnClearResults = document.getElementById('btn-clear-results');
-
 
 // Navigation & Modals
 const connectionBadge = document.getElementById('connection-badge');
@@ -57,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initTheme();
   initFolder();
   await loadConfig();
-  await loadFolderPresets();
+  await loadFolderTree();
   setupEventListeners();
 });
 
@@ -81,42 +89,120 @@ function initFolder() {
   const savedFolder = localStorage.getItem('r2_last_folder') || '';
   folderInput.value = savedFolder;
   updateDestinationPreview();
+  updateFolderBadge();
 
   folderInput.addEventListener('input', () => {
     localStorage.setItem('r2_last_folder', folderInput.value.trim());
     updateDestinationPreview();
-    updateChipHighlights();
+    updateFolderBadge();
+    updateTreeSelectionHighlight();
   });
 
   btnClearFolder.addEventListener('click', () => {
-    folderInput.value = '';
-    localStorage.setItem('r2_last_folder', '');
-    updateDestinationPreview();
-    updateChipHighlights();
+    setDestinationFolder('');
     folderInput.focus();
   });
 
-  folderChips.addEventListener('click', (e) => {
-    const chip = e.target.closest('.chip');
-    if (!chip) return;
-    const folder = chip.getAttribute('data-folder');
-    folderInput.value = folder;
-    localStorage.setItem('r2_last_folder', folder);
-    updateDestinationPreview();
-    updateChipHighlights();
-  });
+  if (folderTreeSearch) {
+    folderTreeSearch.addEventListener('input', () => {
+      treeFilterQuery = folderTreeSearch.value.trim().toLowerCase();
+      if (btnClearTreeSearch) {
+        btnClearTreeSearch.style.display = treeFilterQuery ? 'block' : 'none';
+      }
+      renderFolderTree();
+    });
+  }
+
+  if (btnClearTreeSearch) {
+    btnClearTreeSearch.addEventListener('click', () => {
+      folderTreeSearch.value = '';
+      treeFilterQuery = '';
+      btnClearTreeSearch.style.display = 'none';
+      renderFolderTree();
+      folderTreeSearch.focus();
+    });
+  }
+
+  if (btnRefreshTree) {
+    btnRefreshTree.addEventListener('click', async () => {
+      const icon = btnRefreshTree.querySelector('.btn-refresh-icon');
+      if (icon) icon.classList.add('spinning');
+      await loadFolderTree(true);
+      if (icon) icon.classList.remove('spinning');
+    });
+  }
+
+  // Delegated click handler on tree container
+  if (folderTreeContainer) {
+    folderTreeContainer.addEventListener('click', (e) => {
+      // Subfolder shortcut button
+      const subBtn = e.target.closest('.btn-tree-subfolder');
+      if (subBtn) {
+        e.stopPropagation();
+        const parentPath = subBtn.getAttribute('data-path') || '';
+        folderInput.value = parentPath ? `${parentPath}/` : '';
+        localStorage.setItem('r2_last_folder', folderInput.value);
+        updateDestinationPreview();
+        updateFolderBadge();
+        updateTreeSelectionHighlight();
+        folderInput.focus();
+        folderInput.setSelectionRange(folderInput.value.length, folderInput.value.length);
+        return;
+      }
+
+      // Select folder node
+      const node = e.target.closest('.tree-node');
+      if (!node) return;
+      const path = node.getAttribute('data-path') || '';
+      setDestinationFolder(path);
+    });
+
+    // Keyboard support: Enter / Space selects node
+    folderTreeContainer.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        const node = e.target.closest('.tree-node');
+        if (node) {
+          e.preventDefault();
+          const path = node.getAttribute('data-path') || '';
+          setDestinationFolder(path);
+        }
+      }
+    });
+  }
 }
 
-function updateChipHighlights() {
-  const cur = folderInput.value.trim().toLowerCase();
-  document.querySelectorAll('.chip').forEach(c => {
-    const f = (c.getAttribute('data-folder') || '').trim().toLowerCase();
-    c.classList.toggle('active', f === cur);
-  });
+function setDestinationFolder(path) {
+  folderInput.value = path;
+  localStorage.setItem('r2_last_folder', path);
+  updateDestinationPreview();
+  updateFolderBadge();
+  updateTreeSelectionHighlight();
 }
 
 function getSanitizedFolder() {
   return folderInput.value.trim().replace(/^\/+|\/+$/g, '');
+}
+
+function updateFolderBadge() {
+  if (!selectedFolderBadge) return;
+  const clean = getSanitizedFolder();
+  if (!clean) {
+    selectedFolderBadge.innerHTML = '📁 / (Bucket Root)';
+    selectedFolderBadge.title = 'Files will be uploaded directly to bucket root';
+    return;
+  }
+
+  const exists = (bucketFolderData.folders || []).some(
+    (f) => f.path.toLowerCase() === clean.toLowerCase()
+  );
+
+  if (exists) {
+    selectedFolderBadge.innerHTML = `📁 ${escapeHtml(clean)}`;
+    selectedFolderBadge.title = `Target: ${clean}`;
+  } else {
+    selectedFolderBadge.innerHTML = `📁 ${escapeHtml(clean)} <span style="opacity:0.75; font-size:0.75rem;">(new)</span>`;
+    selectedFolderBadge.title = `Target folder will be created on upload: ${clean}`;
+  }
 }
 
 function updateDestinationPreview() {
@@ -136,16 +222,11 @@ async function loadConfig() {
     const data = await res.json();
     currentConfig = data;
 
-    // Fill settings form
-    document.getElementById('cfg-account-id').value = data.accountId || '';
-    document.getElementById('cfg-bucket-name').value = data.bucketName || '';
-    document.getElementById('cfg-access-key').value = data.accessKeyId || '';
-    document.getElementById('cfg-public-domain').value = data.publicDomain || 'https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev';
+    const displayBucket = document.getElementById('cfg-display-bucket');
+    if (displayBucket) displayBucket.textContent = data.bucketName || '(not configured in .env)';
 
-    if (data.hasSecret) {
-      document.getElementById('cfg-secret-key').value = data.secretAccessKey;
-      document.getElementById('secret-notice').style.display = 'block';
-    }
+    const displayDomain = document.getElementById('cfg-display-domain');
+    if (displayDomain) displayDomain.textContent = data.publicDomain || 'https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev';
 
     if (data.configured) {
       connectionBadge.className = 'badge badge-success';
@@ -153,7 +234,7 @@ async function loadConfig() {
       unconfiguredBanner.style.display = 'none';
     } else {
       connectionBadge.className = 'badge badge-warning';
-      badgeText.textContent = 'Not configured';
+      badgeText.textContent = 'Not configured in .env';
       unconfiguredBanner.style.display = 'flex';
     }
 
@@ -165,27 +246,178 @@ async function loadConfig() {
   }
 }
 
-// Load dynamic folder presets from bucket
-async function loadFolderPresets() {
+// Load full hierarchical folder tree from Cloudflare R2
+async function loadFolderTree(isManual = false) {
+  if (!folderTreeContainer) return;
   try {
-    const res = await fetch('/api/folders');
+    const res = await fetch('/api/folder-tree');
     const data = await res.json();
-    if (data.folders && data.folders.length > 0) {
-      // Add unique folders as chips
-      const existingChips = new Set(Array.from(document.querySelectorAll('.chip')).map(c => c.getAttribute('data-folder')));
-      data.folders.forEach(f => {
-        if (!existingChips.has(f)) {
-          const btn = document.createElement('button');
-          btn.className = 'chip';
-          btn.setAttribute('data-folder', f);
-          btn.textContent = f;
-          folderChips.appendChild(btn);
-        }
-      });
+    bucketFolderData = data;
+
+    if (treeSummaryBadge) {
+      if (data.configured) {
+        const totalFiles = (data.rootFileCount || 0) + (data.folders || []).reduce((acc, f) => acc + (f.fileCount || 0), 0);
+        const folderCount = data.folders ? data.folders.length : 0;
+        treeSummaryBadge.textContent = `${folderCount} ${folderCount === 1 ? 'folder' : 'folders'} • ${totalFiles} ${totalFiles === 1 ? 'file' : 'files'}`;
+      } else {
+        treeSummaryBadge.textContent = 'Not configured';
+      }
+    }
+
+    renderFolderTree();
+    updateFolderBadge();
+
+    if (isManual) {
+      showToast('Folder structure refreshed');
     }
   } catch (err) {
-    // silently ignore if not yet configured
+    console.warn('Failed to load folder tree:', err);
+    if (folderTreeContainer) {
+      folderTreeContainer.innerHTML = `
+        <div class="tree-empty-state">
+          <span>⚠️ Could not load folder structure from bucket.</span>
+        </div>
+      `;
+    }
   }
+}
+
+function renderFolderTree() {
+  if (!folderTreeContainer) return;
+
+  const currentPath = getSanitizedFolder().toLowerCase();
+  const query = treeFilterQuery;
+  const isRootSelected = currentPath === '';
+  const rootCount = bucketFolderData.rootFileCount || 0;
+  const allFolders = bucketFolderData.folders || [];
+
+  if (!bucketFolderData.configured && allFolders.length === 0) {
+    folderTreeContainer.innerHTML = `
+      <div class="tree-empty-state">
+        <span>⚠️ R2 is not configured in uploader/.env</span>
+      </div>
+    `;
+    return;
+  }
+
+  // Filter folders matching search query (and retain their ancestor paths)
+  let displayedFolders = allFolders;
+  let showRootNode = true;
+
+  if (query) {
+    const matchingPaths = new Set();
+    allFolders.forEach((f) => {
+      if (f.name.toLowerCase().includes(query) || f.path.toLowerCase().includes(query)) {
+        matchingPaths.add(f.path);
+        // add ancestors
+        const parts = f.path.split('/');
+        for (let i = 1; i < parts.length; i++) {
+          matchingPaths.add(parts.slice(0, i).join('/'));
+        }
+      }
+    });
+
+    displayedFolders = allFolders.filter((f) => matchingPaths.has(f.path));
+    showRootNode = 'root'.includes(query) || '/' === query || query === '';
+  }
+
+  let html = '';
+
+  // Render Root Node
+  if (showRootNode) {
+    html += `
+      <div class="tree-node tree-node-root ${isRootSelected ? 'selected' : ''}" data-path="" tabindex="0" role="treeitem" aria-selected="${isRootSelected}">
+        <div class="tree-node-info">
+          <span class="tree-node-icon">${isRootSelected ? '📂' : '🗄️'}</span>
+          <span class="tree-node-name">/ (Bucket Root)</span>
+          <span class="tree-file-count">${rootCount} ${rootCount === 1 ? 'file' : 'files'}</span>
+        </div>
+        <div class="tree-node-actions">
+          <button class="btn-tree-subfolder" data-path="" title="Add subfolder under root">+ Subfolder</button>
+          ${isRootSelected ? '<span class="tree-active-pill">✓ Selected</span>' : '<button class="btn-tree-select" type="button">Select</button>'}
+        </div>
+      </div>
+    `;
+  }
+
+  // Render Folder Nodes
+  if (displayedFolders.length > 0) {
+    displayedFolders.forEach((folder) => {
+      const isSelected = folder.path.toLowerCase() === currentPath;
+      const indentPx = Math.min(folder.depth * 20, 100);
+      const isMatch = query && (folder.name.toLowerCase().includes(query) || folder.path.toLowerCase().includes(query));
+
+      let displayName = escapeHtml(folder.name);
+      if (query && isMatch) {
+        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        displayName = displayName.replace(regex, '<mark>$1</mark>');
+      }
+
+      const branchGuide = folder.depth > 0 ? '<span class="tree-branch-guide">└─</span>' : '';
+      const icon = isSelected ? '📂' : '📁';
+
+      html += `
+        <div class="tree-node ${isSelected ? 'selected' : ''}" data-path="${escapeHtml(folder.path)}" style="padding-left: calc(0.75rem + ${indentPx}px);" tabindex="0" role="treeitem" aria-selected="${isSelected}" title="${escapeHtml(folder.path)}">
+          <div class="tree-node-info">
+            ${branchGuide}
+            <span class="tree-node-icon">${icon}</span>
+            <span class="tree-node-name">${displayName}</span>
+            <span class="tree-file-count">${folder.fileCount} ${folder.fileCount === 1 ? 'file' : 'files'}</span>
+          </div>
+          <div class="tree-node-actions">
+            <button class="btn-tree-subfolder" data-path="${escapeHtml(folder.path)}" title="Create new subfolder inside ${escapeHtml(folder.name)}">+ Subfolder</button>
+            ${isSelected ? '<span class="tree-active-pill">✓ Selected</span>' : '<button class="btn-tree-select" type="button">Select</button>'}
+          </div>
+        </div>
+      `;
+    });
+  } else if (allFolders.length === 0 && !showRootNode) {
+    html = `
+      <div class="tree-empty-state">
+        <span>No folders found in bucket. Upload images to root or enter a custom path above.</span>
+      </div>
+    `;
+  } else if (query && displayedFolders.length === 0 && !showRootNode) {
+    html = `
+      <div class="tree-empty-state">
+        <span>No folders matching "<strong>${escapeHtml(query)}</strong>". Type this path above to create it on upload.</span>
+      </div>
+    `;
+  }
+
+  folderTreeContainer.innerHTML = html;
+}
+
+function updateTreeSelectionHighlight() {
+  if (!folderTreeContainer) return;
+  const currentPath = getSanitizedFolder().toLowerCase();
+
+  const nodes = folderTreeContainer.querySelectorAll('.tree-node');
+  nodes.forEach((node) => {
+    const nodePath = (node.getAttribute('data-path') || '').toLowerCase();
+    const isSelected = nodePath === currentPath;
+    node.classList.toggle('selected', isSelected);
+    node.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+
+    const iconEl = node.querySelector('.tree-node-icon');
+    if (iconEl) {
+      if (node.classList.contains('tree-node-root')) {
+        iconEl.textContent = isSelected ? '📂' : '🗄️';
+      } else {
+        iconEl.textContent = isSelected ? '📂' : '📁';
+      }
+    }
+
+    const actionsEl = node.querySelector('.tree-node-actions');
+    if (actionsEl) {
+      const parentPath = node.getAttribute('data-path') || '';
+      const subBtnHtml = `<button class="btn-tree-subfolder" data-path="${escapeHtml(parentPath)}" title="Add subfolder">+ Subfolder</button>`;
+      const selectHtml = isSelected
+        ? '<span class="tree-active-pill">✓ Selected</span>'
+        : '<button class="btn-tree-select" type="button">Select</button>';
+      actionsEl.innerHTML = `${subBtnHtml}${selectHtml}`;
+    }
+  });
 }
 
 // Setup Event Listeners
@@ -278,10 +510,10 @@ function setupEventListeners() {
     if (e.target === modalSettings) modalSettings.style.display = 'none';
   });
 
-  settingsForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    await saveSettings();
-  });
+  const btnCloseSettingsFooter = document.getElementById('btn-close-settings-footer');
+  if (btnCloseSettingsFooter) {
+    btnCloseSettingsFooter.addEventListener('click', () => modalSettings.style.display = 'none');
+  }
 
   btnTestConnection.addEventListener('click', testConnection);
 
@@ -441,6 +673,16 @@ function renderQueue() {
   });
 }
 
+function updateItemProgressUi(item) {
+  const card = document.getElementById(`queue-item-${item.id}`);
+  if (!card) return;
+  const badge = card.querySelector('.queue-status-badge');
+  if (badge) {
+    badge.textContent = `Uploading ${item.progress}%`;
+    badge.style.color = 'var(--primary)';
+  }
+}
+
 // Upload Single File
 async function uploadSingleFile(item) {
   if (item.status === 'uploading' || item.status === 'done') return;
@@ -462,7 +704,7 @@ async function uploadSingleFile(item) {
     xhr.upload.onprogress = (e) => {
       if (e.lengthComputable) {
         item.progress = Math.round((e.loaded / e.total) * 100);
-        renderQueue();
+        updateItemProgressUi(item);
       }
     };
 
@@ -475,6 +717,7 @@ async function uploadSingleFile(item) {
           item.result = res;
           addUploadResult(res);
           showToast(`Uploaded: ${res.fileName}`);
+          loadFolderTree();
         } else {
           item.status = 'error';
           item.errorMsg = response.errors?.[0]?.error || 'Upload error';
@@ -538,8 +781,10 @@ async function uploadAllFiles() {
         const pct = Math.round((e.loaded / e.total) * 100);
         overallProgressBar.style.width = `${pct}%`;
         overallProgressText.textContent = `Uploading files... ${pct}%`;
-        pendingItems.forEach(i => i.progress = pct);
-        renderQueue();
+        pendingItems.forEach(i => {
+          i.progress = pct;
+          updateItemProgressUi(i);
+        });
       }
     };
 
@@ -571,6 +816,7 @@ async function uploadAllFiles() {
         }
 
         showToast(`Batch complete: ${resp.uploadedCount} uploaded successfully!`);
+        loadFolderTree();
       } else {
         const err = JSON.parse(xhr.responseText || '{}');
         pendingItems.forEach(i => {
@@ -676,69 +922,15 @@ function addUploadResult(res) {
 }
 
 
-// Settings Form Save
-async function saveSettings() {
-  const accountId = document.getElementById('cfg-account-id').value.trim();
-  const bucketName = document.getElementById('cfg-bucket-name').value.trim();
-  const accessKeyId = document.getElementById('cfg-access-key').value.trim();
-  const secretAccessKey = document.getElementById('cfg-secret-key').value.trim();
-  const publicDomain = document.getElementById('cfg-public-domain').value.trim();
-
-  const btnSave = document.getElementById('btn-save-settings');
-  btnSave.disabled = true;
-  btnSave.textContent = 'Saving...';
-
-  try {
-    const res = await fetch('/api/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        accountId,
-        bucketName,
-        accessKeyId,
-        secretAccessKey,
-        publicDomain,
-      }),
-    });
-    const data = await res.json();
-    if (data.success) {
-      showToast('Settings saved successfully!');
-      modalSettings.style.display = 'none';
-      await loadConfig();
-      await loadFolderPresets();
-    } else {
-      showToast(data.error || 'Failed to save settings', true);
-    }
-  } catch (err) {
-    showToast('Failed to save settings: ' + err.message, true);
-  } finally {
-    btnSave.disabled = false;
-    btnSave.textContent = '💾 Save Settings';
-  }
-}
-
-// Test Connection
+// Test Connection directly using current .env configuration on server
 async function testConnection() {
   btnTestConnection.disabled = true;
   btnTestConnection.textContent = 'Testing...';
   testConnectionResult.style.display = 'block';
   testConnectionResult.className = 'test-result';
-  testConnectionResult.textContent = 'Connecting to Cloudflare R2...';
-
-  // Save current values first to test with fresh inputs
-  const accountId = document.getElementById('cfg-account-id').value.trim();
-  const bucketName = document.getElementById('cfg-bucket-name').value.trim();
-  const accessKeyId = document.getElementById('cfg-access-key').value.trim();
-  const secretAccessKey = document.getElementById('cfg-secret-key').value.trim();
-  const publicDomain = document.getElementById('cfg-public-domain').value.trim();
+  testConnectionResult.textContent = 'Connecting to Cloudflare R2 using .env credentials...';
 
   try {
-    await fetch('/api/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ accountId, bucketName, accessKeyId, secretAccessKey, publicDomain }),
-    });
-
     const res = await fetch('/api/test-connection');
     const data = await res.json();
 
@@ -754,7 +946,7 @@ async function testConnection() {
     testConnectionResult.textContent = `❌ Connection test failed: ${err.message}`;
   } finally {
     btnTestConnection.disabled = false;
-    btnTestConnection.textContent = '⚡ Test Connection';
+    btnTestConnection.textContent = '⚡ Test R2 Connection';
   }
 }
 
