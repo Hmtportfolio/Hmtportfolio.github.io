@@ -30,10 +30,17 @@ self.addEventListener('fetch', (event) => {
 
   let url;
   try { url = new URL(req.url); } catch (e) { return; }
-  if (url.hostname !== MEDIA_HOST) return;
+
+  const isR2Media = url.hostname === MEDIA_HOST;
+  const isLocalMedia = url.origin === self.location.origin && (
+    url.pathname.startsWith('/thumbnails/') ||
+    url.pathname === '/avatar.webp'
+  );
+
+  if (!isR2Media && !isLocalMedia) return;
 
   // Let range requests (video seeking/scrubbing) go straight to the network —
-  // R2 serves 206 Partial Content natively, no need to intercept those.
+  // avoids exceeding browser cache storage quotas on large video chunks.
   if (req.headers.has('range')) return;
 
   event.respondWith(

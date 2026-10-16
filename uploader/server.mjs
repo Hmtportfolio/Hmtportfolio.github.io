@@ -13,6 +13,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -503,6 +504,31 @@ app.post('/api/upload', upload.array('files', 100), async (req, res) => {
       const publicUrl = getPublicUrl(s3Key);
       const cleanName = path.parse(finalName).name;
 
+      // Automatically generate a 600px WebP thumbnail sibling for images if requested or by default for raster images
+      let thumbUrl = null;
+      if (contentType.startsWith('image/') && !contentType.includes('svg') && !finalName.endsWith('.thumb.webp')) {
+        try {
+          const thumbBuffer = await sharp(file.buffer)
+            .resize({ width: 600, withoutEnlargement: true })
+            .webp({ quality: 82 })
+            .toBuffer();
+
+          const thumbName = `${cleanName}.thumb.webp`;
+          const thumbS3Key = folder ? `${folder}/${thumbName}` : thumbName;
+
+          const thumbCommand = new PutObjectCommand({
+            Bucket: bucket,
+            Key: thumbS3Key,
+            Body: thumbBuffer,
+            ContentType: 'image/webp',
+          });
+          await s3.send(thumbCommand);
+          thumbUrl = getPublicUrl(thumbS3Key);
+        } catch (thumbErr) {
+          console.warn(`[Thumbnail Warning] Could not generate thumbnail for ${finalName}:`, thumbErr.message);
+        }
+      }
+
       results.push({
         success: true,
         originalName,
@@ -514,6 +540,7 @@ app.post('/api/upload', upload.array('files', 100), async (req, res) => {
         size: file.size,
         contentType,
         url: publicUrl,
+        thumbUrl,
         markdown: `![${cleanName}](${publicUrl})`,
         html: `<img src="${publicUrl}" alt="${cleanName}" />`,
       });

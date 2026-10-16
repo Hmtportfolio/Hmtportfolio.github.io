@@ -12,9 +12,10 @@ const { about } = Astro.props;
     <h1 id="about-name">{about.name}</h1>
     <img
       class="avatar"
-      src="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/avatar.jpg"
+      src="/avatar.webp"
       alt={about.name}
-      loading="lazy"
+      loading="eager"
+      fetchpriority="high"
       decoding="async"
       width="120"
       height="120"

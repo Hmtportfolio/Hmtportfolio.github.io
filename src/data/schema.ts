@@ -20,7 +20,7 @@ export const ProjectSchema = z
     typeLabel: z.string().min(1),
     date: z.string().min(1),
     tools: z.string().min(1),
-    thumbnail: z.string().url().optional(),
+    thumbnail: z.string().min(1).optional(),
     images: z.array(ImageItemSchema).default([]),
     videoFirst: z.boolean().optional().default(false),
     video: z.union([z.string(), z.array(z.string())]).optional(),

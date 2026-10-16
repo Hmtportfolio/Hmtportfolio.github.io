@@ -27,7 +27,7 @@ if (project.thumbnail) {
 <div class="project-card" data-type={project.type} data-project-id={project.id}>
   <div class="project-thumb">
     {thumbType === 'thumbnail' || thumbType === 'image' ? (
-      <img src={thumbSrc} alt={thumbAlt} loading="lazy" decoding="async" />
+      <img src={thumbSrc} alt={thumbAlt} loading="lazy" decoding="async" width="600" height="400" />
     ) : thumbType === 'video' ? (
       <video data-src={thumbSrc} class="thumb-video" muted loop playsinline preload="none"></video>
     ) : (

@@ -8,7 +8,7 @@ const rawProjects = [
     typeLabel: "3D / Game Trailer",
     date: "2026",
     tools: "Blender, Rigify, Technical Art, Animation",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
+    thumbnail: "/thumbnails/chroma.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png", alt: "Chroma project poster" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png", alt: "Chroma — Protagonist 3D model turnaround" },
@@ -43,7 +43,7 @@ const rawProjects = [
     typeLabel: "3D",
     date: "Nov 2025",
     tools: "ZBrush, Maya, Substance 3D Painter, Blender",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/(Thumbnail).png",
+    thumbnail: "/thumbnails/mana.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — idle pose" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — angry pose" },
@@ -81,6 +81,7 @@ const rawProjects = [
     typeLabel: "2D / Mural",
     date: "Aug 2025 – Sep 2025",
     tools: "Photoshop, Illustrator, On-site mural painting",
+    thumbnail: "/thumbnails/green-summer.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Finished Green Summer 2025 mural on-site, wide view" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Finished Green Summer 2025 mural, close-up detail" },
@@ -104,6 +105,7 @@ const rawProjects = [
     typeLabel: "2D / Animation",
     date: "July 2025 – Sep 2025",
     tools: "Clip Studio Paint, After Effects",
+    thumbnail: "/thumbnails/regretful-colors.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png", alt: "Regretful Colors film poster, version 1 — environmental awareness theme" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Regretful Colors film poster, version 2 — environmental awareness theme" }
@@ -127,7 +129,7 @@ const rawProjects = [
     typeLabel: "2D",
     date: "Jan 2025",
     tools: "Clip Studio Paint, Word, Canva, Excel",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/(Thumbnail).png",
+    thumbnail: "/thumbnails/definitely-not-late.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png", alt: "Definitely Not Gonna Late! — Storyboard Page 2" },
@@ -142,7 +144,7 @@ const rawProjects = [
     video: "",
     pdfs: [
       { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-      { label: "Script (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+      { label: "Pitch deck", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
     ],
     desc: "Short animation film project.",
     bullets: [
@@ -158,7 +160,7 @@ const rawProjects = [
     typeLabel: "2D",
     date: "Oct 2024",
     tools: "Clip Studio Paint",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
+    thumbnail: "/thumbnails/puss-in-boots.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots illustrated in multiple action poses and expressions" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" },
@@ -208,6 +210,7 @@ const rawProjects = [
     typeLabel: "2D / Illustration",
     date: "2024 – 2025",
     tools: "Clip Studio Paint",
+    thumbnail: "/thumbnails/illustration-works.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png", alt: "Group illustration of three characters in a playful pose, pastel color palette" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png", alt: "Demon-eared character design in a suit, with rough sketch studies of expressions and poses" },

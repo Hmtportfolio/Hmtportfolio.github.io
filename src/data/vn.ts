@@ -8,7 +8,7 @@ const rawProjects = [
     typeLabel: "3D / Game Trailer",
     date: "2026",
     tools: "Blender, Rigify, Technical Art, Animation",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
+    thumbnail: "/thumbnails/chroma.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png", alt: "Áp phích dự án Chroma" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png", alt: "Chroma — Tạo hình 3D nhân vật chính" },
@@ -43,7 +43,7 @@ const rawProjects = [
     typeLabel: "3D",
     date: "Tháng 11/2025",
     tools: "ZBrush, Maya, Substance 3D Painter, Blender",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/(Thumbnail).png",
+    thumbnail: "/thumbnails/mana.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — dáng đứng yên" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — dáng giận dữ" },
@@ -80,6 +80,7 @@ const rawProjects = [
     typeLabel: "2D / Tranh tường",
     date: "Tháng 8/2025 – Tháng 9/2025",
     tools: "Photoshop, Illustrator, Vẽ tranh tường hiện trường",
+    thumbnail: "/thumbnails/green-summer.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg", alt: "Tranh tường Mùa Hè Xanh 2025 đã hoàn thành, góc rộng" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg", alt: "Tranh tường Mùa Hè Xanh 2025, chi tiết cận cảnh" },
@@ -103,6 +104,7 @@ const rawProjects = [
     typeLabel: "2D / Hoạt hình",
     date: "Tháng 7/2025 – Tháng 9/2025",
     tools: "Clip Studio Paint, After Effects",
+    thumbnail: "/thumbnails/regretful-colors.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png", alt: "Áp phích phim Sắc Màu Hối Hận, phiên bản 1 — chủ đề bảo vệ môi trường" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Áp phích phim Sắc Màu Hối Hận, phiên bản 2 — chủ đề bảo vệ môi trường" }
@@ -126,7 +128,7 @@ const rawProjects = [
     typeLabel: "2D",
     date: "Tháng 1/2025",
     tools: "Clip Studio Paint, Word, Canva, Excel",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/(Thumbnail).png",
+    thumbnail: "/thumbnails/definitely-not-late.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png", alt: "Chắc Chắn Không Trễ! — Storyboard trang 2" },
@@ -141,7 +143,7 @@ const rawProjects = [
     video: "",
     pdfs: [
       { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-      { label: "Kịch bản (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+      { label: "Pitch deck", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
     ],
     desc: "Dự án phim hoạt hình ngắn.",
     bullets: [
@@ -157,7 +159,7 @@ const rawProjects = [
     typeLabel: "2D",
     date: "Tháng 10/2024",
     tools: "Clip Studio Paint",
-    thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
+    thumbnail: "/thumbnails/puss-in-boots.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots với nhiều tư thế hành động và biểu cảm" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" },
@@ -207,6 +209,7 @@ const rawProjects = [
     typeLabel: "2D / Minh họa",
     date: "2024 – 2025",
     tools: "Clip Studio Paint",
+    thumbnail: "/thumbnails/illustration-works.webp",
     images: [
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png", alt: "Minh họa nhóm ba nhân vật trong tư thế vui tươi, tông màu pastel" },
       { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png", alt: "Thiết kế nhân vật tai quỷ trong trang phục vest, kèm phác thảo biểu cảm và tư thế" },

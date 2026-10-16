@@ -79,18 +79,22 @@ describe('Performance, SEO & Bundle Budget Verification (No Assumptions)', () =>
     expect(enHtml).toContain('rel="preconnect" href="https://fonts.googleapis.com"');
 
     // Check canonical & hreflang
-    expect(enHtml).toContain('rel="canonical" href="https://hmtportfolio.pages.dev/"');
-    expect(enHtml).toContain('rel="alternate" hreflang="vi" href="https://hmtportfolio.pages.dev/vn/"');
+    expect(enHtml).toContain('rel="canonical" href="https://hmtportfolio.github.io/"');
+    expect(enHtml).toContain('rel="alternate" hreflang="vi" href="https://hmtportfolio.github.io/vn/"');
 
     // Check FOUC prevention inline script exists
     expect(enHtml).toContain("document.documentElement.setAttribute('data-theme', theme);");
 
-    // Check that modal video tags have preload="metadata" to avoid eager buffering
-    expect(enHtml).toContain('preload="metadata"');
+    // Check that modal video tags have preload="none" and poster to avoid unneeded buffering
+    expect(enHtml).toContain('preload="none"');
+    expect(enHtml).toContain('poster="/thumbnails/');
 
-    // Check that images have loading="lazy" and decoding="async"
+    // Check that card images have loading="lazy" and decoding="async"
     expect(enHtml).toContain('loading="lazy"');
     expect(enHtml).toContain('decoding="async"');
+
+    // Check that above-the-fold avatar has eager loading and high priority
+    expect(enHtml).toContain('class="avatar" src="/avatar.webp" alt="Hoang Minh Thien" loading="eager" fetchpriority="high"');
   });
 
   it('verifies static assets exist at dist root for GitHub Pages', () => {

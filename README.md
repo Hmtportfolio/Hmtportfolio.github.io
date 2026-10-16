@@ -4,10 +4,11 @@ Modern, high-performance artist & illustrator portfolio built with [Astro](https
 
 ## 🚀 Performance Highlights
 
+- **99.6% Reduction in Projects Grid Initial Payload**: Shrunk card thumbnails from **73.8 MB** of uncompressed print masters down to **261 KB** of co-located 600px WebP assets.
 - **89.0% Reduction in Client JavaScript**: Shrunk from **43.1 KB** monolithic client script down to **4.7 KB** of modular client islands.
 - **100% Pre-rendered Static HTML**: Full semantic HTML and SEO indexability for all projects, bio, skills, education, and services (eliminating the old empty DOM shell).
 - **Static Multi-language Support**: Separate pre-rendered routes for English (`/`) and Vietnamese (`/vn/`) with `hreflang` tags.
-- **Automated Performance & Bundle Budgets**: Automated tests enforce that client JS stays under 10 KB, all images have `loading="lazy"` and `decoding="async"`, and media preconnects are present.
+- **Automated Performance & Bundle Budgets**: Automated tests enforce that client JS stays under 10 KB, project videos use `preload="none"` with posters, card images have `loading="lazy"`, and above-the-fold avatar uses `loading="eager"`.
 
 ---
 
