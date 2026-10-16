@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloudflare R2 Image Uploader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="nav-left">
+        <div class="app-logo">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
+            <path d="M12 12v9" />
+            <path d="m16 16-4-4-4 4" />
+          </svg>
+          <div class="logo-title">
+            <span class="brand">Cloudflare R2</span>
+            <span class="sub">Asset & Image Uploader</span>
+          </div>
+        </div>
+        <div id="connection-badge" class="badge badge-warning">
+          <span class="badge-dot"></span>
+          <span id="badge-text">Checking config...</span>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <button id="btn-open-explorer" class="btn btn-secondary btn-sm" title="Browse files already in R2">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          Bucket Explorer
+        </button>
+        <button id="btn-open-settings" class="btn btn-secondary btn-sm" title="Configure R2 Credentials">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Settings
+        </button>
+        <button id="theme-toggle" class="btn btn-icon" title="Toggle Theme">🌓</button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+      <!-- Alert Banner if not configured -->
+      <div id="unconfigured-banner" class="banner banner-warning" style="display: none;">
+        <div class="banner-content">
+          <strong>⚠️ Cloudflare R2 credentials needed</strong>
+          <span>Please set your Account ID, Access Key ID, and Secret Key to start uploading.</span>
+        </div>
+        <button id="btn-banner-settings" class="btn btn-primary btn-sm">Configure Now</button>
+      </div>
+
+      <!-- Top Section: Destination Folder -->
+      <section class="card destination-card">
+        <div class="card-header">
+          <div class="section-title">
+            <span class="step-num">1</span>
+            <h2>Specify Destination Folder</h2>
+          </div>
+          <span class="helper-text">Where in the bucket will your images be stored?</span>
+        </div>
+        <div class="card-body">
+          <div class="folder-input-wrapper">
+            <div class="folder-prefix-icon">📁</div>
+            <input 
+              type="text" 
+              id="folder-input" 
+              class="folder-input" 
+              placeholder="e.g. Chroma, Illustration works, 2026/Wall Design (leave empty for root /)"
+              autocomplete="off"
+            />
+            <button id="btn-clear-folder" class="btn btn-icon btn-sm" title="Clear folder">✕</button>
+          </div>
+
+          <!-- Suggested Chips -->
+          <div class="folder-chips-container">
+            <span class="chips-label">Quick select:</span>
+            <div id="folder-chips" class="folder-chips">
+              <button class="chip" data-folder="">/ (Root)</button>
+              <button class="chip" data-folder="Chroma">Chroma</button>
+              <button class="chip" data-folder="Illustration works">Illustration works</button>
+              <button class="chip" data-folder="Regretful Colors">Regretful Colors</button>
+              <button class="chip" data-folder="Mana the cute Battle Maid">Mana the cute Battle Maid</button>
+              <button class="chip" data-folder="Reimagine Puss in Boots The Last Wish">Reimagine Puss in Boots</button>
+              <button class="chip" data-folder="Green Summer 2025 - Wall Design">Green Summer 2025</button>
+            </div>
+          </div>
+
+          <!-- Live Path Preview -->
+          <div class="destination-preview">
+            <span class="preview-label">Destination URL Preview:</span>
+            <code id="destination-path-preview">https://.../<span>filename.jpg</span></code>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2: Dropzone & File Queue -->
+      <section class="card upload-card">
+        <div class="card-header">
+          <div class="section-title">
+            <span class="step-num">2</span>
+            <h2>Select or Drop Images</h2>
+          </div>
+          <span class="helper-text">Supports PNG, JPG, WEBP, GIF, SVG, MP4, and PDF (Single or Multiple)</span>
+        </div>
+        <div class="card-body">
+          <!-- Drop Area -->
+          <div id="dropzone" class="dropzone">
+            <input 
+              type="file" 
+              id="file-input" 
+              class="file-input-hidden" 
+              multiple 
+              accept="image/*,video/*,application/pdf"
+            />
+            <div class="dropzone-content">
+              <div class="dropzone-icon">
+                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+                  <circle cx="9" cy="9" r="2"/>
+                  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                </svg>
+              </div>
+              <div class="dropzone-text">
+                <p class="dropzone-title">Drag & drop images here, or <span class="highlight">browse files</span></p>
+                <p class="dropzone-hint">You can also paste images directly from your clipboard (<kbd>Ctrl+V</kbd>)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Queue Management Header (Hidden when queue is empty) -->
+          <div id="queue-header" class="queue-header" style="display: none;">
+            <div class="queue-stats">
+              <span id="queue-count">0 files selected</span>
+              <span class="queue-divider">•</span>
+              <span id="queue-total-size">0 MB</span>
+            </div>
+            <div class="queue-actions">
+              <button id="btn-clear-queue" class="btn btn-secondary btn-sm">Clear Queue</button>
+              <button id="btn-upload-all" class="btn btn-primary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                Upload All Files (<span id="btn-upload-count">0</span>)
+              </button>
+            </div>
+          </div>
+
+          <!-- Overall Progress Bar -->
+          <div id="overall-progress-wrapper" class="overall-progress-wrapper" style="display: none;">
+            <div class="progress-bar-container">
+              <div id="overall-progress-bar" class="progress-bar-fill" style="width: 0%"></div>
+            </div>
+            <span id="overall-progress-text">Uploading...</span>
+          </div>
+
+          <!-- Queue Grid / Items List -->
+          <div id="file-queue-list" class="file-queue-list"></div>
+        </div>
+      </section>
+
+      <!-- Step 3: Upload Results & Copy Tool -->
+      <section id="results-card" class="card results-card" style="display: none;">
+        <div class="card-header">
+          <div class="section-title">
+            <span class="step-num">3</span>
+            <h2>Successfully Uploaded Files</h2>
+          </div>
+          <div class="copy-button-group">
+            <button id="btn-copy-all-urls" class="btn btn-secondary btn-sm" title="Copy all public URLs (one per line)">
+              📋 Copy Public URLs
+            </button>
+            <button id="btn-copy-all-paths" class="btn btn-secondary btn-sm" title="Copy all bucket paths/keys (one per line)">
+              📋 Copy Bucket Paths
+            </button>
+            <button id="btn-copy-json" class="btn btn-secondary btn-sm" title="Copy as JSON array">
+              📋 Copy JSON
+            </button>
+            <button id="btn-copy-markdown" class="btn btn-secondary btn-sm" title="Copy as Markdown ![alt](url)">
+              📋 Markdown
+            </button>
+            <button id="btn-clear-results" class="btn btn-icon btn-sm" title="Clear results list">✕</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="results-list" class="results-list"></div>
+          
+          <details class="raw-export-box">
+            <summary>View Raw Export Text (URLs &amp; Paths)</summary>
+            <div class="raw-export-inner">
+              <label>Public URLs (for portfolio .txt files):</label>
+              <textarea id="results-textarea" class="results-textarea" readonly rows="4" placeholder="Uploaded URLs will appear here..."></textarea>
+              <label style="margin-top:0.5rem;">Bucket Keys / Paths:</label>
+              <textarea id="results-paths-textarea" class="results-textarea" readonly rows="3" placeholder="Bucket keys will appear here..."></textarea>
+            </div>
+          </details>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- SETTINGS MODAL -->
+    <div id="modal-settings" class="modal-overlay" style="display: none;">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>Cloudflare R2 Configuration</h3>
+          <button id="btn-close-settings" class="btn btn-icon">✕</button>
+        </div>
+        <form id="settings-form" class="modal-body">
+          <p class="settings-intro">
+            Connect to your Cloudflare R2 bucket. Your credentials are saved securely in your local <code>.env</code> file.
+          </p>
+
+          <div class="form-group">
+            <label for="cfg-account-id">Cloudflare Account ID <span class="required">*</span></label>
+            <input type="text" id="cfg-account-id" required placeholder="e.g. 58ba3247d6ee441b9218b20100871e4c" />
+            <small>Found in Cloudflare Dashboard URL or under R2 overview page</small>
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-bucket-name">Bucket Name <span class="required">*</span></label>
+            <input type="text" id="cfg-bucket-name" required placeholder="e.g. portfolio-assets or your bucket name" />
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-access-key">Access Key ID <span class="required">*</span></label>
+            <input type="text" id="cfg-access-key" required placeholder="e.g. a7f68... or 32-character key" />
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-secret-key">Secret Access Key <span class="required">*</span></label>
+            <input type="password" id="cfg-secret-key" required placeholder="e.g. 64-character secret key" />
+            <small id="secret-notice" style="display:none; color: var(--text-muted);">Existing secret is saved. Leave blank or unchanged to keep it.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-public-domain">Public Domain / r2.dev URL <span class="required">*</span></label>
+            <input type="text" id="cfg-public-domain" required placeholder="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev" />
+            <small>The public R2 URL or custom domain used to view files</small>
+          </div>
+
+          <div id="test-connection-result" class="test-result" style="display: none;"></div>
+
+          <div class="modal-footer">
+            <button type="button" id="btn-test-connection" class="btn btn-secondary">
+              ⚡ Test Connection
+            </button>
+            <button type="submit" id="btn-save-settings" class="btn btn-primary">
+              💾 Save Settings
+            </button>
+          </div>
+
+          <details class="r2-help-box">
+            <summary>Where do I find these credentials in Cloudflare?</summary>
+            <ol>
+              <li>Go to <a href="https://dash.cloudflare.com/" target="_blank" rel="noreferrer">Cloudflare Dashboard</a> &rarr; <strong>R2</strong>.</li>
+              <li>Your <strong>Account ID</strong> is displayed on the right sidebar of the R2 overview.</li>
+              <li>Click <strong>Manage R2 API Tokens</strong> on the right sidebar &rarr; <strong>Create API token</strong>.</li>
+              <li>Select <strong>Object Read & Write</strong> permissions, choose your bucket, and click <strong>Create API Token</strong>.</li>
+              <li>Copy the <strong>Access Key ID</strong> and <strong>Secret Access Key</strong> into this form!</li>
+              <li>In your bucket settings, ensure <strong>R2.dev subdomain</strong> or Custom Domain is enabled to get public links.</li>
+            </ol>
+          </details>
+        </form>
+      </div>
+    </div>
+
+    <!-- BUCKET EXPLORER MODAL -->
+    <div id="modal-explorer" class="modal-overlay" style="display: none;">
+      <div class="modal-container modal-lg">
+        <div class="modal-header">
+          <h3>Bucket Explorer</h3>
+          <button id="btn-close-explorer" class="btn btn-icon">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="explorer-bar">
+            <input type="text" id="explorer-filter-input" placeholder="Filter by folder or filename..." />
+            <button id="btn-refresh-explorer" class="btn btn-secondary btn-sm">🔄 Refresh</button>
+          </div>
+          <div id="explorer-items" class="explorer-items">
+            <div class="loading-state">Loading bucket items...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
