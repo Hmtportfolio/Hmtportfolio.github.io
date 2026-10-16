@@ -1,0 +1,18 @@
+---
+interface Props {
+  nav: {
+    about: string;
+    projects: string;
+    services: string;
+    contact: string;
+  };
+}
+
+const { nav } = Astro.props;
+---
+<nav class="nav-tabs" aria-label="Main Navigation">
+  <button class="nav-btn active" data-tab="about" type="button">{nav.about}</button>
+  <button class="nav-btn" data-tab="projects" type="button">{nav.projects}</button>
+  <button class="nav-btn" data-tab="services" type="button">{nav.services}</button>
+  <button class="nav-btn" data-tab="contact" type="button">{nav.contact}</button>
+</nav>

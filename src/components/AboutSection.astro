@@ -1,0 +1,63 @@
+---
+import type { AboutSection } from '../data/schema';
+
+interface Props {
+  about: AboutSection;
+}
+
+const { about } = Astro.props;
+---
+<section class="tab-panel active" id="tab-about" aria-labelledby="about-name">
+  <div class="about-header">
+    <h1 id="about-name">{about.name}</h1>
+    <img
+      class="avatar"
+      src="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/avatar.jpg"
+      alt={about.name}
+      loading="lazy"
+      decoding="async"
+      width="120"
+      height="120"
+    />
+  </div>
+  <p class="subtitle" id="about-role">{about.role}</p>
+
+  <div class="card">
+    <div class="card-title">{about.education.title}</div>
+    <div class="card-text">
+      {about.education.items.map((it) => (
+        <div style="margin-bottom:14px">
+          <div style="font-weight:600;font-size:1.08rem">{it.name}</div>
+          <div class="card-meta">{it.meta}</div>
+          <div class="card-text">{it.desc}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">{about.experience.title}</div>
+    <div class="card-text">
+      {about.experience.items.map((it) => (
+        <div style="margin-bottom:18px">
+          <div style="font-weight:600;font-size:1.08rem">{it.title}</div>
+          <div class="card-meta">{it.meta}</div>
+          <ul class="card-list">
+            {it.bullets.map((b) => (
+              <li>{b}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">{about.skills.title}</div>
+    <div class="tags">
+      {about.skills.tags.map((t) => (
+        <span class="tag">{t}</span>
+      ))}
+    </div>
+  </div>
+</section>

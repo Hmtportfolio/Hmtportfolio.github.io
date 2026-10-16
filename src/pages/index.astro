@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AboutSection from '../components/AboutSection.astro';
+import ProjectsSection from '../components/ProjectsSection.astro';
+import ServicesSection from '../components/ServicesSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import { enData } from '../data/en';
+
+const title = "Hoang Minh Thien — Portfolio";
+const description = "Hoang Minh Thien — Artist & Illustrator portfolio, 2D & 3D character design, storyboard, and mural work.";
+const canonicalUrl = "https://hmtportfolio.github.io/";
+---
+<BaseLayout
+  title={title}
+  description={description}
+  lang="en"
+  canonicalUrl={canonicalUrl}
+  data={enData}
+>
+  <AboutSection about={enData.about} />
+  <ProjectsSection
+    title={enData.projects.title}
+    filters={enData.projects.filters}
+    items={enData.projects.items}
+  />
+  <ServicesSection
+    title={enData.services.title}
+    items={enData.services.items}
+  />
+  <ContactSection
+    title={enData.contact.title}
+    subtitle={enData.contact.subtitle}
+    items={enData.contact.items}
+  />
+</BaseLayout>

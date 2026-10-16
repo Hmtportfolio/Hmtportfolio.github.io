@@ -4,8 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "uploader": "npm --prefix uploader run dev",
-    "uploader:start": "npm --prefix uploader start",
-    "dev": "npm --prefix uploader run dev"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "uploader": "pnpm --dir uploader dev",
+    "uploader:start": "pnpm --dir uploader start"
+  },
+  "dependencies": {
+    "astro": "7.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "happy-dom": "21.0.3",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
   }
 }

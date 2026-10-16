@@ -1,0 +1,45 @@
+:root {
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  --accent: #d97706;
+  --accent-light: #fef3c7;
+  --border: #e5e5e5;
+  --shadow: 0 4px 24px rgba(0,0,0,0.06);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --surface: #1e1e1e;
+  --text: #f2f2f2;
+  --text-secondary: #b3b3b3;
+  --text-tertiary: #8a8a8a;
+  --accent: #f59e0b;
+  --accent-light: #3a2c12;
+  --border: #333333;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* Dark mode: overrides for elements that don't rely purely on tokens */
+:root[data-theme="dark"] header { background: rgba(18,18,18,0.85); }
+:root[data-theme="dark"] .nav-btn.active,
+:root[data-theme="dark"] .chip.active { color: #121212; }
+:root[data-theme="dark"] .project-thumb,
+:root[data-theme="dark"] .modal-gallery img,
+:root[data-theme="dark"] .modal-img {
+  background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+}
+:root[data-theme="dark"] .tag.secondary { background: #374151; color: #d1d5db; }
+:root[data-theme="dark"] .tag.type-2d { background: #1e3a5f; color: #93c5fd; }
+:root[data-theme="dark"] .tag.type-3d { background: #4a1942; color: #f9a8d4; }
+
+/* Scrollbars in dark mode */
+:root[data-theme="dark"] { scrollbar-color: #4a4a4a #1e1e1e; }
+:root[data-theme="dark"] ::-webkit-scrollbar { width: 12px; height: 12px; }
+:root[data-theme="dark"] ::-webkit-scrollbar-track { background: #1e1e1e; }
+:root[data-theme="dark"] ::-webkit-scrollbar-thumb { background: #4a4a4a; border-radius: 6px; border: 3px solid #1e1e1e; }
+:root[data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: #5a5a5a; }

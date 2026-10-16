@@ -1,0 +1,41 @@
+---
+import type { Project } from '../data/schema';
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+
+let thumbType: 'thumbnail' | 'image' | 'video' | 'placeholder' = 'placeholder';
+let thumbSrc = '';
+let thumbAlt = '';
+
+if (project.thumbnail) {
+  thumbType = 'thumbnail';
+  thumbSrc = project.thumbnail;
+  thumbAlt = `${project.name} — project poster`;
+} else if (project.images && project.images.length > 0) {
+  thumbType = 'image';
+  thumbSrc = project.images[0].src;
+  thumbAlt = project.images[0].alt;
+} else if (project.videos && project.videos.length > 0) {
+  thumbType = 'video';
+  thumbSrc = project.videos[0];
+}
+---
+<div class="project-card" data-type={project.type} data-project-id={project.id}>
+  <div class="project-thumb">
+    {thumbType === 'thumbnail' || thumbType === 'image' ? (
+      <img src={thumbSrc} alt={thumbAlt} loading="lazy" decoding="async" />
+    ) : thumbType === 'video' ? (
+      <video data-src={thumbSrc} class="thumb-video" muted loop playsinline preload="none"></video>
+    ) : (
+      <div class="placeholder">{project.name[0]}</div>
+    )}
+  </div>
+  <div class="project-info">
+    <div class="project-name">{project.name}</div>
+    <div class="project-type">{project.typeLabel} · {project.date}</div>
+  </div>
+</div>

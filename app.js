@@ -53,7 +53,18 @@ const DATA = {
           id: "p7", name: "Chroma", type: "3d", typeLabel: "3D / Game Trailer",
           date: "2026", tools: "Blender, Rigify, Technical Art, Animation",
           thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
-          images: [], videoFirst: true,
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png", alt: "Chroma project poster" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png", alt: "Chroma — Protagonist 3D model turnaround" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.png", alt: "Chroma — Antagonist 3D model turnaround" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.png", alt: "Chroma — World building and environment angle 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.png", alt: "Chroma — Environment concept art" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.png", alt: "Chroma — World building and environment angle 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.png", alt: "Chroma — Cinematic animation key shot 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.png", alt: "Chroma — Cinematic animation key shot 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.png", alt: "Chroma — Cinematic animation key shot 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.png", alt: "Chroma — Cinematic animation key shot 4" }
+          ], videoFirst: true,
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Trailer%20CHROMA_nh%C3%B3m%202.mp4",
           pdfs: [
             { label: "Game Design Document (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Game%20design%20document_CHROMA.pdf" }
@@ -71,11 +82,21 @@ const DATA = {
         {
           id: "p2", name: "Mana the Cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Nov 2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/(Thumbnail).png",
           images: [
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — idle pose" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — angry pose" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png", alt: "Mana the Cute Battle Maid — minion pose" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — chill pose" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — chill pose" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.png", alt: "Mana the Cute Battle Maid — Production Process Page 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.png", alt: "Mana the Cute Battle Maid — Production Process Page 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.png", alt: "Mana the Cute Battle Maid — Production Process Page 4" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.png", alt: "Mana the Cute Battle Maid — Production Process Page 5" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.png", alt: "Mana the Cute Battle Maid — Production Process Page 6" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.png", alt: "Mana the Cute Battle Maid — Production Process Page 7" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.png", alt: "Mana the Cute Battle Maid — Production Process Page 8" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.png", alt: "Mana the Cute Battle Maid — Production Process Page 9" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.png", alt: "Mana the Cute Battle Maid — Production Process Page 10" }
           ],
           video: [
             "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/final.mp4",
@@ -119,7 +140,9 @@ const DATA = {
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Regretful Colors film poster, version 2 — environmental awareness theme" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Short%20film%20S%E1%BA%AFc%20m%C3%A0u%20h%E1%BB%91i%20h%E1%BA%ADn.mp4",
-          pdfs: [],
+          pdfs: [
+            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Behind%20the%20scene/Storyboard.pdf" }
+          ],
           desc: "3-minute animated short film about environmental awareness through the creation of art.",
           bullets: [
             "Directed visual direction for the entire film",
@@ -131,13 +154,22 @@ const DATA = {
         {
           id: "p1", name: "Definitely Not Gonna Late!", type: "2d", typeLabel: "2D",
           date: "Jan 2025", tools: "Clip Studio Paint, Word, Canva, Excel",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/(Thumbnail).png",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Character design sheet for the Definitely Not Gonna Late! short film cast" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png", alt: "Definitely Not Gonna Late! — Storyboard Page 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.png", alt: "Definitely Not Gonna Late! — Storyboard Page 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.png", alt: "Definitely Not Gonna Late! — Storyboard Page 9" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.png", alt: "Definitely Not Gonna Late! — Storyboard Page 10" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.png", alt: "Definitely Not Gonna Late! — Animation preview shot 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.png", alt: "Definitely Not Gonna Late! — Animation preview shot 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.png", alt: "Definitely Not Gonna Late! — Animation preview shot 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.png", alt: "Definitely Not Gonna Late! — Animation preview shot 4" }
           ],
           video: "",
           pdfs: [
             { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-            { label: "Full Script (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+            { label: "Script (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
           ],
           desc: "Short animation film project.",
           bullets: [
@@ -149,9 +181,38 @@ const DATA = {
         {
           id: "p3", name: "Reimagine Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
           date: "Oct 2024", tools: "Clip Studio Paint",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
           images: [
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots illustrated in multiple action poses and expressions" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Redesigned protagonist and two antagonists for Reimagine Puss in Boots" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 10" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 11" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 12" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 13" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 14" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 15" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 16" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 17" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 18" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 19" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 20" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 21" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 22" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 23" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 24" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 25" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 26" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 27" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 28" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 29" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 30" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 31" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 33" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 34" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 35" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 36" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 37" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.jpg", alt: "Reimagine Puss in Boots — Concept Sheet Page 38" }
           ],
           video: "",
           pdfs: [
@@ -172,7 +233,7 @@ const DATA = {
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png", alt: "Girl reaching skyward through clouds with a small bird companion, dynamic pose" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png", alt: "Frieren fan art — elf mage floating over a field of blue flowers, staff in hand" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png", alt: "Isometric illustration of a cozy bedroom with a desk setup, bed, bookshelf, and TV" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/padorupado-.png", alt: "Chibi character in a Santa Claus outfit holding a small white creature plush" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.png", alt: "Illustration works compilation showcase" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png", alt: "Semi-realistic portrait painting study of a man in a red suit and tie" }
           ],
           video: "",
@@ -254,7 +315,18 @@ const DATA = {
           id: "p7", name: "Chroma", type: "3d", typeLabel: "3D / Game Trailer",
           date: "2026", tools: "Blender, Rigify, Technical Art, Animation",
           thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png",
-          images: [], videoFirst: true,
+          images: [
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png", alt: "Áp phích dự án Chroma" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png", alt: "Chroma — Tạo hình 3D nhân vật chính" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.png", alt: "Chroma — Tạo hình 3D nhân vật phản diện" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.png", alt: "Chroma — Thiết kế thế giới và phối cảnh môi trường góc 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.png", alt: "Chroma — Concept nghệ thuật môi trường" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.png", alt: "Chroma — Thiết kế thế giới và phối cảnh môi trường góc 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.png", alt: "Chroma — Phân cảnh diễn họa chính 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.png", alt: "Chroma — Phân cảnh diễn họa chính 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.png", alt: "Chroma — Phân cảnh diễn họa chính 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.png", alt: "Chroma — Phân cảnh diễn họa chính 4" }
+          ], videoFirst: true,
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Trailer%20CHROMA_nh%C3%B3m%202.mp4",
           pdfs: [
             { label: "Game Design Document (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Game%20design%20document_CHROMA.pdf" }
@@ -272,11 +344,21 @@ const DATA = {
         {
           id: "p2", name: "Mana the cute Battle Maid", type: "3d", typeLabel: "3D",
           date: "Tháng 11/2025", tools: "ZBrush, Maya, Substance 3D Painter, Blender",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/(Thumbnail).png",
           images: [
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png", alt: "Mana the Cute Battle Maid — dáng đứng yên" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png", alt: "Mana the Cute Battle Maid — dáng giận dữ" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png", alt: "Mana the Cute Battle Maid — dáng lính lâu la" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — dáng thư giãn" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png", alt: "Mana the Cute Battle Maid — dáng thư giãn" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 4" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 5" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 6" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 7" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 8" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 9" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.png", alt: "Mana the Cute Battle Maid — Quy trình sản xuất trang 10" }
           ],
           video: [
             "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/final.mp4",
@@ -319,7 +401,9 @@ const DATA = {
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png", alt: "Áp phích phim Sắc Màu Hối Hận, phiên bản 2 — chủ đề bảo vệ môi trường" }
           ],
           video: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Short%20film%20S%E1%BA%AFc%20m%C3%A0u%20h%E1%BB%91i%20h%E1%BA%ADn.mp4",
-          pdfs: [],
+          pdfs: [
+            { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Behind%20the%20scene/Storyboard.pdf" }
+          ],
           desc: "Phim hoạt hình ngắn 3 phút về đề tài môi trường thông qua nghệ thuật.",
           bullets: [
             "Đạo diễn hình ảnh cho toàn bộ phim",
@@ -331,13 +415,22 @@ const DATA = {
         {
           id: "p1", name: "Chắc Chắn Không Trễ!", type: "2d", typeLabel: "2D",
           date: "Tháng 1/2025", tools: "Clip Studio Paint, Word, Canva, Excel",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/(Thumbnail).png",
           images: [
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png", alt: "Bảng thiết kế tạo hình các nhân vật trong phim Chắc Chắn Không Trễ!" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png", alt: "Chắc Chắn Không Trễ! — Storyboard trang 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.png", alt: "Chắc Chắn Không Trễ! — Storyboard trang 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.png", alt: "Chắc Chắn Không Trễ! — Storyboard trang 9" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.png", alt: "Chắc Chắn Không Trễ! — Storyboard trang 10" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.png", alt: "Chắc Chắn Không Trễ! — Trích đoạn diễn họa 1" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.png", alt: "Chắc Chắn Không Trễ! — Trích đoạn diễn họa 2" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.png", alt: "Chắc Chắn Không Trễ! — Trích đoạn diễn họa 3" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.png", alt: "Chắc Chắn Không Trễ! — Trích đoạn diễn họa 4" }
           ],
           video: "",
           pdfs: [
             { label: "Storyboard (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Chacchankotre%20-%20Storyboard.pdf" },
-            { label: "Kịch bản đầy đủ (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
+            { label: "Kịch bản (PDF)", url: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Ch%E1%BA%AFc%20ch%E1%BA%AFn%20kh%C3%B4ng%20tr%E1%BB%85(Definitely%20not%20gonna%20late).pdf" }
           ],
           desc: "Dự án phim hoạt hình ngắn.",
           bullets: [
@@ -349,9 +442,38 @@ const DATA = {
         {
           id: "p3", name: "Tái thiết kế Puss in Boots: The Last Wish", type: "2d", typeLabel: "2D",
           date: "Tháng 10/2024", tools: "Clip Studio Paint",
+          thumbnail: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png",
           images: [
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png", alt: "Puss in Boots với nhiều tư thế hành động và biểu cảm" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" }
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png", alt: "Nhân vật chính và hai nhân vật phản diện được thiết kế lại" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 10" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 11" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 12" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 13" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 14" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 15" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 16" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 17" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 18" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 19" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 20" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 21" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 22" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 23" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 24" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 25" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 26" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 27" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 28" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 29" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 30" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 31" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 33" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 34" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 35" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 36" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 37" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.jpg", alt: "Tái thiết kế Puss in Boots — Bản vẽ concept trang 38" }
           ],
           video: "",
           pdfs: [
@@ -372,7 +494,7 @@ const DATA = {
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png", alt: "Cô gái vươn tay lên bầu trời giữa mây cùng một chú chim nhỏ, tư thế động" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png", alt: "Fan art Frieren — pháp sư elf bay lượn trên cánh đồng hoa xanh, tay cầm gậy phép" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png", alt: "Minh họa isometric phòng ngủ ấm cúng với bàn làm việc, giường, kệ sách và TV" },
-            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/padorupado-.png", alt: "Nhân vật chibi trong trang phục Ông già Noel ôm một sinh vật trắng nhỏ" },
+            { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.png", alt: "Bảng tổng hợp tranh minh họa sáng tạo" },
             { src: "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png", alt: "Tranh chân dung bán tả một người đàn ông mặc vest đỏ và thắt cà vạt" }
           ],
           video: "",

@@ -1,0 +1,95 @@
+---
+import type { Project } from '../data/schema';
+import ProjectCard from './ProjectCard.astro';
+
+interface Props {
+  title: string;
+  filters: {
+    all: string;
+    f2d: string;
+    f3d: string;
+  };
+  items: Project[];
+}
+
+const { title, filters, items } = Astro.props;
+---
+<section class="tab-panel" id="tab-projects" aria-labelledby="projects-title">
+  <h2 id="projects-title">{title}</h2>
+  <div class="filter-bar">
+    <button class="chip active" data-filter="all" id="filter-all" type="button">{filters.all}</button>
+    <button class="chip" data-filter="2d" id="filter-2d" type="button">{filters.f2d}</button>
+    <button class="chip" data-filter="3d" id="filter-3d" type="button">{filters.f3d}</button>
+  </div>
+  <div class="projects-grid" id="projects-grid">
+    {items.map((project) => (
+      <ProjectCard project={project} />
+    ))}
+  </div>
+
+  <!-- Pre-rendered static modal templates for each project (zero client JS data overhead) -->
+  {items.map((p) => (
+    <template id={`modal-template-${p.id}`} data-title={p.name}>
+      <div class="template-media">
+        {p.videoFirst ? (
+          <>
+            {p.videos.map((src) => (
+              <video class="modal-video" src={src} controls preload="metadata"></video>
+            ))}
+            {p.images.length === 1 && (
+              <img class="modal-img" src={p.images[0].src} alt={p.images[0].alt} decoding="async" />
+            )}
+            {p.images.length > 1 && (
+              <div class="modal-gallery">
+                {p.images.map((img) => (
+                  <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          <>
+            {p.images.length === 1 && (
+              <img class="modal-img" src={p.images[0].src} alt={p.images[0].alt} decoding="async" />
+            )}
+            {p.images.length > 1 && (
+              <div class="modal-gallery">
+                {p.images.map((img) => (
+                  <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+                ))}
+              </div>
+            )}
+            {p.videos.map((src) => (
+              <video class="modal-video" src={src} controls preload="metadata"></video>
+            ))}
+          </>
+        )}
+      </div>
+      <div class="template-desc">
+        <div class="tags" style="margin-bottom:10px">
+          <span class={`tag type-${p.type}`}>{p.typeLabel}</span>
+          <span class="tag secondary">{p.date}</span>
+          <span class="tag secondary">{p.tools}</span>
+        </div>
+        <p>{p.desc}</p>
+        {p.contributionsLabel && (
+          <p class="modal-contributions-title">{p.contributionsLabel}</p>
+        )}
+        <ul>
+          {p.bullets.map((b) => (
+            <li>{b}</li>
+          ))}
+        </ul>
+        {p.pdfs && p.pdfs.length > 0 && (
+          <div class="pdf-links">
+            {p.pdfs.map((f) => (
+              <a class="pdf-link" href={f.url} target="_blank" rel="noopener">
+                📄 {f.label}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </template>
+  ))}
+</section>

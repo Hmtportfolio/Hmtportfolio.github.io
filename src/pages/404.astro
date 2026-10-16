@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { enData } from '../data/en';
+
+const title = "Page Not Found — Hoang Minh Thien";
+const description = "The page you are looking for does not exist.";
+const canonicalUrl = "https://hmtportfolio.github.io/404.html";
+---
+<BaseLayout
+  title={title}
+  description={description}
+  lang="en"
+  canonicalUrl={canonicalUrl}
+  data={enData}
+>
+  <div style="text-align: center; padding: 80px 20px; max-width: 600px; margin: 0 auto;">
+    <div style="font-size: 5rem; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 16px;">404</div>
+    <h1 style="font-size: 1.8rem; margin-bottom: 12px;">Page Not Found</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 32px; font-size: 1.05rem;">
+      The page you're looking for doesn't exist or has been moved.
+    </p>
+    <a
+      href="/"
+      style="display: inline-block; padding: 12px 28px; background: var(--text); color: var(--bg); border-radius: var(--radius-sm); text-decoration: none; font-weight: 600; transition: opacity 0.2s;"
+      onmouseover="this.style.opacity='0.85'"
+      onmouseout="this.style.opacity='1'"
+    >
+      Return to Portfolio
+    </a>
+  </div>
+</BaseLayout>

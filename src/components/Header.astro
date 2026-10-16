@@ -1,0 +1,32 @@
+---
+import NavTabs from './NavTabs.astro';
+import LanguageSwitch from './LanguageSwitch.astro';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  nav: {
+    about: string;
+    projects: string;
+    services: string;
+    contact: string;
+  };
+  currentLang: 'en' | 'vi';
+}
+
+const { nav, currentLang } = Astro.props;
+---
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href={currentLang === 'en' ? '/' : '/vn/'} class="logo">
+        <span class="logo-dot"></span>
+        <span id="logo-text">HMT</span>
+      </a>
+      <NavTabs nav={nav} />
+      <div class="header-actions">
+        <LanguageSwitch currentLang={currentLang} />
+        <ThemeToggle />
+      </div>
+    </div>
+  </div>
+</header>

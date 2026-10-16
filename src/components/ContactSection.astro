@@ -1,0 +1,43 @@
+---
+import type { ContactItem } from '../data/schema';
+
+interface Props {
+  title: string;
+  subtitle: string;
+  items: ContactItem[];
+}
+
+const { title, subtitle, items } = Astro.props;
+---
+<section class="tab-panel" id="tab-contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">{title}</h2>
+  <p class="subtitle" id="contact-subtitle">{subtitle}</p>
+  <div class="contact-links" id="contact-body">
+    {items.map((c) => (
+      <div class="contact-row">
+        <div class="contact-icon">
+          {c.iconImage ? (
+            <img class="contact-icon-image" src={c.iconImage} alt="" loading="lazy" decoding="async" />
+          ) : (
+            c.icon
+          )}
+        </div>
+        <div>
+          <div class="contact-label">{c.label}</div>
+          {c.href ? (
+            <a
+              class="contact-value"
+              href={c.href}
+              target={c.href.startsWith('http') ? '_blank' : '_self'}
+              rel="noopener"
+            >
+              {c.value}
+            </a>
+          ) : (
+            <div class="contact-value">{c.value}</div>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

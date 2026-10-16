@@ -1,0 +1,22 @@
+---
+import type { ServiceItem } from '../data/schema';
+
+interface Props {
+  title: string;
+  items: ServiceItem[];
+}
+
+const { title, items } = Astro.props;
+---
+<section class="tab-panel" id="tab-services" aria-labelledby="services-title">
+  <h2 id="services-title">{title}</h2>
+  <div class="services-grid" id="services-grid">
+    {items.map((s) => (
+      <div class="service-card">
+        <div class="service-icon">{s.icon}</div>
+        <div class="service-title">{s.title}</div>
+        <div class="service-desc">{s.desc}</div>
+      </div>
+    ))}
+  </div>
+</section>

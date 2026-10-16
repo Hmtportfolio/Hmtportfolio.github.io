@@ -1,0 +1,28 @@
+# 1. Astro fingerprinted assets (immutable 1-year browser + CDN caching)
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 2. Service Worker (must revalidate on every check so updates propagate immediately)
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 3. HTML Pages (immediate revalidation so deployments are instant worldwide)
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/vn/
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 4. Search and metadata files (1-day cache)
+/robots.txt
+  Cache-Control: public, max-age=86400
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+
+# 5. Global Edge Security Headers
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

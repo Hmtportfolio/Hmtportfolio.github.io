@@ -1,0 +1,38 @@
+---
+interface Props {
+  currentLang: 'en' | 'vi';
+}
+
+const { currentLang } = Astro.props;
+---
+<div class="lang-switch">
+  <a
+    href="/"
+    class:list={['lang-btn', { active: currentLang === 'en' }]}
+    data-lang="en"
+    aria-label="English language"
+  >
+    EN
+  </a>
+  <a
+    href="/vn/"
+    class:list={['lang-btn', { active: currentLang === 'vi' }]}
+    data-lang="vi"
+    aria-label="Vietnamese language"
+  >
+    VN
+  </a>
+</div>
+
+<script>
+  // Preserve hash navigation across language switch
+  document.querySelectorAll<HTMLAnchorElement>('.lang-btn').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      if (window.location.hash) {
+        e.preventDefault();
+        const baseHref = link.getAttribute('href') || '/';
+        window.location.href = baseHref + window.location.hash;
+      }
+    });
+  });
+</script>

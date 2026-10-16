@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AboutSection from '../../components/AboutSection.astro';
+import ProjectsSection from '../../components/ProjectsSection.astro';
+import ServicesSection from '../../components/ServicesSection.astro';
+import ContactSection from '../../components/ContactSection.astro';
+import { vnData } from '../../data/vn';
+
+const title = "Hoàng Minh Thiện — Portfolio";
+const description = "Hoàng Minh Thiện — Họa sĩ & Minh họa portfolio, thiết kế nhân vật 2D & 3D, storyboard, và tranh tường.";
+const canonicalUrl = "https://hmtportfolio.github.io/vn/";
+---
+<BaseLayout
+  title={title}
+  description={description}
+  lang="vi"
+  canonicalUrl={canonicalUrl}
+  data={vnData}
+>
+  <AboutSection about={vnData.about} />
+  <ProjectsSection
+    title={vnData.projects.title}
+    filters={vnData.projects.filters}
+    items={vnData.projects.items}
+  />
+  <ServicesSection
+    title={vnData.services.title}
+    items={vnData.services.items}
+  />
+  <ContactSection
+    title={vnData.contact.title}
+    subtitle={vnData.contact.subtitle}
+    items={vnData.contact.items}
+  />
+</BaseLayout>

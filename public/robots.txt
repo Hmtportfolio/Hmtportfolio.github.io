@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hmtportfolio.github.io/sitemap.xml
