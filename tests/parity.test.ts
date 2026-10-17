@@ -48,7 +48,10 @@ describe('Legacy Data Parity Verification (Zero Data Loss)', () => {
         expect(modernProj.name).toBe(legacyProj.name);
         expect(modernProj.type).toBe(legacyProj.type);
         expect(modernProj.tools).toBe(legacyProj.tools);
-        expect(modernProj.images.map((img) => img.src)).toEqual(legacyProj.images.map((img: any) => img.src));
+        const expectedWebUrls = legacyProj.images.map((img: any) =>
+          img.src.replace(/\.(png|jpe?g)$/i, '.web.webp')
+        );
+        expect(modernProj.images.map((img) => img.src)).toEqual(expectedWebUrls);
         expect(modernProj.pdfs.map((pdf) => pdf.url)).toEqual(legacyProj.pdfs.map((pdf: any) => pdf.url));
         expect(modernProj.bullets).toEqual(legacyProj.bullets);
       });
@@ -77,7 +80,10 @@ describe('Legacy Data Parity Verification (Zero Data Loss)', () => {
         if (!modernProj) return;
 
         expect(modernProj.name).toBe(legacyProj.name);
-        expect(modernProj.images.map((img) => img.src)).toEqual(legacyProj.images.map((img: any) => img.src));
+        const expectedVnWebUrls = legacyProj.images.map((img: any) =>
+          img.src.replace(/\.(png|jpe?g)$/i, '.web.webp')
+        );
+        expect(modernProj.images.map((img) => img.src)).toEqual(expectedVnWebUrls);
         expect(modernProj.pdfs.map((pdf) => pdf.url)).toEqual(legacyProj.pdfs.map((pdf: any) => pdf.url));
         expect(modernProj.bullets).toEqual(legacyProj.bullets);
       });

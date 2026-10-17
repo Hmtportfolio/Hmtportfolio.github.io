@@ -2,13 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "bucketName": "thien-portfolio",
   "publicDomain": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev",
-  "syncedAt": "2026-10-16T16:04:36.229Z",
+  "syncedAt": "2026-10-17T11:10:14.179Z",
   "summary": {
-    "totalFiles": 95,
+    "totalFiles": 171,
     "totalFolders": 12,
     "rootFiles": 2
   },
-  "visualTree": "/ (Bucket Root) [2 direct files]\n├── Chroma [3 files]\n│   └── Other images [9 files]\n├── Definitely not gonna late! (Chac chan khong tre) [3 files]\n│   └── Other images [9 files]\n├── Illustration Works [8 files]\n│   └── Green Summer 2025 (MHX) Wall design [6 files]\n├── Mana the cute Battle Maid [7 files]\n│   └── Other images [10 files]\n├── Regretful Colors (Sac Mau Hoi Han) [3 files]\n│   └── Behind the scene [4 files]\n└── Reimagine Puss in Boots The Last Wish [3 files]\n    └── Other images [28 files]",
+  "visualTree": "/ (Bucket Root) [2 direct files]\n├── Chroma [4 files]\n│   └── Other images [18 files]\n├── Definitely not gonna late! (Chac chan khong tre) [4 files]\n│   └── Other images [17 files]\n├── Illustration Works [15 files]\n│   └── Green Summer 2025 (MHX) Wall design [11 files]\n├── Mana the cute Battle Maid [11 files]\n│   └── Other images [19 files]\n├── Regretful Colors (Sac Mau Hoi Han) [5 files]\n│   └── Behind the scene [4 files]\n└── Reimagine Puss in Boots The Last Wish [5 files]\n    └── Other images [56 files]",
   "rootFiles": [
     {
       "name": "avatar.jpg",
@@ -33,7 +33,7 @@
       "name": "Chroma",
       "parent": "",
       "depth": 0,
-      "fileCount": 3,
+      "fileCount": 4,
       "files": [
         {
           "name": "Game design document_CHROMA.pdf",
@@ -52,6 +52,14 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png"
         },
         {
+          "name": "Poster.web.webp",
+          "key": "Chroma/Poster.web.webp",
+          "folder": "Chroma",
+          "size": 226748,
+          "lastModified": "2026-10-17T11:02:18.146Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.web.webp"
+        },
+        {
           "name": "Trailer CHROMA_nhóm 2.mp4",
           "key": "Chroma/Trailer CHROMA_nhóm 2.mp4",
           "folder": "Chroma",
@@ -66,7 +74,7 @@
       "name": "Other images",
       "parent": "Chroma",
       "depth": 1,
-      "fileCount": 9,
+      "fileCount": 18,
       "files": [
         {
           "name": "1ModelProta.png",
@@ -77,12 +85,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png"
         },
         {
+          "name": "1ModelProta.web.webp",
+          "key": "Chroma/Other images/1ModelProta.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 53618,
+          "lastModified": "2026-10-17T11:02:20.108Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.web.webp"
+        },
+        {
           "name": "2ModelAnta.png",
           "key": "Chroma/Other images/2ModelAnta.png",
           "folder": "Chroma/Other images",
           "size": 433761,
           "lastModified": "2026-10-16T15:16:03.358Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.png"
+        },
+        {
+          "name": "2ModelAnta.web.webp",
+          "key": "Chroma/Other images/2ModelAnta.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 37596,
+          "lastModified": "2026-10-17T11:02:21.608Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.web.webp"
         },
         {
           "name": "3Thegioigoc1.png",
@@ -93,12 +117,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.png"
         },
         {
+          "name": "3Thegioigoc1.web.webp",
+          "key": "Chroma/Other images/3Thegioigoc1.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 116714,
+          "lastModified": "2026-10-17T11:02:23.632Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.web.webp"
+        },
+        {
           "name": "4.png",
           "key": "Chroma/Other images/4.png",
           "folder": "Chroma/Other images",
           "size": 683979,
           "lastModified": "2026-10-16T15:16:04.326Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.png"
+        },
+        {
+          "name": "4.web.webp",
+          "key": "Chroma/Other images/4.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 136264,
+          "lastModified": "2026-10-17T11:02:25.205Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.web.webp"
         },
         {
           "name": "5thegioigoc3.png",
@@ -109,12 +149,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.png"
         },
         {
+          "name": "5thegioigoc3.web.webp",
+          "key": "Chroma/Other images/5thegioigoc3.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 106214,
+          "lastModified": "2026-10-17T11:02:27.186Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.web.webp"
+        },
+        {
           "name": "Responsibleshots1.png",
           "key": "Chroma/Other images/Responsibleshots1.png",
           "folder": "Chroma/Other images",
           "size": 1737179,
           "lastModified": "2026-10-16T15:16:05.702Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.png"
+        },
+        {
+          "name": "Responsibleshots1.web.webp",
+          "key": "Chroma/Other images/Responsibleshots1.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 101876,
+          "lastModified": "2026-10-17T11:02:29.076Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.web.webp"
         },
         {
           "name": "Responsibleshots2.png",
@@ -125,6 +181,14 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.png"
         },
         {
+          "name": "Responsibleshots2.web.webp",
+          "key": "Chroma/Other images/Responsibleshots2.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 56294,
+          "lastModified": "2026-10-17T11:02:31.191Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.web.webp"
+        },
+        {
           "name": "Responsibleshots3.png",
           "key": "Chroma/Other images/Responsibleshots3.png",
           "folder": "Chroma/Other images",
@@ -133,12 +197,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.png"
         },
         {
+          "name": "Responsibleshots3.web.webp",
+          "key": "Chroma/Other images/Responsibleshots3.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 34194,
+          "lastModified": "2026-10-17T11:02:33.075Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.web.webp"
+        },
+        {
           "name": "Responsibleshots4.png",
           "key": "Chroma/Other images/Responsibleshots4.png",
           "folder": "Chroma/Other images",
           "size": 1673944,
           "lastModified": "2026-10-16T15:16:07.791Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.png"
+        },
+        {
+          "name": "Responsibleshots4.web.webp",
+          "key": "Chroma/Other images/Responsibleshots4.web.webp",
+          "folder": "Chroma/Other images",
+          "size": 66460,
+          "lastModified": "2026-10-17T11:02:35.116Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.web.webp"
         }
       ]
     },
@@ -147,7 +227,7 @@
       "name": "Definitely not gonna late! (Chac chan khong tre)",
       "parent": "",
       "depth": 0,
-      "fileCount": 3,
+      "fileCount": 4,
       "files": [
         {
           "name": "Chắc chắn không trễ(Definitely not gonna late).pdf",
@@ -172,6 +252,14 @@
           "size": 2361222,
           "lastModified": "2026-07-17T11:29:58.520Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png"
+        },
+        {
+          "name": "Character designs.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Character designs.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)",
+          "size": 80190,
+          "lastModified": "2026-10-17T11:03:22.375Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.web.webp"
         }
       ]
     },
@@ -180,7 +268,7 @@
       "name": "Other images",
       "parent": "Definitely not gonna late! (Chac chan khong tre)",
       "depth": 1,
-      "fileCount": 9,
+      "fileCount": 17,
       "files": [
         {
           "name": "(Thumbnail).png",
@@ -199,12 +287,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png"
         },
         {
+          "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 46476,
+          "lastModified": "2026-10-17T11:03:24.498Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.web.webp"
+        },
+        {
           "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
           "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
           "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
           "size": 3453543,
           "lastModified": "2026-10-16T15:24:46.236Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.png"
+        },
+        {
+          "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 79234,
+          "lastModified": "2026-10-17T11:03:26.826Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.web.webp"
         },
         {
           "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.png",
@@ -215,12 +319,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.png"
         },
         {
+          "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 91294,
+          "lastModified": "2026-10-17T11:03:29.162Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.web.webp"
+        },
+        {
           "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
           "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
           "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
           "size": 8120744,
           "lastModified": "2026-10-16T15:24:48.899Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.png"
+        },
+        {
+          "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 66406,
+          "lastModified": "2026-10-17T11:03:31.641Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.web.webp"
         },
         {
           "name": "Preview1.png",
@@ -231,12 +351,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.png"
         },
         {
+          "name": "Preview1.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview1.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 34412,
+          "lastModified": "2026-10-17T11:03:33.060Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.web.webp"
+        },
+        {
           "name": "Preview2.png",
           "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.png",
           "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
           "size": 280278,
           "lastModified": "2026-10-16T15:24:49.966Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.png"
+        },
+        {
+          "name": "Preview2.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 38674,
+          "lastModified": "2026-10-17T11:03:34.521Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.web.webp"
         },
         {
           "name": "Preview3.png",
@@ -247,12 +383,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.png"
         },
         {
+          "name": "Preview3.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview3.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 24180,
+          "lastModified": "2026-10-17T11:03:35.757Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.web.webp"
+        },
+        {
           "name": "Preview4.png",
           "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.png",
           "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
           "size": 230546,
           "lastModified": "2026-10-16T15:24:50.936Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.png"
+        },
+        {
+          "name": "Preview4.web.webp",
+          "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.web.webp",
+          "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+          "size": 44846,
+          "lastModified": "2026-10-17T11:03:37.328Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.web.webp"
         }
       ]
     },
@@ -261,7 +413,7 @@
       "name": "Illustration Works",
       "parent": "",
       "depth": 0,
-      "fileCount": 8,
+      "fileCount": 15,
       "files": [
         {
           "name": "AODtease.png",
@@ -272,12 +424,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png"
         },
         {
+          "name": "AODtease.web.webp",
+          "key": "Illustration Works/AODtease.web.webp",
+          "folder": "Illustration Works",
+          "size": 314646,
+          "lastModified": "2026-10-17T11:04:33.012Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.web.webp"
+        },
+        {
           "name": "ditri.png",
           "key": "Illustration Works/ditri.png",
           "folder": "Illustration Works",
           "size": 5614323,
           "lastModified": "2026-07-17T14:51:44.861Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png"
+        },
+        {
+          "name": "ditri.web.webp",
+          "key": "Illustration Works/ditri.web.webp",
+          "folder": "Illustration Works",
+          "size": 256968,
+          "lastModified": "2026-10-17T11:04:34.826Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.web.webp"
         },
         {
           "name": "fall2.png",
@@ -288,6 +456,14 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png"
         },
         {
+          "name": "fall2.web.webp",
+          "key": "Illustration Works/fall2.web.webp",
+          "folder": "Illustration Works",
+          "size": 165592,
+          "lastModified": "2026-10-17T11:04:37.195Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.web.webp"
+        },
+        {
           "name": "frieren love.png",
           "key": "Illustration Works/frieren love.png",
           "folder": "Illustration Works",
@@ -296,12 +472,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png"
         },
         {
+          "name": "frieren love.web.webp",
+          "key": "Illustration Works/frieren love.web.webp",
+          "folder": "Illustration Works",
+          "size": 503056,
+          "lastModified": "2026-10-17T11:04:41.134Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.web.webp"
+        },
+        {
           "name": "isometric.png",
           "key": "Illustration Works/isometric.png",
           "folder": "Illustration Works",
           "size": 7750677,
           "lastModified": "2026-07-17T14:51:45.488Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png"
+        },
+        {
+          "name": "isometric.web.webp",
+          "key": "Illustration Works/isometric.web.webp",
+          "folder": "Illustration Works",
+          "size": 107056,
+          "lastModified": "2026-10-17T11:04:43.538Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.web.webp"
         },
         {
           "name": "padorupado-.png",
@@ -320,12 +512,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png"
         },
         {
+          "name": "phoenix.web.webp",
+          "key": "Illustration Works/phoenix.web.webp",
+          "folder": "Illustration Works",
+          "size": 75032,
+          "lastModified": "2026-10-17T11:04:49.789Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.web.webp"
+        },
+        {
           "name": "tong.png",
           "key": "Illustration Works/tong.png",
           "folder": "Illustration Works",
           "size": 33433402,
           "lastModified": "2026-10-16T16:04:35.681Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.png"
+        },
+        {
+          "name": "tong.web.webp",
+          "key": "Illustration Works/tong.web.webp",
+          "folder": "Illustration Works",
+          "size": 224694,
+          "lastModified": "2026-10-17T11:04:48.424Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.web.webp"
         }
       ]
     },
@@ -334,7 +542,7 @@
       "name": "Green Summer 2025 (MHX) Wall design",
       "parent": "Illustration Works",
       "depth": 1,
-      "fileCount": 6,
+      "fileCount": 11,
       "files": [
         {
           "name": "6879675435854.mp4",
@@ -353,12 +561,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png"
         },
         {
+          "name": "KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+          "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+          "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+          "size": 42904,
+          "lastModified": "2026-10-17T11:03:09.623Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.web.webp"
+        },
+        {
           "name": "TƯỜNG 3 BỨC.png",
           "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.png",
           "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
           "size": 374492,
           "lastModified": "2026-07-17T11:33:17.873Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png"
+        },
+        {
+          "name": "TƯỜNG 3 BỨC.web.webp",
+          "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.web.webp",
+          "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+          "size": 48392,
+          "lastModified": "2026-10-17T11:03:11.385Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.web.webp"
         },
         {
           "name": "z6928459231212_33459fa428332fb275646e2049188a77.jpg",
@@ -369,6 +593,14 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg"
         },
         {
+          "name": "z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+          "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+          "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+          "size": 71990,
+          "lastModified": "2026-10-17T11:03:04.681Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp"
+        },
+        {
           "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
           "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
           "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
@@ -377,12 +609,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg"
         },
         {
+          "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+          "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+          "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+          "size": 90796,
+          "lastModified": "2026-10-17T11:03:06.274Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp"
+        },
+        {
           "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
           "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
           "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
           "size": 504385,
           "lastModified": "2026-07-17T11:33:19.147Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg"
+        },
+        {
+          "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+          "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+          "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+          "size": 53564,
+          "lastModified": "2026-10-17T11:03:07.961Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp"
         }
       ]
     },
@@ -391,7 +639,7 @@
       "name": "Mana the cute Battle Maid",
       "parent": "",
       "depth": 0,
-      "fileCount": 7,
+      "fileCount": 11,
       "files": [
         {
           "name": "chill.png",
@@ -400,6 +648,14 @@
           "size": 2752106,
           "lastModified": "2026-07-17T15:41:04.433Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png"
+        },
+        {
+          "name": "chill.web.webp",
+          "key": "Mana the cute Battle Maid/chill.web.webp",
+          "folder": "Mana the cute Battle Maid",
+          "size": 312616,
+          "lastModified": "2026-10-17T11:02:43.536Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.web.webp"
         },
         {
           "name": "final.mp4",
@@ -418,12 +674,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png"
         },
         {
+          "name": "Idoru3.web.webp",
+          "key": "Mana the cute Battle Maid/Idoru3.web.webp",
+          "folder": "Mana the cute Battle Maid",
+          "size": 286566,
+          "lastModified": "2026-10-17T11:02:37.507Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.web.webp"
+        },
+        {
           "name": "Okoru3.png",
           "key": "Mana the cute Battle Maid/Okoru3.png",
           "folder": "Mana the cute Battle Maid",
           "size": 2688647,
           "lastModified": "2026-07-17T15:41:04.187Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png"
+        },
+        {
+          "name": "Okoru3.web.webp",
+          "key": "Mana the cute Battle Maid/Okoru3.web.webp",
+          "folder": "Mana the cute Battle Maid",
+          "size": 306012,
+          "lastModified": "2026-10-17T11:02:39.437Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.web.webp"
         },
         {
           "name": "Process.pdf",
@@ -448,6 +720,14 @@
           "size": 2745546,
           "lastModified": "2026-07-17T15:41:04.087Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png"
+        },
+        {
+          "name": "Zako3.web.webp",
+          "key": "Mana the cute Battle Maid/Zako3.web.webp",
+          "folder": "Mana the cute Battle Maid",
+          "size": 306464,
+          "lastModified": "2026-10-17T11:02:41.510Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.web.webp"
         }
       ]
     },
@@ -456,7 +736,7 @@
       "name": "Other images",
       "parent": "Mana the cute Battle Maid",
       "depth": 1,
-      "fileCount": 10,
+      "fileCount": 19,
       "files": [
         {
           "name": "(Thumbnail).png",
@@ -475,12 +755,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.png"
         },
         {
+          "name": "Process_Page_02.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_02.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 94298,
+          "lastModified": "2026-10-17T11:02:45.862Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.web.webp"
+        },
+        {
           "name": "Process_Page_03.png",
           "key": "Mana the cute Battle Maid/Other images/Process_Page_03.png",
           "folder": "Mana the cute Battle Maid/Other images",
           "size": 1681253,
           "lastModified": "2026-10-16T15:28:22.929Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.png"
+        },
+        {
+          "name": "Process_Page_03.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_03.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 183210,
+          "lastModified": "2026-10-17T11:02:48.007Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.web.webp"
         },
         {
           "name": "Process_Page_04.png",
@@ -491,12 +787,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.png"
         },
         {
+          "name": "Process_Page_04.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_04.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 71730,
+          "lastModified": "2026-10-17T11:02:50.307Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.web.webp"
+        },
+        {
           "name": "Process_Page_05.png",
           "key": "Mana the cute Battle Maid/Other images/Process_Page_05.png",
           "folder": "Mana the cute Battle Maid/Other images",
           "size": 2014337,
           "lastModified": "2026-10-16T15:28:24.311Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.png"
+        },
+        {
+          "name": "Process_Page_05.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_05.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 168386,
+          "lastModified": "2026-10-17T11:02:52.369Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.web.webp"
         },
         {
           "name": "Process_Page_06.png",
@@ -507,12 +819,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.png"
         },
         {
+          "name": "Process_Page_06.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_06.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 126618,
+          "lastModified": "2026-10-17T11:02:54.415Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.web.webp"
+        },
+        {
           "name": "Process_Page_07.png",
           "key": "Mana the cute Battle Maid/Other images/Process_Page_07.png",
           "folder": "Mana the cute Battle Maid/Other images",
           "size": 2477545,
           "lastModified": "2026-10-16T15:28:26.470Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.png"
+        },
+        {
+          "name": "Process_Page_07.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_07.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 111536,
+          "lastModified": "2026-10-17T11:02:56.458Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.web.webp"
         },
         {
           "name": "Process_Page_08.png",
@@ -523,6 +851,14 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.png"
         },
         {
+          "name": "Process_Page_08.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_08.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 68614,
+          "lastModified": "2026-10-17T11:02:58.384Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.web.webp"
+        },
+        {
           "name": "Process_Page_09.png",
           "key": "Mana the cute Battle Maid/Other images/Process_Page_09.png",
           "folder": "Mana the cute Battle Maid/Other images",
@@ -531,12 +867,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.png"
         },
         {
+          "name": "Process_Page_09.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_09.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 70792,
+          "lastModified": "2026-10-17T11:03:00.646Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.web.webp"
+        },
+        {
           "name": "Process_Page_10.png",
           "key": "Mana the cute Battle Maid/Other images/Process_Page_10.png",
           "folder": "Mana the cute Battle Maid/Other images",
           "size": 2094046,
           "lastModified": "2026-10-16T15:28:28.306Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.png"
+        },
+        {
+          "name": "Process_Page_10.web.webp",
+          "key": "Mana the cute Battle Maid/Other images/Process_Page_10.web.webp",
+          "folder": "Mana the cute Battle Maid/Other images",
+          "size": 58842,
+          "lastModified": "2026-10-17T11:03:02.992Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.web.webp"
         }
       ]
     },
@@ -545,7 +897,7 @@
       "name": "Regretful Colors (Sac Mau Hoi Han)",
       "parent": "",
       "depth": 0,
-      "fileCount": 3,
+      "fileCount": 5,
       "files": [
         {
           "name": "Poster 1.png",
@@ -556,12 +908,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png"
         },
         {
+          "name": "Poster 1.web.webp",
+          "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 1.web.webp",
+          "folder": "Regretful Colors (Sac Mau Hoi Han)",
+          "size": 197072,
+          "lastModified": "2026-10-17T11:03:15.529Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.web.webp"
+        },
+        {
           "name": "Poster 2.png",
           "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.png",
           "folder": "Regretful Colors (Sac Mau Hoi Han)",
           "size": 27218162,
           "lastModified": "2026-07-17T11:34:15.972Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png"
+        },
+        {
+          "name": "Poster 2.web.webp",
+          "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.web.webp",
+          "folder": "Regretful Colors (Sac Mau Hoi Han)",
+          "size": 169480,
+          "lastModified": "2026-10-17T11:03:20.447Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.web.webp"
         },
         {
           "name": "Short film Sắc màu hối hận.mp4",
@@ -619,7 +987,7 @@
       "name": "Reimagine Puss in Boots The Last Wish",
       "parent": "",
       "depth": 0,
-      "fileCount": 3,
+      "fileCount": 5,
       "files": [
         {
           "name": "Puss poses.png",
@@ -630,12 +998,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png"
         },
         {
+          "name": "Puss poses.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Puss poses.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish",
+          "size": 72550,
+          "lastModified": "2026-10-17T11:03:39.691Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.web.webp"
+        },
+        {
           "name": "Reimagine characters.png",
           "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.png",
           "folder": "Reimagine Puss in Boots The Last Wish",
           "size": 11161127,
           "lastModified": "2026-07-17T11:35:33.942Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png"
+        },
+        {
+          "name": "Reimagine characters.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish",
+          "size": 73742,
+          "lastModified": "2026-10-17T11:03:42.599Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.web.webp"
         },
         {
           "name": "Reimagine Puss in boots the last wish.pdf",
@@ -652,7 +1036,7 @@
       "name": "Other images",
       "parent": "Reimagine Puss in Boots The Last Wish",
       "depth": 1,
-      "fileCount": 28,
+      "fileCount": 56,
       "files": [
         {
           "name": "TẠO HÌNH III_Page_10.jpg",
@@ -663,12 +1047,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_10.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_10.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 37606,
+          "lastModified": "2026-10-17T11:03:44.420Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_11.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 803882,
           "lastModified": "2026-10-16T15:13:49.629Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_11.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 45006,
+          "lastModified": "2026-10-17T11:03:46.141Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_12.jpg",
@@ -679,12 +1079,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_12.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_12.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 64094,
+          "lastModified": "2026-10-17T11:03:47.807Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_13.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 761471,
           "lastModified": "2026-10-16T15:13:50.560Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_13.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 34608,
+          "lastModified": "2026-10-17T11:03:49.762Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_14.jpg",
@@ -695,12 +1111,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_14.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_14.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 64510,
+          "lastModified": "2026-10-17T11:03:51.677Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_15.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 874856,
           "lastModified": "2026-10-16T15:13:51.488Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_15.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 64178,
+          "lastModified": "2026-10-17T11:03:53.713Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_16.jpg",
@@ -711,12 +1143,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_16.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_16.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 70926,
+          "lastModified": "2026-10-17T11:03:55.423Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_17.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 756189,
           "lastModified": "2026-10-16T15:13:52.472Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_17.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 39092,
+          "lastModified": "2026-10-17T11:03:57.202Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_18.jpg",
@@ -727,12 +1175,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_18.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_18.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 35594,
+          "lastModified": "2026-10-17T11:03:58.578Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_19.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 872358,
           "lastModified": "2026-10-16T15:13:53.259Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_19.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 60174,
+          "lastModified": "2026-10-17T11:04:00.612Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_20.jpg",
@@ -743,12 +1207,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_20.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_20.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 38164,
+          "lastModified": "2026-10-17T11:04:02.391Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_21.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 934045,
           "lastModified": "2026-10-16T15:13:54.334Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_21.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 69270,
+          "lastModified": "2026-10-17T11:04:03.980Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_22.jpg",
@@ -759,12 +1239,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_22.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_22.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 72390,
+          "lastModified": "2026-10-17T11:04:05.687Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_23.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 942541,
           "lastModified": "2026-10-16T15:13:55.543Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_23.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 62704,
+          "lastModified": "2026-10-17T11:04:07.508Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_24.jpg",
@@ -775,12 +1271,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_24.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_24.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 39428,
+          "lastModified": "2026-10-17T11:04:08.902Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_25.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 786103,
           "lastModified": "2026-10-16T15:13:56.374Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_25.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 43494,
+          "lastModified": "2026-10-17T11:04:10.416Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_26.jpg",
@@ -791,12 +1303,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_26.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_26.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 57458,
+          "lastModified": "2026-10-17T11:04:12.070Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_27.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 727789,
           "lastModified": "2026-10-16T15:13:57.386Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_27.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 29626,
+          "lastModified": "2026-10-17T11:04:13.678Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_28.jpg",
@@ -807,12 +1335,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_28.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_28.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 64912,
+          "lastModified": "2026-10-17T11:04:15.173Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_29.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 914298,
           "lastModified": "2026-10-16T15:13:58.566Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_29.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 73604,
+          "lastModified": "2026-10-17T11:04:17.025Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_30.jpg",
@@ -823,12 +1367,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_30.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_30.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 61242,
+          "lastModified": "2026-10-17T11:04:18.960Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_31.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 980799,
           "lastModified": "2026-10-16T15:13:59.862Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_31.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 66894,
+          "lastModified": "2026-10-17T11:04:20.446Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_33.jpg",
@@ -839,12 +1399,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_33.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_33.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 67792,
+          "lastModified": "2026-10-17T11:04:22.105Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_34.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 993132,
           "lastModified": "2026-10-16T15:14:01.124Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_34.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 80346,
+          "lastModified": "2026-10-17T11:04:23.759Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_35.jpg",
@@ -855,12 +1431,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_35.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_35.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 77430,
+          "lastModified": "2026-10-17T11:04:25.437Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_36.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 1128168,
           "lastModified": "2026-10-16T15:14:02.469Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_36.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 79810,
+          "lastModified": "2026-10-17T11:04:26.928Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.web.webp"
         },
         {
           "name": "TẠO HÌNH III_Page_37.jpg",
@@ -871,12 +1463,28 @@
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.jpg"
         },
         {
+          "name": "TẠO HÌNH III_Page_37.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_37.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 94500,
+          "lastModified": "2026-10-17T11:04:28.938Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.web.webp"
+        },
+        {
           "name": "TẠO HÌNH III_Page_38.jpg",
           "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.jpg",
           "folder": "Reimagine Puss in Boots The Last Wish/Other images",
           "size": 1124149,
           "lastModified": "2026-10-16T15:14:03.906Z",
           "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.jpg"
+        },
+        {
+          "name": "TẠO HÌNH III_Page_38.web.webp",
+          "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.web.webp",
+          "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+          "size": 81972,
+          "lastModified": "2026-10-17T11:04:30.493Z",
+          "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.web.webp"
         }
       ]
     }
@@ -907,12 +1515,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png"
     },
     {
+      "name": "1ModelProta.web.webp",
+      "key": "Chroma/Other images/1ModelProta.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 53618,
+      "lastModified": "2026-10-17T11:02:20.108Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.web.webp"
+    },
+    {
       "name": "2ModelAnta.png",
       "key": "Chroma/Other images/2ModelAnta.png",
       "folder": "Chroma/Other images",
       "size": 433761,
       "lastModified": "2026-10-16T15:16:03.358Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.png"
+    },
+    {
+      "name": "2ModelAnta.web.webp",
+      "key": "Chroma/Other images/2ModelAnta.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 37596,
+      "lastModified": "2026-10-17T11:02:21.608Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.web.webp"
     },
     {
       "name": "3Thegioigoc1.png",
@@ -923,12 +1547,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.png"
     },
     {
+      "name": "3Thegioigoc1.web.webp",
+      "key": "Chroma/Other images/3Thegioigoc1.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 116714,
+      "lastModified": "2026-10-17T11:02:23.632Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.web.webp"
+    },
+    {
       "name": "4.png",
       "key": "Chroma/Other images/4.png",
       "folder": "Chroma/Other images",
       "size": 683979,
       "lastModified": "2026-10-16T15:16:04.326Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.png"
+    },
+    {
+      "name": "4.web.webp",
+      "key": "Chroma/Other images/4.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 136264,
+      "lastModified": "2026-10-17T11:02:25.205Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.web.webp"
     },
     {
       "name": "5thegioigoc3.png",
@@ -939,12 +1579,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.png"
     },
     {
+      "name": "5thegioigoc3.web.webp",
+      "key": "Chroma/Other images/5thegioigoc3.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 106214,
+      "lastModified": "2026-10-17T11:02:27.186Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.web.webp"
+    },
+    {
       "name": "Responsibleshots1.png",
       "key": "Chroma/Other images/Responsibleshots1.png",
       "folder": "Chroma/Other images",
       "size": 1737179,
       "lastModified": "2026-10-16T15:16:05.702Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.png"
+    },
+    {
+      "name": "Responsibleshots1.web.webp",
+      "key": "Chroma/Other images/Responsibleshots1.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 101876,
+      "lastModified": "2026-10-17T11:02:29.076Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.web.webp"
     },
     {
       "name": "Responsibleshots2.png",
@@ -955,12 +1611,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.png"
     },
     {
+      "name": "Responsibleshots2.web.webp",
+      "key": "Chroma/Other images/Responsibleshots2.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 56294,
+      "lastModified": "2026-10-17T11:02:31.191Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.web.webp"
+    },
+    {
       "name": "Responsibleshots3.png",
       "key": "Chroma/Other images/Responsibleshots3.png",
       "folder": "Chroma/Other images",
       "size": 724229,
       "lastModified": "2026-10-16T15:16:07.114Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.png"
+    },
+    {
+      "name": "Responsibleshots3.web.webp",
+      "key": "Chroma/Other images/Responsibleshots3.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 34194,
+      "lastModified": "2026-10-17T11:02:33.075Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.web.webp"
     },
     {
       "name": "Responsibleshots4.png",
@@ -971,12 +1643,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.png"
     },
     {
+      "name": "Responsibleshots4.web.webp",
+      "key": "Chroma/Other images/Responsibleshots4.web.webp",
+      "folder": "Chroma/Other images",
+      "size": 66460,
+      "lastModified": "2026-10-17T11:02:35.116Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.web.webp"
+    },
+    {
       "name": "Poster.png",
       "key": "Chroma/Poster.png",
       "folder": "Chroma",
       "size": 23294747,
       "lastModified": "2026-08-21T15:35:21.390Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png"
+    },
+    {
+      "name": "Poster.web.webp",
+      "key": "Chroma/Poster.web.webp",
+      "folder": "Chroma",
+      "size": 226748,
+      "lastModified": "2026-10-17T11:02:18.146Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.web.webp"
     },
     {
       "name": "Trailer CHROMA_nhóm 2.mp4",
@@ -1011,6 +1699,14 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png"
     },
     {
+      "name": "Character designs.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Character designs.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)",
+      "size": 80190,
+      "lastModified": "2026-10-17T11:03:22.375Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.web.webp"
+    },
+    {
       "name": "(Thumbnail).png",
       "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/(Thumbnail).png",
       "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
@@ -1027,12 +1723,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png"
     },
     {
+      "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 46476,
+      "lastModified": "2026-10-17T11:03:24.498Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.web.webp"
+    },
+    {
       "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
       "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
       "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
       "size": 3453543,
       "lastModified": "2026-10-16T15:24:46.236Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.png"
+    },
+    {
+      "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 79234,
+      "lastModified": "2026-10-17T11:03:26.826Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.web.webp"
     },
     {
       "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.png",
@@ -1043,12 +1755,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.png"
     },
     {
+      "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 91294,
+      "lastModified": "2026-10-17T11:03:29.162Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.web.webp"
+    },
+    {
       "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
       "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
       "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
       "size": 8120744,
       "lastModified": "2026-10-16T15:24:48.899Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.png"
+    },
+    {
+      "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 66406,
+      "lastModified": "2026-10-17T11:03:31.641Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.web.webp"
     },
     {
       "name": "Preview1.png",
@@ -1059,12 +1787,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.png"
     },
     {
+      "name": "Preview1.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview1.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 34412,
+      "lastModified": "2026-10-17T11:03:33.060Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.web.webp"
+    },
+    {
       "name": "Preview2.png",
       "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.png",
       "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
       "size": 280278,
       "lastModified": "2026-10-16T15:24:49.966Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.png"
+    },
+    {
+      "name": "Preview2.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 38674,
+      "lastModified": "2026-10-17T11:03:34.521Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.web.webp"
     },
     {
       "name": "Preview3.png",
@@ -1075,12 +1819,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.png"
     },
     {
+      "name": "Preview3.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview3.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 24180,
+      "lastModified": "2026-10-17T11:03:35.757Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.web.webp"
+    },
+    {
       "name": "Preview4.png",
       "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.png",
       "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
       "size": 230546,
       "lastModified": "2026-10-16T15:24:50.936Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.png"
+    },
+    {
+      "name": "Preview4.web.webp",
+      "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.web.webp",
+      "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+      "size": 44846,
+      "lastModified": "2026-10-17T11:03:37.328Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.web.webp"
     },
     {
       "name": "Google_Drive_icon_(2020).svg.webp",
@@ -1099,12 +1859,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png"
     },
     {
+      "name": "AODtease.web.webp",
+      "key": "Illustration Works/AODtease.web.webp",
+      "folder": "Illustration Works",
+      "size": 314646,
+      "lastModified": "2026-10-17T11:04:33.012Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.web.webp"
+    },
+    {
       "name": "ditri.png",
       "key": "Illustration Works/ditri.png",
       "folder": "Illustration Works",
       "size": 5614323,
       "lastModified": "2026-07-17T14:51:44.861Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png"
+    },
+    {
+      "name": "ditri.web.webp",
+      "key": "Illustration Works/ditri.web.webp",
+      "folder": "Illustration Works",
+      "size": 256968,
+      "lastModified": "2026-10-17T11:04:34.826Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.web.webp"
     },
     {
       "name": "fall2.png",
@@ -1115,12 +1891,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png"
     },
     {
+      "name": "fall2.web.webp",
+      "key": "Illustration Works/fall2.web.webp",
+      "folder": "Illustration Works",
+      "size": 165592,
+      "lastModified": "2026-10-17T11:04:37.195Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.web.webp"
+    },
+    {
       "name": "frieren love.png",
       "key": "Illustration Works/frieren love.png",
       "folder": "Illustration Works",
       "size": 23240445,
       "lastModified": "2026-07-17T14:51:49.895Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png"
+    },
+    {
+      "name": "frieren love.web.webp",
+      "key": "Illustration Works/frieren love.web.webp",
+      "folder": "Illustration Works",
+      "size": 503056,
+      "lastModified": "2026-10-17T11:04:41.134Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.web.webp"
     },
     {
       "name": "6879675435854.mp4",
@@ -1139,12 +1931,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png"
     },
     {
+      "name": "KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+      "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+      "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+      "size": 42904,
+      "lastModified": "2026-10-17T11:03:09.623Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.web.webp"
+    },
+    {
       "name": "TƯỜNG 3 BỨC.png",
       "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.png",
       "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
       "size": 374492,
       "lastModified": "2026-07-17T11:33:17.873Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png"
+    },
+    {
+      "name": "TƯỜNG 3 BỨC.web.webp",
+      "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.web.webp",
+      "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+      "size": 48392,
+      "lastModified": "2026-10-17T11:03:11.385Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.web.webp"
     },
     {
       "name": "z6928459231212_33459fa428332fb275646e2049188a77.jpg",
@@ -1155,12 +1963,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg"
     },
     {
+      "name": "z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+      "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+      "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+      "size": 71990,
+      "lastModified": "2026-10-17T11:03:04.681Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp"
+    },
+    {
       "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
       "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
       "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
       "size": 471269,
       "lastModified": "2026-07-17T11:33:17.815Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg"
+    },
+    {
+      "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+      "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+      "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+      "size": 90796,
+      "lastModified": "2026-10-17T11:03:06.274Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp"
     },
     {
       "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
@@ -1171,12 +1995,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg"
     },
     {
+      "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+      "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+      "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+      "size": 53564,
+      "lastModified": "2026-10-17T11:03:07.961Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp"
+    },
+    {
       "name": "isometric.png",
       "key": "Illustration Works/isometric.png",
       "folder": "Illustration Works",
       "size": 7750677,
       "lastModified": "2026-07-17T14:51:45.488Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png"
+    },
+    {
+      "name": "isometric.web.webp",
+      "key": "Illustration Works/isometric.web.webp",
+      "folder": "Illustration Works",
+      "size": 107056,
+      "lastModified": "2026-10-17T11:04:43.538Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.web.webp"
     },
     {
       "name": "padorupado-.png",
@@ -1195,6 +2035,14 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png"
     },
     {
+      "name": "phoenix.web.webp",
+      "key": "Illustration Works/phoenix.web.webp",
+      "folder": "Illustration Works",
+      "size": 75032,
+      "lastModified": "2026-10-17T11:04:49.789Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.web.webp"
+    },
+    {
       "name": "tong.png",
       "key": "Illustration Works/tong.png",
       "folder": "Illustration Works",
@@ -1203,12 +2051,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.png"
     },
     {
+      "name": "tong.web.webp",
+      "key": "Illustration Works/tong.web.webp",
+      "folder": "Illustration Works",
+      "size": 224694,
+      "lastModified": "2026-10-17T11:04:48.424Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.web.webp"
+    },
+    {
       "name": "chill.png",
       "key": "Mana the cute Battle Maid/chill.png",
       "folder": "Mana the cute Battle Maid",
       "size": 2752106,
       "lastModified": "2026-07-17T15:41:04.433Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png"
+    },
+    {
+      "name": "chill.web.webp",
+      "key": "Mana the cute Battle Maid/chill.web.webp",
+      "folder": "Mana the cute Battle Maid",
+      "size": 312616,
+      "lastModified": "2026-10-17T11:02:43.536Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.web.webp"
     },
     {
       "name": "final.mp4",
@@ -1227,12 +2091,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png"
     },
     {
+      "name": "Idoru3.web.webp",
+      "key": "Mana the cute Battle Maid/Idoru3.web.webp",
+      "folder": "Mana the cute Battle Maid",
+      "size": 286566,
+      "lastModified": "2026-10-17T11:02:37.507Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.web.webp"
+    },
+    {
       "name": "Okoru3.png",
       "key": "Mana the cute Battle Maid/Okoru3.png",
       "folder": "Mana the cute Battle Maid",
       "size": 2688647,
       "lastModified": "2026-07-17T15:41:04.187Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png"
+    },
+    {
+      "name": "Okoru3.web.webp",
+      "key": "Mana the cute Battle Maid/Okoru3.web.webp",
+      "folder": "Mana the cute Battle Maid",
+      "size": 306012,
+      "lastModified": "2026-10-17T11:02:39.437Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.web.webp"
     },
     {
       "name": "(Thumbnail).png",
@@ -1251,12 +2131,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.png"
     },
     {
+      "name": "Process_Page_02.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_02.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 94298,
+      "lastModified": "2026-10-17T11:02:45.862Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.web.webp"
+    },
+    {
       "name": "Process_Page_03.png",
       "key": "Mana the cute Battle Maid/Other images/Process_Page_03.png",
       "folder": "Mana the cute Battle Maid/Other images",
       "size": 1681253,
       "lastModified": "2026-10-16T15:28:22.929Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.png"
+    },
+    {
+      "name": "Process_Page_03.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_03.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 183210,
+      "lastModified": "2026-10-17T11:02:48.007Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.web.webp"
     },
     {
       "name": "Process_Page_04.png",
@@ -1267,12 +2163,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.png"
     },
     {
+      "name": "Process_Page_04.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_04.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 71730,
+      "lastModified": "2026-10-17T11:02:50.307Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.web.webp"
+    },
+    {
       "name": "Process_Page_05.png",
       "key": "Mana the cute Battle Maid/Other images/Process_Page_05.png",
       "folder": "Mana the cute Battle Maid/Other images",
       "size": 2014337,
       "lastModified": "2026-10-16T15:28:24.311Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.png"
+    },
+    {
+      "name": "Process_Page_05.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_05.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 168386,
+      "lastModified": "2026-10-17T11:02:52.369Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.web.webp"
     },
     {
       "name": "Process_Page_06.png",
@@ -1283,12 +2195,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.png"
     },
     {
+      "name": "Process_Page_06.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_06.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 126618,
+      "lastModified": "2026-10-17T11:02:54.415Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.web.webp"
+    },
+    {
       "name": "Process_Page_07.png",
       "key": "Mana the cute Battle Maid/Other images/Process_Page_07.png",
       "folder": "Mana the cute Battle Maid/Other images",
       "size": 2477545,
       "lastModified": "2026-10-16T15:28:26.470Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.png"
+    },
+    {
+      "name": "Process_Page_07.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_07.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 111536,
+      "lastModified": "2026-10-17T11:02:56.458Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.web.webp"
     },
     {
       "name": "Process_Page_08.png",
@@ -1299,6 +2227,14 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.png"
     },
     {
+      "name": "Process_Page_08.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_08.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 68614,
+      "lastModified": "2026-10-17T11:02:58.384Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.web.webp"
+    },
+    {
       "name": "Process_Page_09.png",
       "key": "Mana the cute Battle Maid/Other images/Process_Page_09.png",
       "folder": "Mana the cute Battle Maid/Other images",
@@ -1307,12 +2243,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.png"
     },
     {
+      "name": "Process_Page_09.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_09.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 70792,
+      "lastModified": "2026-10-17T11:03:00.646Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.web.webp"
+    },
+    {
       "name": "Process_Page_10.png",
       "key": "Mana the cute Battle Maid/Other images/Process_Page_10.png",
       "folder": "Mana the cute Battle Maid/Other images",
       "size": 2094046,
       "lastModified": "2026-10-16T15:28:28.306Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.png"
+    },
+    {
+      "name": "Process_Page_10.web.webp",
+      "key": "Mana the cute Battle Maid/Other images/Process_Page_10.web.webp",
+      "folder": "Mana the cute Battle Maid/Other images",
+      "size": 58842,
+      "lastModified": "2026-10-17T11:03:02.992Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.web.webp"
     },
     {
       "name": "Process.pdf",
@@ -1337,6 +2289,14 @@
       "size": 2745546,
       "lastModified": "2026-07-17T15:41:04.087Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png"
+    },
+    {
+      "name": "Zako3.web.webp",
+      "key": "Mana the cute Battle Maid/Zako3.web.webp",
+      "folder": "Mana the cute Battle Maid",
+      "size": 306464,
+      "lastModified": "2026-10-17T11:02:41.510Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.web.webp"
     },
     {
       "name": "Animatic.mp4",
@@ -1379,12 +2339,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png"
     },
     {
+      "name": "Poster 1.web.webp",
+      "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 1.web.webp",
+      "folder": "Regretful Colors (Sac Mau Hoi Han)",
+      "size": 197072,
+      "lastModified": "2026-10-17T11:03:15.529Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.web.webp"
+    },
+    {
       "name": "Poster 2.png",
       "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.png",
       "folder": "Regretful Colors (Sac Mau Hoi Han)",
       "size": 27218162,
       "lastModified": "2026-07-17T11:34:15.972Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png"
+    },
+    {
+      "name": "Poster 2.web.webp",
+      "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.web.webp",
+      "folder": "Regretful Colors (Sac Mau Hoi Han)",
+      "size": 169480,
+      "lastModified": "2026-10-17T11:03:20.447Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.web.webp"
     },
     {
       "name": "Short film Sắc màu hối hận.mp4",
@@ -1403,12 +2379,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_10.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_10.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 37606,
+      "lastModified": "2026-10-17T11:03:44.420Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_11.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 803882,
       "lastModified": "2026-10-16T15:13:49.629Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_11.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 45006,
+      "lastModified": "2026-10-17T11:03:46.141Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_12.jpg",
@@ -1419,12 +2411,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_12.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_12.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 64094,
+      "lastModified": "2026-10-17T11:03:47.807Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_13.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 761471,
       "lastModified": "2026-10-16T15:13:50.560Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_13.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 34608,
+      "lastModified": "2026-10-17T11:03:49.762Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_14.jpg",
@@ -1435,12 +2443,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_14.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_14.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 64510,
+      "lastModified": "2026-10-17T11:03:51.677Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_15.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 874856,
       "lastModified": "2026-10-16T15:13:51.488Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_15.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 64178,
+      "lastModified": "2026-10-17T11:03:53.713Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_16.jpg",
@@ -1451,12 +2475,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_16.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_16.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 70926,
+      "lastModified": "2026-10-17T11:03:55.423Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_17.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 756189,
       "lastModified": "2026-10-16T15:13:52.472Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_17.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 39092,
+      "lastModified": "2026-10-17T11:03:57.202Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_18.jpg",
@@ -1467,12 +2507,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_18.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_18.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 35594,
+      "lastModified": "2026-10-17T11:03:58.578Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_19.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 872358,
       "lastModified": "2026-10-16T15:13:53.259Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_19.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 60174,
+      "lastModified": "2026-10-17T11:04:00.612Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_20.jpg",
@@ -1483,12 +2539,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_20.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_20.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 38164,
+      "lastModified": "2026-10-17T11:04:02.391Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_21.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 934045,
       "lastModified": "2026-10-16T15:13:54.334Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_21.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 69270,
+      "lastModified": "2026-10-17T11:04:03.980Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_22.jpg",
@@ -1499,12 +2571,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_22.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_22.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 72390,
+      "lastModified": "2026-10-17T11:04:05.687Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_23.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 942541,
       "lastModified": "2026-10-16T15:13:55.543Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_23.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 62704,
+      "lastModified": "2026-10-17T11:04:07.508Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_24.jpg",
@@ -1515,12 +2603,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_24.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_24.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 39428,
+      "lastModified": "2026-10-17T11:04:08.902Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_25.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 786103,
       "lastModified": "2026-10-16T15:13:56.374Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_25.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 43494,
+      "lastModified": "2026-10-17T11:04:10.416Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_26.jpg",
@@ -1531,12 +2635,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_26.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_26.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 57458,
+      "lastModified": "2026-10-17T11:04:12.070Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_27.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 727789,
       "lastModified": "2026-10-16T15:13:57.386Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_27.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 29626,
+      "lastModified": "2026-10-17T11:04:13.678Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_28.jpg",
@@ -1547,12 +2667,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_28.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_28.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 64912,
+      "lastModified": "2026-10-17T11:04:15.173Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_29.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 914298,
       "lastModified": "2026-10-16T15:13:58.566Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_29.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 73604,
+      "lastModified": "2026-10-17T11:04:17.025Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_30.jpg",
@@ -1563,12 +2699,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_30.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_30.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 61242,
+      "lastModified": "2026-10-17T11:04:18.960Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_31.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 980799,
       "lastModified": "2026-10-16T15:13:59.862Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_31.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 66894,
+      "lastModified": "2026-10-17T11:04:20.446Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_33.jpg",
@@ -1579,12 +2731,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_33.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_33.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 67792,
+      "lastModified": "2026-10-17T11:04:22.105Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_34.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 993132,
       "lastModified": "2026-10-16T15:14:01.124Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_34.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 80346,
+      "lastModified": "2026-10-17T11:04:23.759Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_35.jpg",
@@ -1595,12 +2763,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_35.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_35.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 77430,
+      "lastModified": "2026-10-17T11:04:25.437Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_36.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 1128168,
       "lastModified": "2026-10-16T15:14:02.469Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_36.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 79810,
+      "lastModified": "2026-10-17T11:04:26.928Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.web.webp"
     },
     {
       "name": "TẠO HÌNH III_Page_37.jpg",
@@ -1611,12 +2795,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.jpg"
     },
     {
+      "name": "TẠO HÌNH III_Page_37.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_37.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 94500,
+      "lastModified": "2026-10-17T11:04:28.938Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.web.webp"
+    },
+    {
       "name": "TẠO HÌNH III_Page_38.jpg",
       "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.jpg",
       "folder": "Reimagine Puss in Boots The Last Wish/Other images",
       "size": 1124149,
       "lastModified": "2026-10-16T15:14:03.906Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.jpg"
+    },
+    {
+      "name": "TẠO HÌNH III_Page_38.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+      "size": 81972,
+      "lastModified": "2026-10-17T11:04:30.493Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.web.webp"
     },
     {
       "name": "Puss poses.png",
@@ -1627,12 +2827,28 @@
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png"
     },
     {
+      "name": "Puss poses.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Puss poses.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish",
+      "size": 72550,
+      "lastModified": "2026-10-17T11:03:39.691Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.web.webp"
+    },
+    {
       "name": "Reimagine characters.png",
       "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.png",
       "folder": "Reimagine Puss in Boots The Last Wish",
       "size": 11161127,
       "lastModified": "2026-07-17T11:35:33.942Z",
       "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png"
+    },
+    {
+      "name": "Reimagine characters.web.webp",
+      "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.web.webp",
+      "folder": "Reimagine Puss in Boots The Last Wish",
+      "size": 73742,
+      "lastModified": "2026-10-17T11:03:42.599Z",
+      "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.web.webp"
     },
     {
       "name": "Reimagine Puss in boots the last wish.pdf",
@@ -1670,7 +2886,7 @@
         "name": "Chroma",
         "path": "Chroma",
         "depth": 0,
-        "fileCount": 3,
+        "fileCount": 4,
         "files": [
           {
             "name": "Game design document_CHROMA.pdf",
@@ -1689,6 +2905,14 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.png"
           },
           {
+            "name": "Poster.web.webp",
+            "key": "Chroma/Poster.web.webp",
+            "folder": "Chroma",
+            "size": 226748,
+            "lastModified": "2026-10-17T11:02:18.146Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Poster.web.webp"
+          },
+          {
             "name": "Trailer CHROMA_nhóm 2.mp4",
             "key": "Chroma/Trailer CHROMA_nhóm 2.mp4",
             "folder": "Chroma",
@@ -1702,7 +2926,7 @@
             "name": "Other images",
             "path": "Chroma/Other images",
             "depth": 1,
-            "fileCount": 9,
+            "fileCount": 18,
             "files": [
               {
                 "name": "1ModelProta.png",
@@ -1713,12 +2937,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.png"
               },
               {
+                "name": "1ModelProta.web.webp",
+                "key": "Chroma/Other images/1ModelProta.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 53618,
+                "lastModified": "2026-10-17T11:02:20.108Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/1ModelProta.web.webp"
+              },
+              {
                 "name": "2ModelAnta.png",
                 "key": "Chroma/Other images/2ModelAnta.png",
                 "folder": "Chroma/Other images",
                 "size": 433761,
                 "lastModified": "2026-10-16T15:16:03.358Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.png"
+              },
+              {
+                "name": "2ModelAnta.web.webp",
+                "key": "Chroma/Other images/2ModelAnta.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 37596,
+                "lastModified": "2026-10-17T11:02:21.608Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/2ModelAnta.web.webp"
               },
               {
                 "name": "3Thegioigoc1.png",
@@ -1729,12 +2969,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.png"
               },
               {
+                "name": "3Thegioigoc1.web.webp",
+                "key": "Chroma/Other images/3Thegioigoc1.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 116714,
+                "lastModified": "2026-10-17T11:02:23.632Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/3Thegioigoc1.web.webp"
+              },
+              {
                 "name": "4.png",
                 "key": "Chroma/Other images/4.png",
                 "folder": "Chroma/Other images",
                 "size": 683979,
                 "lastModified": "2026-10-16T15:16:04.326Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.png"
+              },
+              {
+                "name": "4.web.webp",
+                "key": "Chroma/Other images/4.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 136264,
+                "lastModified": "2026-10-17T11:02:25.205Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/4.web.webp"
               },
               {
                 "name": "5thegioigoc3.png",
@@ -1745,12 +3001,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.png"
               },
               {
+                "name": "5thegioigoc3.web.webp",
+                "key": "Chroma/Other images/5thegioigoc3.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 106214,
+                "lastModified": "2026-10-17T11:02:27.186Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/5thegioigoc3.web.webp"
+              },
+              {
                 "name": "Responsibleshots1.png",
                 "key": "Chroma/Other images/Responsibleshots1.png",
                 "folder": "Chroma/Other images",
                 "size": 1737179,
                 "lastModified": "2026-10-16T15:16:05.702Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.png"
+              },
+              {
+                "name": "Responsibleshots1.web.webp",
+                "key": "Chroma/Other images/Responsibleshots1.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 101876,
+                "lastModified": "2026-10-17T11:02:29.076Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots1.web.webp"
               },
               {
                 "name": "Responsibleshots2.png",
@@ -1761,6 +3033,14 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.png"
               },
               {
+                "name": "Responsibleshots2.web.webp",
+                "key": "Chroma/Other images/Responsibleshots2.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 56294,
+                "lastModified": "2026-10-17T11:02:31.191Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots2.web.webp"
+              },
+              {
                 "name": "Responsibleshots3.png",
                 "key": "Chroma/Other images/Responsibleshots3.png",
                 "folder": "Chroma/Other images",
@@ -1769,12 +3049,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.png"
               },
               {
+                "name": "Responsibleshots3.web.webp",
+                "key": "Chroma/Other images/Responsibleshots3.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 34194,
+                "lastModified": "2026-10-17T11:02:33.075Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots3.web.webp"
+              },
+              {
                 "name": "Responsibleshots4.png",
                 "key": "Chroma/Other images/Responsibleshots4.png",
                 "folder": "Chroma/Other images",
                 "size": 1673944,
                 "lastModified": "2026-10-16T15:16:07.791Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.png"
+              },
+              {
+                "name": "Responsibleshots4.web.webp",
+                "key": "Chroma/Other images/Responsibleshots4.web.webp",
+                "folder": "Chroma/Other images",
+                "size": 66460,
+                "lastModified": "2026-10-17T11:02:35.116Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Chroma/Other%20images/Responsibleshots4.web.webp"
               }
             ],
             "children": []
@@ -1785,7 +3081,7 @@
         "name": "Definitely not gonna late! (Chac chan khong tre)",
         "path": "Definitely not gonna late! (Chac chan khong tre)",
         "depth": 0,
-        "fileCount": 3,
+        "fileCount": 4,
         "files": [
           {
             "name": "Chắc chắn không trễ(Definitely not gonna late).pdf",
@@ -1810,6 +3106,14 @@
             "size": 2361222,
             "lastModified": "2026-07-17T11:29:58.520Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.png"
+          },
+          {
+            "name": "Character designs.web.webp",
+            "key": "Definitely not gonna late! (Chac chan khong tre)/Character designs.web.webp",
+            "folder": "Definitely not gonna late! (Chac chan khong tre)",
+            "size": 80190,
+            "lastModified": "2026-10-17T11:03:22.375Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Character%20designs.web.webp"
           }
         ],
         "children": [
@@ -1817,7 +3121,7 @@
             "name": "Other images",
             "path": "Definitely not gonna late! (Chac chan khong tre)/Other images",
             "depth": 1,
-            "fileCount": 9,
+            "fileCount": 17,
             "files": [
               {
                 "name": "(Thumbnail).png",
@@ -1836,12 +3140,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.png"
               },
               {
+                "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_02.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 46476,
+                "lastModified": "2026-10-17T11:03:24.498Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_02.web.webp"
+              },
+              {
                 "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
                 "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.png",
                 "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
                 "size": 3453543,
                 "lastModified": "2026-10-16T15:24:46.236Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.png"
+              },
+              {
+                "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_03.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 79234,
+                "lastModified": "2026-10-17T11:03:26.826Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_03.web.webp"
               },
               {
                 "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.png",
@@ -1852,12 +3172,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.png"
               },
               {
+                "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_09.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 91294,
+                "lastModified": "2026-10-17T11:03:29.162Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_09.web.webp"
+              },
+              {
                 "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
                 "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.png",
                 "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
                 "size": 8120744,
                 "lastModified": "2026-10-16T15:24:48.899Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.png"
+              },
+              {
+                "name": "Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Chắc chắn không trễ(Definitely not gonna late)_Page_10.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 66406,
+                "lastModified": "2026-10-17T11:03:31.641Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Cha%CC%86%CC%81c%20cha%CC%86%CC%81n%20kho%CC%82ng%20tre%CC%82%CC%83(Definitely%20not%20gonna%20late)_Page_10.web.webp"
               },
               {
                 "name": "Preview1.png",
@@ -1868,12 +3204,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.png"
               },
               {
+                "name": "Preview1.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview1.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 34412,
+                "lastModified": "2026-10-17T11:03:33.060Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview1.web.webp"
+              },
+              {
                 "name": "Preview2.png",
                 "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.png",
                 "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
                 "size": 280278,
                 "lastModified": "2026-10-16T15:24:49.966Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.png"
+              },
+              {
+                "name": "Preview2.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview2.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 38674,
+                "lastModified": "2026-10-17T11:03:34.521Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview2.web.webp"
               },
               {
                 "name": "Preview3.png",
@@ -1884,12 +3236,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.png"
               },
               {
+                "name": "Preview3.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview3.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 24180,
+                "lastModified": "2026-10-17T11:03:35.757Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview3.web.webp"
+              },
+              {
                 "name": "Preview4.png",
                 "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.png",
                 "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
                 "size": 230546,
                 "lastModified": "2026-10-16T15:24:50.936Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.png"
+              },
+              {
+                "name": "Preview4.web.webp",
+                "key": "Definitely not gonna late! (Chac chan khong tre)/Other images/Preview4.web.webp",
+                "folder": "Definitely not gonna late! (Chac chan khong tre)/Other images",
+                "size": 44846,
+                "lastModified": "2026-10-17T11:03:37.328Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Definitely%20not%20gonna%20late!%20(Chac%20chan%20khong%20tre)/Other%20images/Preview4.web.webp"
               }
             ],
             "children": []
@@ -1900,7 +3268,7 @@
         "name": "Illustration Works",
         "path": "Illustration Works",
         "depth": 0,
-        "fileCount": 8,
+        "fileCount": 15,
         "files": [
           {
             "name": "AODtease.png",
@@ -1911,12 +3279,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.png"
           },
           {
+            "name": "AODtease.web.webp",
+            "key": "Illustration Works/AODtease.web.webp",
+            "folder": "Illustration Works",
+            "size": 314646,
+            "lastModified": "2026-10-17T11:04:33.012Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/AODtease.web.webp"
+          },
+          {
             "name": "ditri.png",
             "key": "Illustration Works/ditri.png",
             "folder": "Illustration Works",
             "size": 5614323,
             "lastModified": "2026-07-17T14:51:44.861Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.png"
+          },
+          {
+            "name": "ditri.web.webp",
+            "key": "Illustration Works/ditri.web.webp",
+            "folder": "Illustration Works",
+            "size": 256968,
+            "lastModified": "2026-10-17T11:04:34.826Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/ditri.web.webp"
           },
           {
             "name": "fall2.png",
@@ -1927,6 +3311,14 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.png"
           },
           {
+            "name": "fall2.web.webp",
+            "key": "Illustration Works/fall2.web.webp",
+            "folder": "Illustration Works",
+            "size": 165592,
+            "lastModified": "2026-10-17T11:04:37.195Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/fall2.web.webp"
+          },
+          {
             "name": "frieren love.png",
             "key": "Illustration Works/frieren love.png",
             "folder": "Illustration Works",
@@ -1935,12 +3327,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.png"
           },
           {
+            "name": "frieren love.web.webp",
+            "key": "Illustration Works/frieren love.web.webp",
+            "folder": "Illustration Works",
+            "size": 503056,
+            "lastModified": "2026-10-17T11:04:41.134Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/frieren%20love.web.webp"
+          },
+          {
             "name": "isometric.png",
             "key": "Illustration Works/isometric.png",
             "folder": "Illustration Works",
             "size": 7750677,
             "lastModified": "2026-07-17T14:51:45.488Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.png"
+          },
+          {
+            "name": "isometric.web.webp",
+            "key": "Illustration Works/isometric.web.webp",
+            "folder": "Illustration Works",
+            "size": 107056,
+            "lastModified": "2026-10-17T11:04:43.538Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/isometric.web.webp"
           },
           {
             "name": "padorupado-.png",
@@ -1959,12 +3367,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.png"
           },
           {
+            "name": "phoenix.web.webp",
+            "key": "Illustration Works/phoenix.web.webp",
+            "folder": "Illustration Works",
+            "size": 75032,
+            "lastModified": "2026-10-17T11:04:49.789Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/phoenix.web.webp"
+          },
+          {
             "name": "tong.png",
             "key": "Illustration Works/tong.png",
             "folder": "Illustration Works",
             "size": 33433402,
             "lastModified": "2026-10-16T16:04:35.681Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.png"
+          },
+          {
+            "name": "tong.web.webp",
+            "key": "Illustration Works/tong.web.webp",
+            "folder": "Illustration Works",
+            "size": 224694,
+            "lastModified": "2026-10-17T11:04:48.424Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/tong.web.webp"
           }
         ],
         "children": [
@@ -1972,7 +3396,7 @@
             "name": "Green Summer 2025 (MHX) Wall design",
             "path": "Illustration Works/Green Summer 2025 (MHX) Wall design",
             "depth": 1,
-            "fileCount": 6,
+            "fileCount": 11,
             "files": [
               {
                 "name": "6879675435854.mp4",
@@ -1991,12 +3415,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.png"
               },
               {
+                "name": "KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+                "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/KÍCH THƯỚC TƯỜNG LINH SƠN 2.web.webp",
+                "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+                "size": 42904,
+                "lastModified": "2026-10-17T11:03:09.623Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/K%C3%8DCH%20TH%C6%AF%E1%BB%9AC%20T%C6%AF%E1%BB%9CNG%20LINH%20S%C6%A0N%202.web.webp"
+              },
+              {
                 "name": "TƯỜNG 3 BỨC.png",
                 "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.png",
                 "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
                 "size": 374492,
                 "lastModified": "2026-07-17T11:33:17.873Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.png"
+              },
+              {
+                "name": "TƯỜNG 3 BỨC.web.webp",
+                "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/TƯỜNG 3 BỨC.web.webp",
+                "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+                "size": 48392,
+                "lastModified": "2026-10-17T11:03:11.385Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/T%C6%AF%E1%BB%9CNG%203%20B%E1%BB%A8C.web.webp"
               },
               {
                 "name": "z6928459231212_33459fa428332fb275646e2049188a77.jpg",
@@ -2007,6 +3447,14 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.jpg"
               },
               {
+                "name": "z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+                "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp",
+                "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+                "size": 71990,
+                "lastModified": "2026-10-17T11:03:04.681Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6928459231212_33459fa428332fb275646e2049188a77.web.webp"
+              },
+              {
                 "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
                 "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg",
                 "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
@@ -2015,12 +3463,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.jpg"
               },
               {
+                "name": "z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+                "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp",
+                "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+                "size": 90796,
+                "lastModified": "2026-10-17T11:03:06.274Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6929085027631_01b1cc14e14c51c46d57109ec3f3724e.web.webp"
+              },
+              {
                 "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
                 "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg",
                 "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
                 "size": 504385,
                 "lastModified": "2026-07-17T11:33:19.147Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.jpg"
+              },
+              {
+                "name": "z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+                "key": "Illustration Works/Green Summer 2025 (MHX) Wall design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp",
+                "folder": "Illustration Works/Green Summer 2025 (MHX) Wall design",
+                "size": 53564,
+                "lastModified": "2026-10-17T11:03:07.961Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Illustration%20Works/Green%20Summer%202025%20(MHX)%20Wall%20design/z6935956433718_e2398be89586cb40938830c0ffa0d2f2.web.webp"
               }
             ],
             "children": []
@@ -2031,7 +3495,7 @@
         "name": "Mana the cute Battle Maid",
         "path": "Mana the cute Battle Maid",
         "depth": 0,
-        "fileCount": 7,
+        "fileCount": 11,
         "files": [
           {
             "name": "chill.png",
@@ -2040,6 +3504,14 @@
             "size": 2752106,
             "lastModified": "2026-07-17T15:41:04.433Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.png"
+          },
+          {
+            "name": "chill.web.webp",
+            "key": "Mana the cute Battle Maid/chill.web.webp",
+            "folder": "Mana the cute Battle Maid",
+            "size": 312616,
+            "lastModified": "2026-10-17T11:02:43.536Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/chill.web.webp"
           },
           {
             "name": "final.mp4",
@@ -2058,12 +3530,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.png"
           },
           {
+            "name": "Idoru3.web.webp",
+            "key": "Mana the cute Battle Maid/Idoru3.web.webp",
+            "folder": "Mana the cute Battle Maid",
+            "size": 286566,
+            "lastModified": "2026-10-17T11:02:37.507Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Idoru3.web.webp"
+          },
+          {
             "name": "Okoru3.png",
             "key": "Mana the cute Battle Maid/Okoru3.png",
             "folder": "Mana the cute Battle Maid",
             "size": 2688647,
             "lastModified": "2026-07-17T15:41:04.187Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.png"
+          },
+          {
+            "name": "Okoru3.web.webp",
+            "key": "Mana the cute Battle Maid/Okoru3.web.webp",
+            "folder": "Mana the cute Battle Maid",
+            "size": 306012,
+            "lastModified": "2026-10-17T11:02:39.437Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Okoru3.web.webp"
           },
           {
             "name": "Process.pdf",
@@ -2088,6 +3576,14 @@
             "size": 2745546,
             "lastModified": "2026-07-17T15:41:04.087Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.png"
+          },
+          {
+            "name": "Zako3.web.webp",
+            "key": "Mana the cute Battle Maid/Zako3.web.webp",
+            "folder": "Mana the cute Battle Maid",
+            "size": 306464,
+            "lastModified": "2026-10-17T11:02:41.510Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Zako3.web.webp"
           }
         ],
         "children": [
@@ -2095,7 +3591,7 @@
             "name": "Other images",
             "path": "Mana the cute Battle Maid/Other images",
             "depth": 1,
-            "fileCount": 10,
+            "fileCount": 19,
             "files": [
               {
                 "name": "(Thumbnail).png",
@@ -2114,12 +3610,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.png"
               },
               {
+                "name": "Process_Page_02.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_02.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 94298,
+                "lastModified": "2026-10-17T11:02:45.862Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_02.web.webp"
+              },
+              {
                 "name": "Process_Page_03.png",
                 "key": "Mana the cute Battle Maid/Other images/Process_Page_03.png",
                 "folder": "Mana the cute Battle Maid/Other images",
                 "size": 1681253,
                 "lastModified": "2026-10-16T15:28:22.929Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.png"
+              },
+              {
+                "name": "Process_Page_03.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_03.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 183210,
+                "lastModified": "2026-10-17T11:02:48.007Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_03.web.webp"
               },
               {
                 "name": "Process_Page_04.png",
@@ -2130,12 +3642,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.png"
               },
               {
+                "name": "Process_Page_04.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_04.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 71730,
+                "lastModified": "2026-10-17T11:02:50.307Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_04.web.webp"
+              },
+              {
                 "name": "Process_Page_05.png",
                 "key": "Mana the cute Battle Maid/Other images/Process_Page_05.png",
                 "folder": "Mana the cute Battle Maid/Other images",
                 "size": 2014337,
                 "lastModified": "2026-10-16T15:28:24.311Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.png"
+              },
+              {
+                "name": "Process_Page_05.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_05.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 168386,
+                "lastModified": "2026-10-17T11:02:52.369Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_05.web.webp"
               },
               {
                 "name": "Process_Page_06.png",
@@ -2146,12 +3674,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.png"
               },
               {
+                "name": "Process_Page_06.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_06.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 126618,
+                "lastModified": "2026-10-17T11:02:54.415Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_06.web.webp"
+              },
+              {
                 "name": "Process_Page_07.png",
                 "key": "Mana the cute Battle Maid/Other images/Process_Page_07.png",
                 "folder": "Mana the cute Battle Maid/Other images",
                 "size": 2477545,
                 "lastModified": "2026-10-16T15:28:26.470Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.png"
+              },
+              {
+                "name": "Process_Page_07.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_07.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 111536,
+                "lastModified": "2026-10-17T11:02:56.458Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_07.web.webp"
               },
               {
                 "name": "Process_Page_08.png",
@@ -2162,6 +3706,14 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.png"
               },
               {
+                "name": "Process_Page_08.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_08.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 68614,
+                "lastModified": "2026-10-17T11:02:58.384Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_08.web.webp"
+              },
+              {
                 "name": "Process_Page_09.png",
                 "key": "Mana the cute Battle Maid/Other images/Process_Page_09.png",
                 "folder": "Mana the cute Battle Maid/Other images",
@@ -2170,12 +3722,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.png"
               },
               {
+                "name": "Process_Page_09.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_09.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 70792,
+                "lastModified": "2026-10-17T11:03:00.646Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_09.web.webp"
+              },
+              {
                 "name": "Process_Page_10.png",
                 "key": "Mana the cute Battle Maid/Other images/Process_Page_10.png",
                 "folder": "Mana the cute Battle Maid/Other images",
                 "size": 2094046,
                 "lastModified": "2026-10-16T15:28:28.306Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.png"
+              },
+              {
+                "name": "Process_Page_10.web.webp",
+                "key": "Mana the cute Battle Maid/Other images/Process_Page_10.web.webp",
+                "folder": "Mana the cute Battle Maid/Other images",
+                "size": 58842,
+                "lastModified": "2026-10-17T11:03:02.992Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Mana%20the%20cute%20Battle%20Maid/Other%20images/Process_Page_10.web.webp"
               }
             ],
             "children": []
@@ -2186,7 +3754,7 @@
         "name": "Regretful Colors (Sac Mau Hoi Han)",
         "path": "Regretful Colors (Sac Mau Hoi Han)",
         "depth": 0,
-        "fileCount": 3,
+        "fileCount": 5,
         "files": [
           {
             "name": "Poster 1.png",
@@ -2197,12 +3765,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.png"
           },
           {
+            "name": "Poster 1.web.webp",
+            "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 1.web.webp",
+            "folder": "Regretful Colors (Sac Mau Hoi Han)",
+            "size": 197072,
+            "lastModified": "2026-10-17T11:03:15.529Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%201.web.webp"
+          },
+          {
             "name": "Poster 2.png",
             "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.png",
             "folder": "Regretful Colors (Sac Mau Hoi Han)",
             "size": 27218162,
             "lastModified": "2026-07-17T11:34:15.972Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.png"
+          },
+          {
+            "name": "Poster 2.web.webp",
+            "key": "Regretful Colors (Sac Mau Hoi Han)/Poster 2.web.webp",
+            "folder": "Regretful Colors (Sac Mau Hoi Han)",
+            "size": 169480,
+            "lastModified": "2026-10-17T11:03:20.447Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Regretful%20Colors%20(Sac%20Mau%20Hoi%20Han)/Poster%202.web.webp"
           },
           {
             "name": "Short film Sắc màu hối hận.mp4",
@@ -2261,7 +3845,7 @@
         "name": "Reimagine Puss in Boots The Last Wish",
         "path": "Reimagine Puss in Boots The Last Wish",
         "depth": 0,
-        "fileCount": 3,
+        "fileCount": 5,
         "files": [
           {
             "name": "Puss poses.png",
@@ -2272,12 +3856,28 @@
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.png"
           },
           {
+            "name": "Puss poses.web.webp",
+            "key": "Reimagine Puss in Boots The Last Wish/Puss poses.web.webp",
+            "folder": "Reimagine Puss in Boots The Last Wish",
+            "size": 72550,
+            "lastModified": "2026-10-17T11:03:39.691Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Puss%20poses.web.webp"
+          },
+          {
             "name": "Reimagine characters.png",
             "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.png",
             "folder": "Reimagine Puss in Boots The Last Wish",
             "size": 11161127,
             "lastModified": "2026-07-17T11:35:33.942Z",
             "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.png"
+          },
+          {
+            "name": "Reimagine characters.web.webp",
+            "key": "Reimagine Puss in Boots The Last Wish/Reimagine characters.web.webp",
+            "folder": "Reimagine Puss in Boots The Last Wish",
+            "size": 73742,
+            "lastModified": "2026-10-17T11:03:42.599Z",
+            "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Reimagine%20characters.web.webp"
           },
           {
             "name": "Reimagine Puss in boots the last wish.pdf",
@@ -2293,7 +3893,7 @@
             "name": "Other images",
             "path": "Reimagine Puss in Boots The Last Wish/Other images",
             "depth": 1,
-            "fileCount": 28,
+            "fileCount": 56,
             "files": [
               {
                 "name": "TẠO HÌNH III_Page_10.jpg",
@@ -2304,12 +3904,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_10.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_10.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 37606,
+                "lastModified": "2026-10-17T11:03:44.420Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_10.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_11.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 803882,
                 "lastModified": "2026-10-16T15:13:49.629Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_11.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_11.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 45006,
+                "lastModified": "2026-10-17T11:03:46.141Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_11.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_12.jpg",
@@ -2320,12 +3936,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_12.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_12.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 64094,
+                "lastModified": "2026-10-17T11:03:47.807Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_12.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_13.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 761471,
                 "lastModified": "2026-10-16T15:13:50.560Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_13.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_13.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 34608,
+                "lastModified": "2026-10-17T11:03:49.762Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_13.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_14.jpg",
@@ -2336,12 +3968,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_14.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_14.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 64510,
+                "lastModified": "2026-10-17T11:03:51.677Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_14.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_15.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 874856,
                 "lastModified": "2026-10-16T15:13:51.488Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_15.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_15.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 64178,
+                "lastModified": "2026-10-17T11:03:53.713Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_15.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_16.jpg",
@@ -2352,12 +4000,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_16.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_16.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 70926,
+                "lastModified": "2026-10-17T11:03:55.423Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_16.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_17.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 756189,
                 "lastModified": "2026-10-16T15:13:52.472Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_17.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_17.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 39092,
+                "lastModified": "2026-10-17T11:03:57.202Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_17.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_18.jpg",
@@ -2368,12 +4032,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_18.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_18.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 35594,
+                "lastModified": "2026-10-17T11:03:58.578Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_18.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_19.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 872358,
                 "lastModified": "2026-10-16T15:13:53.259Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_19.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_19.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 60174,
+                "lastModified": "2026-10-17T11:04:00.612Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_19.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_20.jpg",
@@ -2384,12 +4064,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_20.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_20.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 38164,
+                "lastModified": "2026-10-17T11:04:02.391Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_20.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_21.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 934045,
                 "lastModified": "2026-10-16T15:13:54.334Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_21.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_21.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 69270,
+                "lastModified": "2026-10-17T11:04:03.980Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_21.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_22.jpg",
@@ -2400,12 +4096,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_22.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_22.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 72390,
+                "lastModified": "2026-10-17T11:04:05.687Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_22.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_23.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 942541,
                 "lastModified": "2026-10-16T15:13:55.543Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_23.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_23.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 62704,
+                "lastModified": "2026-10-17T11:04:07.508Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_23.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_24.jpg",
@@ -2416,12 +4128,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_24.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_24.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 39428,
+                "lastModified": "2026-10-17T11:04:08.902Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_24.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_25.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 786103,
                 "lastModified": "2026-10-16T15:13:56.374Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_25.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_25.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 43494,
+                "lastModified": "2026-10-17T11:04:10.416Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_25.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_26.jpg",
@@ -2432,12 +4160,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_26.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_26.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 57458,
+                "lastModified": "2026-10-17T11:04:12.070Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_26.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_27.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 727789,
                 "lastModified": "2026-10-16T15:13:57.386Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_27.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_27.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 29626,
+                "lastModified": "2026-10-17T11:04:13.678Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_27.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_28.jpg",
@@ -2448,12 +4192,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_28.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_28.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 64912,
+                "lastModified": "2026-10-17T11:04:15.173Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_28.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_29.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 914298,
                 "lastModified": "2026-10-16T15:13:58.566Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_29.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_29.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 73604,
+                "lastModified": "2026-10-17T11:04:17.025Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_29.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_30.jpg",
@@ -2464,12 +4224,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_30.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_30.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 61242,
+                "lastModified": "2026-10-17T11:04:18.960Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_30.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_31.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 980799,
                 "lastModified": "2026-10-16T15:13:59.862Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_31.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_31.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 66894,
+                "lastModified": "2026-10-17T11:04:20.446Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_31.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_33.jpg",
@@ -2480,12 +4256,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_33.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_33.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 67792,
+                "lastModified": "2026-10-17T11:04:22.105Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_33.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_34.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 993132,
                 "lastModified": "2026-10-16T15:14:01.124Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_34.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_34.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 80346,
+                "lastModified": "2026-10-17T11:04:23.759Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_34.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_35.jpg",
@@ -2496,12 +4288,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_35.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_35.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 77430,
+                "lastModified": "2026-10-17T11:04:25.437Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_35.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_36.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 1128168,
                 "lastModified": "2026-10-16T15:14:02.469Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_36.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_36.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 79810,
+                "lastModified": "2026-10-17T11:04:26.928Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_36.web.webp"
               },
               {
                 "name": "TẠO HÌNH III_Page_37.jpg",
@@ -2512,12 +4320,28 @@
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.jpg"
               },
               {
+                "name": "TẠO HÌNH III_Page_37.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_37.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 94500,
+                "lastModified": "2026-10-17T11:04:28.938Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_37.web.webp"
+              },
+              {
                 "name": "TẠO HÌNH III_Page_38.jpg",
                 "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.jpg",
                 "folder": "Reimagine Puss in Boots The Last Wish/Other images",
                 "size": 1124149,
                 "lastModified": "2026-10-16T15:14:03.906Z",
                 "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.jpg"
+              },
+              {
+                "name": "TẠO HÌNH III_Page_38.web.webp",
+                "key": "Reimagine Puss in Boots The Last Wish/Other images/TẠO HÌNH III_Page_38.web.webp",
+                "folder": "Reimagine Puss in Boots The Last Wish/Other images",
+                "size": 81972,
+                "lastModified": "2026-10-17T11:04:30.493Z",
+                "url": "https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev/Reimagine%20Puss%20in%20Boots%20The%20Last%20Wish/Other%20images/TA%CC%A3O%20HI%CC%80NH%20III_Page_38.web.webp"
               }
             ],
             "children": []

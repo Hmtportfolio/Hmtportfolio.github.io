@@ -25,6 +25,49 @@ export function setupModalAndLightbox(container: HTMLElement = document.body) {
     });
   }
 
+  let galleryObserver: IntersectionObserver | null = null;
+
+  function initGalleryObserver() {
+    if (galleryObserver) {
+      galleryObserver.disconnect();
+      galleryObserver = null;
+    }
+
+    const modalBox = modalOverlay?.querySelector<HTMLElement>('.modal');
+    if (!modalBox) return;
+
+    const lazyImages = modalBox.querySelectorAll<HTMLImageElement>('img.modal-lazy-img');
+    if (lazyImages.length === 0) return;
+
+    if (!('IntersectionObserver' in window)) {
+      lazyImages.forEach((img) => {
+        if (img.dataset.src) {
+          img.src = img.dataset.src;
+          img.classList.remove('modal-lazy-img');
+        }
+      });
+      return;
+    }
+
+    galleryObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target as HTMLImageElement;
+            if (img.dataset.src) {
+              img.src = img.dataset.src;
+              img.classList.remove('modal-lazy-img');
+            }
+            galleryObserver?.unobserve(img);
+          }
+        });
+      },
+      { root: modalBox, rootMargin: '400px 0px' }
+    );
+
+    lazyImages.forEach((img) => galleryObserver?.observe(img));
+  }
+
   function openModal(projectId: string) {
     if (!modalOverlay) return;
     const template = container.querySelector<HTMLTemplateElement>(`#modal-template-${projectId}`);
@@ -40,6 +83,7 @@ export function setupModalAndLightbox(container: HTMLElement = document.body) {
 
     if (modalMedia && tMedia) {
       modalMedia.innerHTML = tMedia.innerHTML;
+      initGalleryObserver();
     }
     if (modalDesc && tDesc) {
       modalDesc.innerHTML = tDesc.innerHTML;
@@ -55,11 +99,22 @@ export function setupModalAndLightbox(container: HTMLElement = document.body) {
     modalOverlay.classList.remove('active');
     document.body.style.overflow = '';
 
+    if (galleryObserver) {
+      galleryObserver.disconnect();
+      galleryObserver = null;
+    }
+
     if (modalMedia) {
-      const modalVideo = modalMedia.querySelector('video');
-      if (modalVideo) {
-        try { modalVideo.pause(); } catch (e) {}
-      }
+      const modalVideos = modalMedia.querySelectorAll('video');
+      modalVideos.forEach((v) => {
+        try {
+          v.pause();
+          v.removeAttribute('src');
+          v.load();
+        } catch (e) {}
+      });
+      // Clear modal media to immediately free up texture and GPU memory
+      modalMedia.innerHTML = '';
     }
 
     resumeThumbVideos();
@@ -110,7 +165,7 @@ export function setupModalAndLightbox(container: HTMLElement = document.body) {
       const target = e.target as HTMLElement;
       if (target && target.tagName === 'IMG') {
         const img = target as HTMLImageElement;
-        openLightbox(img.src, img.alt);
+        openLightbox(img.dataset.fullSrc || img.src, img.alt);
       }
     };
     modalMedia.addEventListener('click', mediaHandler);

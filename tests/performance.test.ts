@@ -74,9 +74,9 @@ describe('Performance, SEO & Bundle Budget Verification (No Assumptions)', () =>
   it('validates critical performance attributes on all media and head tags', () => {
     const enHtml = fs.readFileSync(path.join(DIST_DIR, 'index.html'), 'utf-8');
 
-    // Check preconnects
+    // Check preconnects and self-hosted font preloads
     expect(enHtml).toContain('rel="preconnect" href="https://pub-58ba3247d6ee441b9218b20100871e4c.r2.dev"');
-    expect(enHtml).toContain('rel="preconnect" href="https://fonts.googleapis.com"');
+    expect(enHtml).toContain('rel="preload" href="/fonts/inter/inter-latin.woff2" as="font" type="font/woff2" crossorigin');
 
     // Check canonical & hreflang
     expect(enHtml).toContain('rel="canonical" href="https://hmtportfolio.github.io/"');
