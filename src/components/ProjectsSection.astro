@@ -12,6 +12,11 @@ interface Props {
   items: Project[];
 }
 
+function getYouTubeId(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/);
+  return match ? match[1] : null;
+}
+
 const { title, filters, items } = Astro.props;
 ---
 <section class="tab-panel" id="tab-projects" aria-labelledby="projects-title">
@@ -33,9 +38,21 @@ const { title, filters, items } = Astro.props;
       <div class="template-media">
         {p.videoFirst ? (
           <>
-            {p.videos.map((src) => (
-              <video class="modal-video" src={src} controls preload="none" poster={p.thumbnail}></video>
-            ))}
+            {p.videos.map((src) => {
+              const ytId = getYouTubeId(src);
+              return ytId ? (
+                <iframe
+                  class="modal-video"
+                  src={`https://www.youtube-nocookie.com/embed/${ytId}`}
+                  title={p.name}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              ) : (
+                <video class="modal-video" src={src} controls preload="none" poster={p.thumbnail} playsinline></video>
+              );
+            })}
             {p.images.length === 1 && (
               <img class="modal-img" src={p.images[0].src} alt={p.images[0].alt} loading="lazy" decoding="async" />
             )}
@@ -75,9 +92,21 @@ const { title, filters, items } = Astro.props;
                 ))}
               </div>
             )}
-            {p.videos.map((src) => (
-              <video class="modal-video" src={src} controls preload="none" poster={p.thumbnail}></video>
-            ))}
+            {p.videos.map((src) => {
+              const ytId = getYouTubeId(src);
+              return ytId ? (
+                <iframe
+                  class="modal-video"
+                  src={`https://www.youtube-nocookie.com/embed/${ytId}`}
+                  title={p.name}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              ) : (
+                <video class="modal-video" src={src} controls preload="none" poster={p.thumbnail} playsinline></video>
+              );
+            })}
           </>
         )}
       </div>
